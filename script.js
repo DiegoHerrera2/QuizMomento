@@ -44,35 +44,53 @@ function updateCounters(correct, incorrect) {
 function nextQuestion() {
     // Load the next question
     currentQuestion = loadRandomQuestion();
+
+    // Update name and question counters
     $('#question_name').html(currentQuestion.name);
     updateCounters(correct_counter, incorrect_counter);
+
+    // Scale font size to fit question name
     scaleFontSize("question_name")
+
+    // Load the answers
+    loadAnswers();
 }
 
+function loadAnswers() {
+    // Clear the answers
+    $('#answers_container').empty();
+    
 
+    // Load the answers
+    for (var i = 0; i < currentQuestion.answers.length; i++) {
+        var answer = currentQuestion.answers[i];
+        console.log(currentQuestion);
+        $('#answers_container').append('<a class="button" id="answer_' + i + '">' + answer.name + '</div>');
+        console.log(currentQuestion.answerIndex == i);
+
+        // Add click event to answer
+        $('#answer_' + i).click(function () {
+            
+            // Check if the answer is correct by comparing index
+            if (currentQuestion.answerIndex == $(this).attr('id').split('_')[1]) {
+                // Correct answer
+                correct_counter++;
+            } else {
+                // Incorrect answer
+                incorrect_counter++;
+            }
+
+            // Update counters
+            updateCounters(correct_counter, incorrect_counter);
+
+            // Load the next question
+            nextQuestion();
+        });
+    }
+}
 
 // Make answer buttons clickable
 $(document).ready(function () {
-    $('#true_button').click(function () {
-        if (currentQuestion.answer == "true") {
-            correct_counter++;
-        } else {
-            incorrect_counter++;
-        }
-
-        nextQuestion();
-    });
-
-    $('#false_button').click(function () {
-        if (currentQuestion.answer == "false") {
-            correct_counter++;
-        } else {
-            incorrect_counter++;
-        }
-
-        nextQuestion();
-    });
-
     loadQuestions();
 });
 

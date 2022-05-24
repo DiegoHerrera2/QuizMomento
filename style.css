@@ -43,7 +43,7 @@ body {
     font-weight: bold;
 }
 
-.answer {
+#answers_container {
     position: absolute;
     top:600px;
     left: calc(50% - 150px); 
