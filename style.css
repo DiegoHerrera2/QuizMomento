@@ -29,19 +29,23 @@ body {
 
 }
 
+.question {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 #question_name {
     position: relative;
-    top: 500px;
+    top: 350px;
     text-align: center;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 20px;
 }
 
 .answer {
     position: absolute;
-    top:400;
+    top:600px;
     left: calc(50% - 150px); 
     z-index: 10;
 
