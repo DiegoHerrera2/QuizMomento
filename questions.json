@@ -1,72 +1,1072 @@
 {
-    "questions" : [
-        { "questionType": "1", "name": "Clasificación de metodologías de desarrollo <br> En base a la naturaleza del proyecto <br> Metodologías orientadas a base de datos <br> Metodologías orientadas a casos de uso", "answer": "false"},
-        { "questionType": "1", "name": "El riesgo es proporcional a la calidad de la información disponible. Cuanto menos información, menor el riesgo.", "answer": "false"},
-        { "questionType": "1", "name": " RUP identifica los siguientes procesos de soporte del ciclo de vida del software <br> GESTIÓN <br> Describe las actividades de gestión de la organización, incluyendo también la gestión de los proyectos <br> INFRAESTRUCTURA <br> Actividades necesarias para que puedan realizarse otros procesos del ciclo de vida. Incluye entre otros el capital y el personal <br> MEJORA <br> Actividades realizadas para mejorar la capacidad del resto de procesos <br> FORMACIÓN", "answer": "false"},
-        { "questionType": "1", "name": "Metodologías Ágiles de Desarrollo. No es posible planificar cuando el desarrollo de software no es predecible.", "answer": "true"},
-        { "questionType": "1", "name": "Un sistema de gestión de calidad es el conjunto de la estructura de la organización, de responsabilidades, procedimientos, procesos y recursos que se establecen para llevar a término la gestión de calidad", "answer": "true"},
-        { "questionType": "1", "name": "El análisis de riesgos es una tarea del análisis del sistema y la especificación de requisitos", "answer": "false"},
-        { "questionType": "1", "name": "Existen modelos que integran etapas del proceso de software, por ejemplo desarrollo y mantenimiento", "answer": "true"},
-        { "questionType": "1", "name": "El Proceso Unificado de Desarrollo <br> Guiado y Manejado por Casos de Uso <br> Centrado en la Arquitectura <br> Centrado en Modelos", "answer": "true"},
-        { "questionType": "1", "name": "Reunión diaria “Stand up Meeting” <br> Todo el equipo <br> Problemas <br> Soluciones <br> De pie en un círculo <br> Evitar discusiones largas <br> Sin conversaciones separadas", "answer": "true"},
-        { "questionType": "1", "name": "Es una obligación para los ingenieros del software el aprendizaje continuo", "answer": "true"},
-        { "questionType": "1", "name": "Los procesos son un conjunto de técnicas y herramientas organizadas para el desarrollo", "answer": "false"},
-        { "questionType": "1", "name": "Las herramientas son programas que mecanizan los métodos y las técnicas ayudan a llevar a cabo los métodos", "answer": "true"},
-        { "questionType": "1", "name": "El sistema solo puede probar hasta que se haya implementado", "answer": "true"},
-        { "questionType": "1", "name": "Clasificación de las metodologías de desarrollo <br> En base a su agilidad <br> Pesadas, Burocráticas o ingenieriles <br> Ágiles <br> En base a su alcance <br> Metodología de análisis <br> Metodología de desarrollo <br> En base a la naturaleza del proyecto <br> Metodologías orientadas al flujo de información <br> Metodologías orientadas a datos <br> Metodologías orientadas a objetos <br> Metodologías basadas en roles <br> Metodologías ágiles de desarrollo <br> Metodologías de dominio específico <br> Metodologías híbridas", "answer": "true"},
-        { "questionType": "1", "name": "Diagrama de Caso de Uso <br> Captura la funcionalidad del sistema desde el punto de vista de los desarrolladores", "answer": "false"},
-        { "questionType": "1", "name": "Captura de Requisitos en XP. Historias del Usuario (User<br>Stories) <br> Establecen los requisitos del cliente <br> Trozos de funcionalidad que aportan valor <br> Se les asignan tareas de programación con un nº de horas de desarrollo <br> Las establece el cliente <br> Son la base para las pruebas funcionales", "answer": "true"},
-        { "questionType": "1", "name": "Entre las mejores prácticas que propone XP están <br> El juego de la planificación <br> Entregas pequeñas <br> Metáfora <br> Diseño simple <br> Pruebas <br> Refactoring", "answer": "true"},
-        { "questionType": "1", "name": "Roles XP. Cliente (Customer) <br> Es parte del equipo <br> Determina qué construir y cuándo <br> Establece las pruebas funcionales", "answer": "true"},
-        { "questionType": "1", "name": "El proceso Unificado de Desarrollo, es solo iterativo", "answer": "false"},
-        { "questionType": "1", "name": "Clasificación de las metodologías de desarrollo <br> En base a su alcance <br> Metodología de largo alcance <br> Metodología alcance medio <br> Metodología alcance corto", "answer": "false"},
-        { "questionType": "1", "name": "En los productos genéricos de software la organización no controla la especificación y en los productos personalizados es el cliente quien la controla", "answer": "false"},
-        { "questionType": "1", "name": "El análisis, la planificación y la especificación son tareas que definen qué software que se desarrolla", "answer": "true"},
-        { "questionType": "1", "name": "No todas las metodologías cubren las mismas actividades", "answer": "true"},
-        { "questionType": "1", "name": "Razones de uso de RUP <br> RUP no controla el riesgo del alcance <br> RUP va más allá de los datos <br> RUP controla de forma temprana el riesgo técnico <br> RUP no controla el riesgo financiero <br> RUP permite la agilidad de forma disciplinada <br> RUP demanda un enfoque de alta colaboración", "answer": "false"},
-        { "questionType": "1", "name": "Diagrama de Componentes. Desarrollados por los clientes", "answer": "false"},
-        { "questionType": "1", "name": "IBM desarrollo METRICA 3", "answer": "false"},
-        { "questionType": "1", "name": "RUP. Procesos de soporte del ciclo de vida del software. El estándar ISO/IEC 12207 identifica los procesos de soporte que pueden ser utilizados desde un proceso primario o incluso desde otro proceso de soporte. Los procesos de soporte son <br> ASEGURAMIENTO DE LA CALIDAD <br> Actividades empleadas para garantizar de forma objetiva que el producto y los procesos asociados son conformes a los requisitos documentados y a las planificaciones VERIFICACIÓN <br> Actividades empleadas para verificar el producto <br> VALIDACIÓN <br> Actividades empleadas para validar el producto", "answer": "false"},
-        { "questionType": "1", "name": "Cuesta más mantener el software que desarrollarlo", "answer": "true"},
-        { "questionType": "1", "name": "La responsabilidad profesional de los ingenieros incluye la confidencialidad, no aceptar trabajos fuera de su competencia y la utilización incorrecta de los ordenadores", "answer": "false"},
-        { "questionType": "1", "name": "En general podemos decir que en los sistemas informáticos el % del coste de software supera el % de costes del hardware", "answer": "true"},
-        { "questionType": "1", "name": "Captura de Requisitos en XP. Historias del Usuario (User Stories) <br> Establece los documentos para el cliente <br> Cada historia es un documento <br> Las redacta el cliente", "answer": "false"},
-        { "questionType": "1", "name": "Las metodologías de desarrollo contemplan actividades Técnicas o de desarrollo, como la administración de la configuración del software", "answer": "false"},
-        { "questionType": "1", "name": "Diagrama de Casos de Uso <br> Propósito <br> Especificar el contexto de un sistema <br> Capturar los requerimientos del sistema <br> Validar la arquitectura del sistema <br> Dirigir la implementación del sistema y generar escenarios de testeo", "answer": "true"},
-        { "questionType": "1", "name": "Diagrama de Clases. Desarrollados por analistas, diseñadores y desarrolladores", "answer": "true"},
-        { "questionType": "1", "name": "Las actividades de administración y gestión del proceso de desarrollo constan de etapas como <br> Obtención de requisitos <br> Análisis <br> Diseño del sistema", "answer": "false"},
-        { "questionType": "1", "name": "¿Los ingenieros del software construyen Instrucciones, Procedimientos, Especificaciones, Estructuras de datos y Documentos?", "answer": "true"},
-        { "questionType": "1", "name": "Las metodologías de desarrollo contemplan las actividades Técnicas o de desarrollo, como de obtención de requisitos y el análisis", "answer": "true"},
-        { "questionType": "1", "name": "La ingeniería del software son las teorías, métodos y herramientas que se deben utilizar en el desarrollo del software", "answer": "true"},
-        { "questionType": "1", "name": "Roles XP. Programador <br> Organiza y guía las reuniones <br> Ayuda al cliente con las pruebas funcionales <br> Se asegura de que las pruebas funcionales se superan", "answer": "false"},
-        { "questionType": "1", "name": "Certificación del software es una autorización escrita que establece que un sistema de computación es seguro y esta permitido operar en un entorno definido, produciendo información sensible", "answer": "true"},
-        { "questionType": "1", "name": "En un proyecto de software los usuarios finales son más importantes que los gerentes, directores y mandos intermedios", "answer": "false"},
-        { "questionType": "1", "name": "El tiempo planeado para entrega de resultados puede no coincidir con el tiempo necesario para completar una actividad", "answer": "true"},
-        { "questionType": "1", "name": "Un método se puede definir como un conjunto de tareas ordenadas para conseguir un fin", "answer": "true"},
-        { "questionType": "1", "name": "Valores que fomenta XP <br> Comunicación <br> Simplicidad <br> Retroalimentación <br> Coraje", "answer": "true"},
-        { "questionType": "1", "name": "Perfil Jefe de Proyecto, en esta categoría se agrupan los siguientes tipos de participantes <br> Jefe de Proyecto <br> Responsable de Implantación <br> Responsable de Mantenimiento <br> Responsable de Operaciones <br> Responsable de Sistemas <br> Responsable de Seguridad <br> Responsable de Calidad", "answer": "true"},
-        { "questionType": "1", "name": "Las metodologías de desarrollo contemplan las actividades Técnicas o de desarrollo, como diseño del sistema, implementación y pruebas", "answer": "true"},
-        { "questionType": "1", "name": "El proceso Unificado de Desarrollo, no es un desarrollo basado en componentes", "answer": "false"},
-        { "questionType": "1", "name": "Un sistema de gestión de calidad es el conjunto de la estructura de la organización, de responsabilidades, procedimientos, procesos y recursos que se establecen para llevar a término la gestión de calidad", "answer": "true"},
-        { "questionType": "1", "name": "La reusabilidad es la posibilidad de que cualquier módulo software pueda ser utilizado en múltiples entornos", "answer": "false"},
-        { "questionType": "1", "name": "La dirección estratégica suele tomar decisiones que etán poco formalizadas y subjetivas", "answer": "false"},
-        { "questionType": "1", "name": "Las decisiones a largo plazo se toman en la dirección con información detallada y especifica", "answer": "false"},
-        { "questionType": "1", "name": "Una de las ventajas/éxitos de la reutilización es que disminuye la cantidad de código a probar", "answer": "false"},
-        { "questionType": "1", "name": "Entre las tareas de un Ingeniero de software no está la de medir la calidad sino gestionarla", "answer": "true"},
-        { "questionType": "1", "name": "Los objetos de los sitemas de información van a depender del nivel de la organización en el que se aplique para resolver determinados problemas", "answer": "true"},
-        { "questionType": "1", "name": "Metodologías ágiles de desarrollo. Centran su filosofía en la adaptabilidad al cambio en los requisitos", "answer": "true"},
-        { "questionType": "1", "name": "En el análisis se transforma los casos de uso en un modelo que describe el sistema", "answer": "true"},
-        { "questionType": "1", "name": "Diagramas UML <br> - Diagrama de comportamiento <br> - Diagrama de estados <br> - Diagrama de actividad", "answer": "true"},
-        { "questionType": "1", "name": "Decisiones de negocio las toma el analista <br> - Alcance ¿cuándo debe estar listo el producto para que sea valioso en producción? <br> - Prioridad prioriza la incorporación de User.Stories <br> - Composición de entregas ¿qué se encesita para que el negocio sea mejor antes de tener el SW? <br> - Fechas de entrega fechas cuando el software funcionando causaría una gran diferencia", "answer": "false"},
-        { "questionType": "1", "name": "Las especificaciones de requisitos son un producto de trabajo interno", "answer": "false"},
-        { "questionType": "1", "name": "La confiabilidad es la habilidad de un programa para ejecutar un conjunto de funciones requeridas en cualquier entorno de computación", "answer": "false"},
-        { "questionType": "1", "name": "Los requerimientos son las restricciones fundamentales del sistema", "answer": "true"},
-        { "questionType": "1", "name": "En la etapa de diseño se tiene que descubrir la mayor cantidad posible de errores que se puedan reparar antes de entregar el sistema", "answer": "false"},
-        { "questionType": "1", "name": "Diagramas de UML . <br> - Diagramas de Interacción <br> - Diagrama de Secuencia <br> - Diagrama de Colaboración", "answer": "true"},
-        { "questionType": "1", "name": "Valores que fomenta XP <br> - Reuniones de seguimiento muy frecuentes <br> - Mucha documentación <br> - Una sola entrega", "answer": "false"},
-        { "questionType": "1", "name": "MÉTRICA consta de tres grandes procesos: <br> - Análisis de sistemas <br> - Documentación del software <br> - Mantenimiento de sistemas de información", "answer": "false"},
-        { "questionType": "1", "name": "En métrica, la seguirdad (SEG), supone, incorporar mecanismos de seguridad adicional relacionados tanto con la seguridad intrínseca del sistema de información como por la seguridad del propio proceso de desarrollo del sistema de información", "answer": "true"},
-        { "questionType": "1", "name": "Es suficiente comenzar el desarrollo de un sistema con una descripción de objetivos generales y los detalles se irán especificando más adelante", "answer": "false"}
+    "questions": [
+        {
+            "name": "Clasificación de metodologías de desarrollo <br> En base a la naturaleza del proyecto <br> Metodologías orientadas a base de datos <br> Metodologías orientadas a casos de uso",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El riesgo es proporcional a la calidad de la información disponible. Cuanto menos información, menor el riesgo.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": " RUP identifica los siguientes procesos de soporte del ciclo de vida del software <br> GESTIÓN <br> Describe las actividades de gestión de la organización, incluyendo también la gestión de los proyectos <br> INFRAESTRUCTURA <br> Actividades necesarias para que puedan realizarse otros procesos del ciclo de vida. Incluye entre otros el capital y el personal <br> MEJORA <br> Actividades realizadas para mejorar la capacidad del resto de procesos <br> FORMACIÓN",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Metodologías Ágiles de Desarrollo. No es posible planificar cuando el desarrollo de software no es predecible.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Un sistema de gestión de calidad es el conjunto de la estructura de la organización, de responsabilidades, procedimientos, procesos y recursos que se establecen para llevar a término la gestión de calidad",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El análisis de riesgos es una tarea del análisis del sistema y la especificación de requisitos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Existen modelos que integran etapas del proceso de software, por ejemplo desarrollo y mantenimiento",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El Proceso Unificado de Desarrollo <br> Guiado y Manejado por Casos de Uso <br> Centrado en la Arquitectura <br> Centrado en Modelos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Reunión diaria “Stand up Meeting” <br> Todo el equipo <br> Problemas <br> Soluciones <br> De pie en un círculo <br> Evitar discusiones largas <br> Sin conversaciones separadas",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Es una obligación para los ingenieros del software el aprendizaje continuo",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Los procesos son un conjunto de técnicas y herramientas organizadas para el desarrollo",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Las herramientas son programas que mecanizan los métodos y las técnicas ayudan a llevar a cabo los métodos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El sistema solo puede probar hasta que se haya implementado",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Clasificación de las metodologías de desarrollo <br> En base a su agilidad <br> Pesadas, Burocráticas o ingenieriles <br> Ágiles <br> En base a su alcance <br> Metodología de análisis <br> Metodología de desarrollo <br> En base a la naturaleza del proyecto <br> Metodologías orientadas al flujo de información <br> Metodologías orientadas a datos <br> Metodologías orientadas a objetos <br> Metodologías basadas en roles <br> Metodologías ágiles de desarrollo <br> Metodologías de dominio específico <br> Metodologías híbridas",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Diagrama de Caso de Uso <br> Captura la funcionalidad del sistema desde el punto de vista de los desarrolladores",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Captura de Requisitos en XP. Historias del Usuario (User<br>Stories) <br> Establecen los requisitos del cliente <br> Trozos de funcionalidad que aportan valor <br> Se les asignan tareas de programación con un nº de horas de desarrollo <br> Las establece el cliente <br> Son la base para las pruebas funcionales",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Entre las mejores prácticas que propone XP están <br> El juego de la planificación <br> Entregas pequeñas <br> Metáfora <br> Diseño simple <br> Pruebas <br> Refactoring",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Roles XP. Cliente (Customer) <br> Es parte del equipo <br> Determina qué construir y cuándo <br> Establece las pruebas funcionales",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El proceso Unificado de Desarrollo, es solo iterativo",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Clasificación de las metodologías de desarrollo <br> En base a su alcance <br> Metodología de largo alcance <br> Metodología alcance medio <br> Metodología alcance corto",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "En los productos genéricos de software la organización no controla la especificación y en los productos personalizados es el cliente quien la controla",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El análisis, la planificación y la especificación son tareas que definen qué software que se desarrolla",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "No todas las metodologías cubren las mismas actividades",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Razones de uso de RUP <br> RUP no controla el riesgo del alcance <br> RUP va más allá de los datos <br> RUP controla de forma temprana el riesgo técnico <br> RUP no controla el riesgo financiero <br> RUP permite la agilidad de forma disciplinada <br> RUP demanda un enfoque de alta colaboración",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Diagrama de Componentes. Desarrollados por los clientes",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "IBM desarrollo METRICA 3",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "RUP. Procesos de soporte del ciclo de vida del software. El estándar ISO/IEC 12207 identifica los procesos de soporte que pueden ser utilizados desde un proceso primario o incluso desde otro proceso de soporte. Los procesos de soporte son <br> ASEGURAMIENTO DE LA CALIDAD <br> Actividades empleadas para garantizar de forma objetiva que el producto y los procesos asociados son conformes a los requisitos documentados y a las planificaciones VERIFICACIÓN <br> Actividades empleadas para verificar el producto <br> VALIDACIÓN <br> Actividades empleadas para validar el producto",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Cuesta más mantener el software que desarrollarlo",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La responsabilidad profesional de los ingenieros incluye la confidencialidad, no aceptar trabajos fuera de su competencia y la utilización incorrecta de los ordenadores",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "En general podemos decir que en los sistemas informáticos el % del coste de software supera el % de costes del hardware",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Captura de Requisitos en XP. Historias del Usuario (User Stories) <br> Establece los documentos para el cliente <br> Cada historia es un documento <br> Las redacta el cliente",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Las metodologías de desarrollo contemplan actividades Técnicas o de desarrollo, como la administración de la configuración del software",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Diagrama de Casos de Uso <br> Propósito <br> Especificar el contexto de un sistema <br> Capturar los requerimientos del sistema <br> Validar la arquitectura del sistema <br> Dirigir la implementación del sistema y generar escenarios de testeo",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Diagrama de Clases. Desarrollados por analistas, diseñadores y desarrolladores",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Las actividades de administración y gestión del proceso de desarrollo constan de etapas como <br> Obtención de requisitos <br> Análisis <br> Diseño del sistema",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "¿Los ingenieros del software construyen Instrucciones, Procedimientos, Especificaciones, Estructuras de datos y Documentos?",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Las metodologías de desarrollo contemplan las actividades Técnicas o de desarrollo, como de obtención de requisitos y el análisis",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La ingeniería del software son las teorías, métodos y herramientas que se deben utilizar en el desarrollo del software",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Roles XP. Programador <br> Organiza y guía las reuniones <br> Ayuda al cliente con las pruebas funcionales <br> Se asegura de que las pruebas funcionales se superan",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Certificación del software es una autorización escrita que establece que un sistema de computación es seguro y esta permitido operar en un entorno definido, produciendo información sensible",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "En un proyecto de software los usuarios finales son más importantes que los gerentes, directores y mandos intermedios",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El tiempo planeado para entrega de resultados puede no coincidir con el tiempo necesario para completar una actividad",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Un método se puede definir como un conjunto de tareas ordenadas para conseguir un fin",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Valores que fomenta XP <br> Comunicación <br> Simplicidad <br> Retroalimentación <br> Coraje",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Perfil Jefe de Proyecto, en esta categoría se agrupan los siguientes tipos de participantes <br> Jefe de Proyecto <br> Responsable de Implantación <br> Responsable de Mantenimiento <br> Responsable de Operaciones <br> Responsable de Sistemas <br> Responsable de Seguridad <br> Responsable de Calidad",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Las metodologías de desarrollo contemplan las actividades Técnicas o de desarrollo, como diseño del sistema, implementación y pruebas",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El proceso Unificado de Desarrollo, no es un desarrollo basado en componentes",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Un sistema de gestión de calidad es el conjunto de la estructura de la organización, de responsabilidades, procedimientos, procesos y recursos que se establecen para llevar a término la gestión de calidad",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La reusabilidad es la posibilidad de que cualquier módulo software pueda ser utilizado en múltiples entornos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "La dirección estratégica suele tomar decisiones que etán poco formalizadas y subjetivas",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Las decisiones a largo plazo se toman en la dirección con información detallada y especifica",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Una de las ventajas/éxitos de la reutilización es que disminuye la cantidad de código a probar",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Entre las tareas de un Ingeniero de software no está la de medir la calidad sino gestionarla",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Los objetos de los sitemas de información van a depender del nivel de la organización en el que se aplique para resolver determinados problemas",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Metodologías ágiles de desarrollo. Centran su filosofía en la adaptabilidad al cambio en los requisitos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "En el análisis se transforma los casos de uso en un modelo que describe el sistema",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Diagramas UML <br> - Diagrama de comportamiento <br> - Diagrama de estados <br> - Diagrama de actividad",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Decisiones de negocio las toma el analista <br> - Alcance ¿cuándo debe estar listo el producto para que sea valioso en producción? <br> - Prioridad prioriza la incorporación de User.Stories <br> - Composición de entregas ¿qué se encesita para que el negocio sea mejor antes de tener el SW? <br> - Fechas de entrega fechas cuando el software funcionando causaría una gran diferencia",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Las especificaciones de requisitos son un producto de trabajo interno",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "La confiabilidad es la habilidad de un programa para ejecutar un conjunto de funciones requeridas en cualquier entorno de computación",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Los requerimientos son las restricciones fundamentales del sistema",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "En la etapa de diseño se tiene que descubrir la mayor cantidad posible de errores que se puedan reparar antes de entregar el sistema",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Diagramas de UML . <br> - Diagramas de Interacción <br> - Diagrama de Secuencia <br> - Diagrama de Colaboración",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Valores que fomenta XP <br> - Reuniones de seguimiento muy frecuentes <br> - Mucha documentación <br> - Una sola entrega",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "MÉTRICA consta de tres grandes procesos: <br> - Análisis de sistemas <br> - Documentación del software <br> - Mantenimiento de sistemas de información",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "En métrica, la seguirdad (SEG), supone, incorporar mecanismos de seguridad adicional relacionados tanto con la seguridad intrínseca del sistema de información como por la seguridad del propio proceso de desarrollo del sistema de información",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Es suficiente comenzar el desarrollo de un sistema con una descripción de objetivos generales y los detalles se irán especificando más adelante",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
 
+
+
+        {
+            "name": "RUP Proceso de soporte de ciclo de vida del software<br>Reuniones de revisión: Reuniones empleadas por las dos partes para<br>evaluar el estado<br>del producto y de las actividades<br>Auditorias: Actividades para determinar que el proyecto cumple con<br>lo0s requisitos,<br>planes y contratos<br>Resolución de problemas: Actividades para analizar y resolver<br>problemas relativas al proyecto, sea cual sea su fuente y naturaleza",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Análisis y diseño estructurado de Michael Jackson es un modelo de proceso: en cascada",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Analisis estructurado de Tom DeMarco 1979 & diseño estructurado de Yourdo <br> modelo de proceso: iterativo e incremental (híbrido)",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "La complejidad computacional se puede considerar una actividad incluida en las métricas del software",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El proceso unificado de desarrollo, es iterativo e incremental",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "XP, es una metodología ágil:<br>-Diseñada para entornos dinámicos<br>-Pensada para equipos pequeños (hasta 10 programadores)<br>-Orientada fuertemente haca la codificación<br>-Énfasis en la comunicación informal, verbal",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La gestión de la configuración, controla los cambios que se desarrollan en la etapa de mantenimiento",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "MÉTRICA es una metodología para la documentación de los sistemas de información",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "¿Cuál de las siguientes no es una causa de los problemas de software?",
+            "answers": [
+                {
+                    "name": "Las dificultades de la programación"
+                },
+                {
+                    "name": "Experiencia corta de la informática"
+                },
+                {
+                    "name": "Las curvas de aprendizaje y experiencia de desarrollo"
+                },
+                {
+                    "name": "La propia naturaleza del software"
+                },
+                {
+                    "name": "Resistencia al cambio"
+                },
+                {
+                    "name": "Capacidades de comunicación"
+                },
+                {
+                    "name": "Problemas de gestión"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Las decisiones a medio plazo son aquellas que se toman en:",
+            "answers": [
+                {
+                    "name": "Más de 4 años"
+                },
+                {
+                    "name": "1-2 años"
+                },
+                {
+                    "name": "3-4 años"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "En Métrica, los participantes se clasifican en perfiles considerando funciones y responsabilidades afines y el conocimiento que necesitan respecto de la metodología.<br>Los perfiles son:<br>-Directivo<br>-Jefe de proyecto<br>-Cliente<br>-Diseñador gráfico",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "MÉTRICA consta de tres grandes procesos:<br>- Planificación de Sistemas de Información (PSI)<br>- Desarrollo de Sistemas de Información<br>- Mantenimiento de Sistemas de Información (MSI)",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El ciclo de vida es el conjunto de etapas de desarrollo del sistema y el modelo de proceso el orden y actividades a desarrollar",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "En métrica la gestión de proyectos (GP) supone, evaluar la calidad del proceso y del producto, reducir, eliminar y prevenir las deficiencias de los productos, alcanzando una razonable confianza en que las presentaciones y servicios esperados",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Un sistema de información necesita estar R en la automatización y la informática",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Entre proyectos la reutilización se aprovecha para ahorrar en análisis y especificación de requisitos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Razones del uso RUP:<br>-1RUP controla el riesgo de alcance:<br>2RUP va más allá de los datos<br>-3RUP controla de forma temprana el riesgo técnico<br>-4RUP controla el riesgo financiero<br>-5RUP permite la agilidad de forma disciplinada<br>-6RUP demanda un enfoque de alta colaboración",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "¿Cuál de los modelos siguientes integra etapas de proceso de software, desarrollo y mantenimiento?",
+            "answers": [
+                {
+                    "name": "Evolutivo"
+                },
+                {
+                    "name": "Espiral"
+                },
+                {
+                    "name": "Cascada"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Mejores prácticas XP:<br>El juego de la documentación, una sola entrega, diseño por capas...",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El manifiesto de las metodologias agiles<br>Principios:<br>1. La prioridad principal es satisfacer al cliente mediante tempranas y continuas entregas del software que le reporten un valor<br>2. Dar la bienvenida a los cambios. Los AMS capturan los cambios para que los clientes tengan una ventaja competitiva<br>3. Entregar frecuentemente software que funcione, desde un par de semanas a un par de meses, con el menor intervalo de tiempo posible entre una entrega y la siguiente",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        }
     ]
 }
