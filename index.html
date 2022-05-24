@@ -1,0 +1,35 @@
+<!-- Html page for quiz question with true or false button -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Quiz</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="images/logo.png" alt="logo" class="logo">
+            </div>
+            <div class="content">
+                <div class="question">
+                    <p id="question_name">Question name</p>
+                </div>
+                <div class="answer">
+                    <!-- true or false button -->
+                    <a class="button" id="true_button">Verdadero</a>
+                    <a class="button" id="false_button">Falso</a>
+                </div>
+                <img src="images/correct.png" alt="correct" class="correct">
+                <img src="images/incorrect.png" alt="incorrect" class="incorrect">
+                <div class="counter">
+                    <a id="counter_correct">0</p>
+                    <a id="counter_incorrect">0</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
