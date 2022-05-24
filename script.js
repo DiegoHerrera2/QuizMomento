@@ -10,6 +10,7 @@ var incorrect_counter = 0;
 
 const audio_correct = new Audio("assets/correct.mp3")
 const audio_incorrect = new Audio("assets/incorrect.mp3")
+const secret_audio = new Audio("assets/secret_song.mp3")
 
 function loadQuestions() {
     $.getJSON('questions.json', function (data) {
@@ -128,11 +129,11 @@ function loadAnswers() {
             if (currentQuestion.answerIndex == $(this).attr('id').split('_')[1]) {
                 // Correct answer
                 correct_counter++;
-                //audio_correct.play();
+                audio_correct.play();
             } else {
                 // Incorrect answer
                 incorrect_counter++;
-                //audio_incorrect.play();
+                audio_incorrect.play();
             }
 
             // Update counters
@@ -147,6 +148,7 @@ function loadAnswers() {
 // Load questions 
 $(document).ready(function () {
     loadQuestions();
+    
 });
 
 
