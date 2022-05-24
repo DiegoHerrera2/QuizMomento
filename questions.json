@@ -46,6 +46,27 @@
         { "questionType": "1", "name": "Valores que fomenta XP <br> Comunicación <br> Simplicidad <br> Retroalimentación <br> Coraje", "answer": "true"},
         { "questionType": "1", "name": "Perfil Jefe de Proyecto, en esta categoría se agrupan los siguientes tipos de participantes <br> Jefe de Proyecto <br> Responsable de Implantación <br> Responsable de Mantenimiento <br> Responsable de Operaciones <br> Responsable de Sistemas <br> Responsable de Seguridad <br> Responsable de Calidad", "answer": "true"},
         { "questionType": "1", "name": "Las metodologías de desarrollo contemplan las actividades Técnicas o de desarrollo, como diseño del sistema, implementación y pruebas", "answer": "true"},
-        { "questionType": "1", "name": "El proceso Unificado de Desarrollo, no es un desarrollo basado en componentes", "answer": "false"}
+        { "questionType": "1", "name": "El proceso Unificado de Desarrollo, no es un desarrollo basado en componentes", "answer": "false"},
+        { "questionType": "1", "name": "Un sistema de gestión de calidad es el conjunto de la estructura de la organización, de responsabilidades, procedimientos, procesos y recursos que se establecen para llevar a término la gestión de calidad", "answer": "true"},
+        { "questionType": "1", "name": "La reusabilidad es la posibilidad de que cualquier módulo software pueda ser utilizado en múltiples entornos", "answer": "false"},
+        { "questionType": "1", "name": "La dirección estratégica suele tomar decisiones que etán poco formalizadas y subjetivas", "answer": "false"},
+        { "questionType": "1", "name": "Las decisiones a largo plazo se toman en la dirección con información detallada y especifica", "answer": "false"},
+        { "questionType": "1", "name": "Una de las ventajas/éxitos de la reutilización es que disminuye la cantidad de código a probar", "answer": "false"},
+        { "questionType": "1", "name": "Entre las tareas de un Ingeniero de software no está la de medir la calidad sino gestionarla", "answer": "true"},
+        { "questionType": "1", "name": "Los objetos de los sitemas de información van a depender del nivel de la organización en el que se aplique para resolver determinados problemas", "answer": "true"},
+        { "questionType": "1", "name": "Metodologías ágiles de desarrollo. Centran su filosofía en la adaptabilidad al cambio en los requisitos", "answer": "true"},
+        { "questionType": "1", "name": "En el análisis se transforma los casos de uso en un modelo que describe el sistema", "answer": "true"},
+        { "questionType": "1", "name": "Diagramas UML <br> - Diagrama de comportamiento <br> - Diagrama de estados <br> - Diagrama de actividad", "answer": "true"},
+        { "questionType": "1", "name": "Decisiones de negocio las toma el analista <br> - Alcance ¿cuándo debe estar listo el producto para que sea valioso en producción? <br> - Prioridad prioriza la incorporación de User.Stories <br> - Composición de entregas ¿qué se encesita para que el negocio sea mejor antes de tener el SW? <br> - Fechas de entrega fechas cuando el software funcionando causaría una gran diferencia", "answer": "false"},
+        { "questionType": "1", "name": "Las especificaciones de requisitos son un producto de trabajo interno", "answer": "false"},
+        { "questionType": "1", "name": "La confiabilidad es la habilidad de un programa para ejecutar un conjunto de funciones requeridas en cualquier entorno de computación", "answer": "false"},
+        { "questionType": "1", "name": "Los requerimientos son las restricciones fundamentales del sistema", "answer": "true"},
+        { "questionType": "1", "name": "En la etapa de diseño se tiene que descubrir la mayor cantidad posible de errores que se puedan reparar antes de entregar el sistema", "answer": "false"},
+        { "questionType": "1", "name": "Diagramas de UML . <br> - Diagramas de Interacción <br> - Diagrama de Secuencia <br> - Diagrama de Colaboración", "answer": "true"},
+        { "questionType": "1", "name": "Valores que fomenta XP <br> - Reuniones de seguimiento muy frecuentes <br> - Mucha documentación <br> - Una sola entrega", "answer": "false"},
+        { "questionType": "1", "name": "MÉTRICA consta de tres grandes procesos: <br> - Análisis de sistemas <br> - Documentación del software <br> - Mantenimiento de sistemas de información", "answer": "false"},
+        { "questionType": "1", "name": "En métrica, la seguirdad (SEG), supone, incorporar mecanismos de seguridad adicional relacionados tanto con la seguridad intrínseca del sistema de información como por la seguridad del propio proceso de desarrollo del sistema de información", "answer": "true"},
+        { "questionType": "1", "name": "Es suficiente comenzar el desarrollo de un sistema con una descripción de objetivos generales y los detalles se irán especificando más adelante", "answer": "false"}
+
     ]
 }
