@@ -7,6 +7,7 @@ var incorrect_counter = 0;
 
 const audio_correct = new Audio("assets/correct.mp3")
 const audio_incorrect = new Audio("assets/incorrect.mp3")
+const music = new Audio("assets/music.mp3")
 
 function loadQuestions() {
     $.getJSON('questions.json', function (data) {
@@ -116,7 +117,10 @@ function loadAnswers() {
 
 // Load questions 
 $(document).ready(function () {
+    music.play();
+    music.loop = true;
     loadQuestions();
+    
 });
 
 
