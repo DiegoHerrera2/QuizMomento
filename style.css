@@ -47,9 +47,7 @@ body {
 #answers_container {
     position: absolute;
     bottom:60px;
-    left: calc(50% - 150px); 
-    z-index: 10;
-
+    line-height: 50px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 22px;
@@ -78,7 +76,7 @@ body {
     position: relative;
     background-color: black;
     border-radius: 4em;
-    font-size: 18px;
+    font-size: 15px;
     color: white;
     padding: 0.8em 1.8em;
     cursor: pointer;
@@ -89,7 +87,7 @@ body {
     transition-duration: 0.4s;
     -webkit-transition-duration: 0.4s;
     /* Safari */
-    margin: 10px;
+    margin: 20px;
 }
 
 .button:hover {

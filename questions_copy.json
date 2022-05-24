@@ -1,0 +1,32 @@
+{
+    "questions": [
+        
+        {
+            "name": "¿Cuál de las siguientes no es una causa de los problemas de software?",
+        "answers": [
+            {
+                "name": "Las dificultades de la programación"
+            },
+            {
+                "name": "Experiencia corta de la informática"
+            },
+            {
+                "name": "Las curvas de aprendizaje y experiencia de desarrollo"
+            },
+            {
+                "name": "La propia naturaleza del software"
+            },
+            {
+                "name": "Resistencia al cambio"
+            },
+            {
+                "name": "Capacidades de comunicación"
+            },
+            {
+                "name": "Problemas de gestión"
+            }
+        ],
+        "answerIndex": 0
+    }
+    ]
+}
