@@ -145,7 +145,7 @@
             "answerIndex": 0
         },
         {
-            "name": "El sistema solo puede probar hasta que se haya implementado",
+            "name": "El sistema solo se puede probar hasta que se haya implementado",
             "answers": [
                 {
                     "name": "Verdadero"
@@ -1067,6 +1067,67 @@
                 }
             ],
             "answerIndex": 0
+        },
+        {
+            "name": "Análisis estructurado de Tom Demarco 1979 & diseño estructurado de Yourdo<br>modelo de proceso: iterativo e incremental (híbrido)",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El Manifiesto de las Metodologías ágiles<br>Principios<br>- Los propietarios del negocio y los desarrolladores deben trabajar juntos a lo largo del proyecto<br>- Construir proyecto en torno a individuos motivados. Darles el entorno y el apoyo<br>que necesitan y confiar en ellos para conseguir el trabajo<br>- El diálogo cara a cara es el método más efectivo para comunicar información<br>dentro de un equipo de desarrollo<br>- El software que funcion es la medida principal de progreso",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El modelo de proceso no se puede seleccionar según la naturaleza del proyecto",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Mejores prácticas de XP;<br>-Programación de grupos de 10<br>-Propiedad de la empresa<br>-Integración por etapas<br>-Reuniones en la sede del cliente",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Los procesos integran métodos y herramientas, y definen la secuencia<br>en que se aplican los métodos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
         }
+        
     ]
 }
