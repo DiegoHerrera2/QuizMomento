@@ -117,8 +117,6 @@ function loadAnswers() {
 
 // Load questions 
 $(document).ready(function () {
-    music.play();
-    music.loop = true;
     loadQuestions();
     
 });
