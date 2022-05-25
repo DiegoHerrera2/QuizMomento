@@ -1,6 +1,8 @@
 // Load questions.json into an array
 var allQuestions = new Array();
 var randomQuestions = new Array();
+var questionCorrectRegister = new Array();
+var questionIncorrectRegister = new Array();
 
 var currentQuestionIndex = 0;
 var currentQuestion;
@@ -53,7 +55,7 @@ function nextQuestion() {
     // Check if there are any questions left
     if (randomQuestions.length == currentQuestionIndex) {
         // If there are no questions left, show the results
-        showModal('Has obtenido ' + correct_counter + ' preguntas correctas y ' + incorrect_counter + ' preguntas incorrectas. <br> Tu nota es de un ' + Math.round((correct_counter / (correct_counter + incorrect_counter)) * 100) + '%');
+        showModal('Has obtenido ' + correct_counter + ' preguntas correctas y ' + incorrect_counter + ' preguntas incorrectas. <br> Tu nota es de un ' + Math.round((correct_counter / (correct_counter + incorrect_counter)) * 100) + '% <br> <br> Preguntas correctas: <br> ' + questionCorrectRegister.join('<br>') + '<br> <br> Preguntas incorrectas: <br> ' + questionIncorrectRegister.join('<br>'));
         return;
     }
     
@@ -124,8 +126,6 @@ function beginQuiz() {
 function loadAnswers() {
     // Clear the answers
     $('#answers_container').empty();
-
-
     // Load the answers
     for (var i = 0; i < currentQuestion.answers.length; i++) {
         var answer = currentQuestion.answers[i];
@@ -138,10 +138,12 @@ function loadAnswers() {
             if (currentQuestion.answerIndex == $(this).attr('id').split('_')[1]) {
                 // Correct answer
                 correct_counter++;
+                questionCorrectRegister.push(currentQuestion.name);
                 audio_correct.play();
             } else {
                 // Incorrect answer
                 incorrect_counter++;
+                questionIncorrectRegister.push(currentQuestion.name);
                 audio_incorrect.play();
             }
 
