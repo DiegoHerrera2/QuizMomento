@@ -50,11 +50,23 @@ Questions = function () {
         return randomQuestion;
 
     };
+
     function nextQuestion() {
         // Check if there are any questions left
         if (randomQuestions.length == CurrentQuestion.getIndex()) {
             // If there are no questions left, show the results
-            showModal('Cuestionario finalizado', 'Has obtenido ' + Counters.getCorrectCounter() + ' preguntas correctas y ' + Counters.getIncorrectCounter() + ' preguntas incorrectas. <br> Tu nota es de un ' + Math.round((Counters.getCorrectCounter() / (Counters.getCorrectCounter() + Counters.getIncorrectCounter())) * 100) + '% <br> <br> Preguntas correctas: <br> ' + Questions.getCorrectRegister().join('<br>') + '<br> <br> Preguntas incorrectas: <br> ' + Questions.getIncorrectRegister().join('<br>'), 'Felicidades!');
+            var resultString = '<h2>Resultados</h2><br>';
+            resultString += '<p>Has obtenido ' + Counters.getCorrectCounter() + ' preguntas correctas y ' + Counters.getIncorrectCounter() + ' preguntas incorrectas.</p>'; 
+            resultString += '<p>Tu nota es de un ' + Math.round((Counters.getCorrectCounter() / (Counters.getCorrectCounter() + Counters.getIncorrectCounter())) * 100) + '% </p>';
+            resultString += '<h3>Preguntas contestadas incorrectamente</h3>';
+            for(var i = 0; i < questionIncorrectRegister.length; i++) {
+                resultString += '<p>' + questionIncorrectRegister[i].name + '</p>';
+                resultString += '<p>Tu respuesta: ' + questionIncorrectRegister[i].answers[questionIncorrectRegister[i].userAnswerIndex].name + '</p>';
+                resultString += '<p>Respuesta correcta: ' + questionIncorrectRegister[i].answers[questionIncorrectRegister[i].answerIndex].name + '</p>';
+                resultString += '<br>';
+            }
+
+            showModal('Cuestionario finalizado',  resultString, 'Felicidades!');
             return;
         };
 
@@ -64,10 +76,12 @@ Questions = function () {
         // Update name and question counters
         $('#question_name').html(CurrentQuestion.getCurrentQuestion().name);
         Counters.updateCounters();
+        console.log(Counters.getCorrectCounter() + ' ' + Counters.getIncorrectCounter());
 
         // Load the answers
         Questions.loadAnswers();
     };
+
     function loadAnswers() {
         // Clear the answers
         $('#answers_container').empty();
@@ -78,17 +92,20 @@ Questions = function () {
 
             // Add click event to answer
             $('#answer_' + i).click(function () {
+                var answerIndex = $(this).attr('id').split('_')[1];
 
                 // Check if the answer is correct by comparing index
-                if (CurrentQuestion.getCurrentQuestion().answerIndex == $(this).attr('id').split('_')[1]) {
+                if (CurrentQuestion.getCurrentQuestion().answerIndex == answerIndex) {
                     // Correct answer
                     Counters.addCorrect();
-                    questionCorrectRegister.push(CurrentQuestion.getCurrentQuestion().name);
+                    CurrentQuestion.getCurrentQuestion().userAnswerIndex = answerIndex;
+                    questionCorrectRegister.push(CurrentQuestion.getCurrentQuestion());
                     Audio.playCorrect();
                 } else {
                     // Incorrect answer
                     Counters.addIncorrect();
-                    questionIncorrectRegister.push(CurrentQuestion.getCurrentQuestion().name);
+                    CurrentQuestion.getCurrentQuestion().userAnswerIndex = answerIndex;
+                    questionIncorrectRegister.push(CurrentQuestion.getCurrentQuestion());
                     Audio.playIncorrect();
                 }
 
@@ -100,12 +117,15 @@ Questions = function () {
             });
         }
     }
+
     function getAllQuestions() {
         return allQuestions;
     }
+
     function getRandomQuestions() {
         return randomQuestions;
     }
+
     function setAllQuestions(questions) {
         allQuestions = questions;
     }
@@ -113,9 +133,11 @@ Questions = function () {
     function getCorrectRegister() {
         return questionCorrectRegister;
     }
+
     function getIncorrectRegister() {
         return questionIncorrectRegister;
     }
+
     function pushRandomQuestion() {
         randomQuestions.push(loadRandomQuestion());
     }
@@ -164,6 +186,8 @@ CurrentQuestion = function () {
 }();
 
 Counters = function () {
+    const correct_id = "#counter_correct";
+    const incorrect_id = "#counter_incorrect";
     var correct_counter = 0;
     var incorrect_counter = 0;
     function init() {
@@ -178,8 +202,8 @@ Counters = function () {
     }
 
     function updateCounters() {
-        $('#counter_correct').html(correct_counter);
-        $('#counter_incorrect').html(incorrect_counter);
+        $(correct_id).html(correct_counter);
+        $(incorrect_id).html(incorrect_counter);
     }
     function getCorrectCounter() {
         return correct_counter;
@@ -210,7 +234,7 @@ Counters = function () {
 Audio = function () {
     const audio_correct = new Audio("assets/correct.mp3")
     const audio_incorrect = new Audio("assets/incorrect.mp3")
-    const secret_audio = new Audio("assets/secret_song.mp3")
+    //const secret_audio = new Audio("assets/secret_song.mp3")
 
     function playCorrect() {
         audio_correct.play();
