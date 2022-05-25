@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="stylesheets/general.css">
     <link rel="stylesheet" href="stylesheets/menu.css">
     <link rel="stylesheet" href="stylesheets/quiz.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,11 +29,13 @@
             <img src="images/logosecreto.jpg" alt="logo" class="logo">
         </div>
         <div class="content">
-            <div id="question_amount_picker">
+            <div class="round-box" id="question_amount_picker">
                 <p class="text question-amount-picker-title">Selecciona el número de preguntas:</p>
                 <div class="question-amount-picker-controls">
-                    <input type="number" class="text question-amount-picker" id="question_amount" value="60">
-                    <button class="button" id="question_amount_button" onclick="beginQuiz()">Aceptar</button>
+                    <input type="number" class="text question-amount-picker" id="question_amount">
+                </div>
+                <div class="question-amount-picker-controls">
+                    <button class="button" id="question-amount-button" onclick="beginQuiz()">Aceptar</button>
                 </div>
             </div>
         </div>
@@ -45,11 +51,15 @@
             <div id="answers_container">
                 <!-- answers will be created here -->
             </div>
-            <img src="images/correct.png" alt="correct" class="correct">
-            <img src="images/incorrect.png" alt="incorrect" class="incorrect">
-            <div class="counter">
-                <a id="counter_correct">0</p>
-                    <a id="counter_incorrect">0</p>
+            <div id="counter_container">
+                <div id="counter_correct_container">
+                    <img src="images/correct.png" alt="correct" class="correct">
+                    <a class="text" id="counter_correct">0</a>
+                </div>
+                <div id="counter_incorrect_container">
+                    <img src="images/incorrect.png" alt="incorrect" class="incorrect">
+                    <a class="text" id="counter_incorrect">0</a>
+                </div>
             </div>
         </div>
     </div>

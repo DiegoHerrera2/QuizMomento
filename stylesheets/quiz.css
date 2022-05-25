@@ -3,7 +3,10 @@
     width: 50px;
     height: auto;
     top: 0;
+}
 
+* {
+    outline: solid 1px red;
 }
 
 .incorrect {
@@ -33,35 +36,23 @@
     align-items: center;
 }
 
-.text {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-}
-
 #answers_container {
     position: absolute;
     bottom:60px;
     line-height: 50px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 22px;
 }
 
-#counter_correct {
+#counter_container {
+    display: block;
     position: absolute;
     top: 10px;
-    left: 60px; 
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 35px;
+    text-align: center;
 }
-#counter_incorrect {
-    position: absolute;
-    top: 10px;
-    left: 160px; 
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 35px;
+
+#counter_correct_container {
+    display: block;
+}
+
+#counter_incorrect_container {
+    display: block;
 }

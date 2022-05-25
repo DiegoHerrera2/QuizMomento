@@ -15,7 +15,7 @@ const secret_audio = new Audio("assets/secret_song.mp3")
 function loadQuestions() {
     $.getJSON('questions.json', function (data) {
         allQuestions = data.questions;
-    })
+    });
 }
 
 function scaleFontSize(element) {
@@ -120,7 +120,7 @@ function loadAnswers() {
     // Load the answers
     for (var i = 0; i < currentQuestion.answers.length; i++) {
         var answer = currentQuestion.answers[i];
-        $('#answers_container').append('<a class="button" id="answer_' + i + '">' + answer.name + '</div>');
+        $('#answers_container').append('<button class="button" id="answer_' + i + '">' + answer.name + '</button>');
 
         // Add click event to answer
         $('#answer_' + i).click(function () {
