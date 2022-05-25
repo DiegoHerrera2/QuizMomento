@@ -1,12 +1,13 @@
+
 Quiz = function () {
     function begin() {
         // Get number of questions from input
         var questionAmount = $('#question_amount').val();
-        var totalQuestions = Questions.getQuestions().length;
+        var totalQuestions = Questions.getAllQuestions().length;
 
         if (questionAmount < 0 || questionAmount == '') {
             questionAmount = 1;
-        }    
+        }
         else if (questionAmount > totalQuestions) {
             questionAmount = totalQuestions;
         }
@@ -16,6 +17,7 @@ Quiz = function () {
         for (var i = 0; i < questionAmount; i++) {
             Questions.pushRandomQuestion();
         }
+
         Questions.nextQuestion();
 
         // Display quiz
@@ -26,6 +28,8 @@ Quiz = function () {
         begin: begin
     }
 }();
+
+
 
 Questions = function () {
     var allQuestions = new Array();
