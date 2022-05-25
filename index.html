@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="stylesheets/general.css">
     <link rel="stylesheet" href="stylesheets/menu.css">
     <link rel="stylesheet" href="stylesheets/quiz.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
@@ -17,11 +17,20 @@
 </head>
 
 <body>
+    <!-- The Modal -->
     <div id="myModal" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
-            <span id="modal-close">&times;</span>
-            <p id="modal-text">Some text in the Modal..</p>
+            <div class="modal-header text">
+                <span class="close" id="modal-header-close">&times;</span>
+                <h2 id="modal-header-text">Modal Header</h2>
+            </div>
+            <div class="modal-body text">
+                <p id="modal-body-text">Some text in the Modal Body</p>
+            </div>
+            <div class="modal-footer text">
+                <h3 id="modal-footer-text">Modal Footer</h3>
+            </div>
         </div>
     </div>
 

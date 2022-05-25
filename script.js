@@ -74,12 +74,15 @@ function nextQuestion() {
     loadAnswers();
 }
 
-function showModal(message) {
-    $('#modal-text').html(message);
+// Modals
+function showModal(header, content, footer) {
+    $('#modal-header-text').html(header);
+    $('#modal-body-text').html(content);
+    $('#modal-footer-text').html(footer);
     $('#myModal').show();
 
     // Add click event to close button
-    $('#modal-close').click(function () {
+    $('#modal-header-close').click(function () {
         $('#myModal').hide();
 
         // Reset counters
