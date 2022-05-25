@@ -55,7 +55,7 @@ function nextQuestion() {
     // Check if there are any questions left
     if (randomQuestions.length == currentQuestionIndex) {
         // If there are no questions left, show the results
-        showModal('Has obtenido ' + correct_counter + ' preguntas correctas y ' + incorrect_counter + ' preguntas incorrectas. <br> Tu nota es de un ' + Math.round((correct_counter / (correct_counter + incorrect_counter)) * 100) + '% <br> <br> Preguntas correctas: <br> ' + questionCorrectRegister.join('<br>') + '<br> <br> Preguntas incorrectas: <br> ' + questionIncorrectRegister.join('<br>'));
+        showModal('Cuestionario finalizado', 'Has obtenido ' + correct_counter + ' preguntas correctas y ' + incorrect_counter + ' preguntas incorrectas. <br> Tu nota es de un ' + Math.round((correct_counter / (correct_counter + incorrect_counter)) * 100) + '% <br> <br> Preguntas correctas: <br> ' + questionCorrectRegister.join('<br>') + '<br> <br> Preguntas incorrectas: <br> ' + questionIncorrectRegister.join('<br>'), 'Felicidades!');
         return;
     }
     
