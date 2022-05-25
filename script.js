@@ -95,9 +95,18 @@ function showModal(message) {
 
 function beginQuiz() {
     // Get number of questions from input
-    var questionAmount = $('#question_amount').val();
 
+    var questionAmount = $('#question_amount').val();
+    if (questionAmount < 0 || questionAmount == '') {
+        questionAmount = 1;
+    }
+    
+    else if (questionAmount > allQuestions.length) {
+        questionAmount = allQuestions.length;
+    }
+    
     // Pick questionAmount random questions
+    loadQuestions();
     randomQuestions = new Array();
     for (var i = 0; i < questionAmount; i++) {
         randomQuestions.push(loadRandomQuestion());
@@ -148,6 +157,7 @@ function loadAnswers() {
 // Load questions 
 $(document).ready(function () {
     loadQuestions();
+
     
 });
 
