@@ -15,7 +15,7 @@ const secret_audio = new Audio("assets/secret_song.mp3")
 function loadQuestions() {
     $.getJSON('questions.json', function (data) {
         allQuestions = data.questions;
-    })
+    });
 }
 
 function scaleFontSize(element) {
@@ -95,9 +95,18 @@ function showModal(message) {
 
 function beginQuiz() {
     // Get number of questions from input
-    var questionAmount = $('#question_amount').val();
 
+    var questionAmount = $('#question_amount').val();
+    if (questionAmount < 0 || questionAmount == '') {
+        questionAmount = 1;
+    }
+    
+    else if (questionAmount > allQuestions.length) {
+        questionAmount = allQuestions.length;
+    }
+    
     // Pick questionAmount random questions
+    loadQuestions();
     randomQuestions = new Array();
     for (var i = 0; i < questionAmount; i++) {
         randomQuestions.push(loadRandomQuestion());
@@ -120,7 +129,7 @@ function loadAnswers() {
     // Load the answers
     for (var i = 0; i < currentQuestion.answers.length; i++) {
         var answer = currentQuestion.answers[i];
-        $('#answers_container').append('<a class="button" id="answer_' + i + '">' + answer.name + '</div>');
+        $('#answers_container').append('<button class="button" id="answer_' + i + '">' + answer.name + '</button>');
 
         // Add click event to answer
         $('#answer_' + i).click(function () {
@@ -148,6 +157,7 @@ function loadAnswers() {
 // Load questions 
 $(document).ready(function () {
     loadQuestions();
+
     
 });
 

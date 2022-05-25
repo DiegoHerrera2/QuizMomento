@@ -12,10 +12,6 @@ body {
     z-index: 1;
 }
 
-#container_quiz {
-    display: none;
-}
-
 #question_amount_picker {
     display: table;
     margin: 0 auto;
@@ -32,7 +28,10 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+}
+
+.question-amount-picker {
+    display: block;
 }
 
 .logo {
