@@ -1,78 +1,225 @@
-// Load questions.json into an array
-var allQuestions = new Array();
-var randomQuestions = new Array();
-var questionCorrectRegister = new Array();
-var questionIncorrectRegister = new Array();
+Quiz = function () {
+    function begin() {
+        // Get number of questions from input
+        var questionAmount = $('#question_amount').val();
+        var totalQuestions = Questions.getQuestions().length;
 
-var currentQuestionIndex = 0;
-var currentQuestion;
+        if (questionAmount < 0 || questionAmount == '') {
+            questionAmount = 1;
+        }    
+        else if (questionAmount > totalQuestions) {
+            questionAmount = totalQuestions;
+        }
 
-var correct_counter = 0;
-var incorrect_counter = 0;
+        // Pick questionAmount random questions
+        Questions.loadQuestions();
+        for (var i = 0; i < questionAmount; i++) {
+            Questions.pushRandomQuestion();
+        }
+        Questions.nextQuestion();
 
-const audio_correct = new Audio("assets/correct.mp3")
-const audio_incorrect = new Audio("assets/incorrect.mp3")
-const secret_audio = new Audio("assets/secret_song.mp3")
-
-function loadQuestions() {
-    $.getJSON('questions.json', function (data) {
-        allQuestions = data.questions;
-    });
-}
-
-function scaleFontSize(element) {
-    var container = document.getElementById(element);
-
-    // Reset font-size to 100% to begin
-    container.style.fontSize = "25px";
-
-    // Check if the text is wider than its container,
-    // if so then reduce font-size
-    if (container.textContent.length > 200) {
-        container.style.fontSize = "20";
+        // Display quiz
+        $('#container_quiz').show();
+        $('#container_menu').hide();
     }
-
-    if (container.textContent.length > 500) {
-        container.style.fontSize = "15";
+    return {
+        begin: begin
     }
-}
+}();
 
-function loadRandomQuestion() {
-    var randomQuestion = allQuestions[Math.floor(Math.random() * allQuestions.length)];
-    // remove the question from the array
-    allQuestions.splice(allQuestions.indexOf(randomQuestion), 1);
-    return randomQuestion;
-}
-
-
-
-function updateCounters(correct, incorrect) {
-    $('#counter_correct').html(correct);
-    $('#counter_incorrect').html(incorrect);
-}
-
-function nextQuestion() {
-    // Check if there are any questions left
-    if (randomQuestions.length == currentQuestionIndex) {
-        // If there are no questions left, show the results
-        showModal('Cuestionario finalizado', 'Has obtenido ' + correct_counter + ' preguntas correctas y ' + incorrect_counter + ' preguntas incorrectas. <br> Tu nota es de un ' + Math.round((correct_counter / (correct_counter + incorrect_counter)) * 100) + '% <br> <br> Preguntas correctas: <br> ' + questionCorrectRegister.join('<br>') + '<br> <br> Preguntas incorrectas: <br> ' + questionIncorrectRegister.join('<br>'), 'Felicidades!');
-        return;
-    }
+Questions = function () {
+    var allQuestions = new Array();
+    var randomQuestions = new Array();
+    var questionCorrectRegister = new Array();
+    var questionIncorrectRegister = new Array();
     
-    // Load the next question
-    currentQuestion = randomQuestions[currentQuestionIndex++];
-    console.log(currentQuestionIndex)
+    function loadQuestions() {
+        $.getJSON('questions.json', function (data) {
+            allQuestions = data.questions;
+        });
+    };
 
-    // Update name and question counters
-    $('#question_name').html(currentQuestion.name);
-    updateCounters(correct_counter, incorrect_counter);
+    function loadRandomQuestion() {
+        var randomQuestion = allQuestions[Math.floor(Math.random() * allQuestions.length)];
+        // remove the question from the array
+        allQuestions.splice(allQuestions.indexOf(randomQuestion), 1);
+        return randomQuestion;
 
-    // Scale font size to fit question name
-    scaleFontSize("question_name")
+    };
+    function nextQuestion() {
+        // Check if there are any questions left
+        if (randomQuestions.length == CurrentQuestion.getIndex()) {
+            // If there are no questions left, show the results
+            showModal('Cuestionario finalizado', 'Has obtenido ' + Counters.getCorrectCounter() + ' preguntas correctas y ' + Counters.getIncorrectCounter() + ' preguntas incorrectas. <br> Tu nota es de un ' + Math.round((Counters.getCorrectCounter() / (Counters.getCorrectCounter() + Counters.getIncorrectCounter())) * 100) + '% <br> <br> Preguntas correctas: <br> ' + Questions.getCorrectRegister().join('<br>') + '<br> <br> Preguntas incorrectas: <br> ' + Questions.getIncorrectRegister().join('<br>'), 'Felicidades!');
+            return;
+        };
 
-    // Load the answers
-    loadAnswers();
-}
+        // Load the next question
+        CurrentQuestion.setCurrentQuestion(randomQuestions[CurrentQuestion.getIndex()]);
+        CurrentQuestion.addIndex();
+        // Update name and question counters
+        $('#question_name').html(CurrentQuestion.getCurrentQuestion().name);
+        Counters.updateCounters();
+
+        // Load the answers
+        Questions.loadAnswers();
+    };
+    function loadAnswers() {
+        // Clear the answers
+        $('#answers_container').empty();
+        // Load the answers
+        for (var i = 0; i < CurrentQuestion.getCurrentQuestion().answers.length; i++) {
+            var answer = CurrentQuestion.getCurrentQuestion().answers[i];
+            $('#answers_container').append('<button class="button" id="answer_' + i + '">' + answer.name + '</button>');
+
+            // Add click event to answer
+            $('#answer_' + i).click(function () {
+
+                // Check if the answer is correct by comparing index
+                if (CurrentQuestion.getCurrentQuestion().answerIndex == $(this).attr('id').split('_')[1]) {
+                    // Correct answer
+                    Counters.addCorrect();
+                    questionCorrectRegister.push(CurrentQuestion.getCurrentQuestion().name);
+                    Audio.playCorrect();
+                } else {
+                    // Incorrect answer
+                    Counters.addIncorrect();
+                    questionIncorrectRegister.push(CurrentQuestion.getCurrentQuestion().name);
+                    Audio.playIncorrect();
+                }
+
+                // Update counters
+                Counters.updateCounters();
+
+                // Load the next question
+                Questions.nextQuestion();
+            });
+        }
+    }
+    function getAllQuestions() {
+        return allQuestions;
+    }
+    function getRandomQuestions() {
+        return randomQuestions;
+    }
+    function setAllQuestions(questions) {
+        allQuestions = questions;
+    }
+
+    function getCorrectRegister() {
+        return questionCorrectRegister;
+    }
+    function getIncorrectRegister() {
+        return questionIncorrectRegister;
+    }
+    function pushRandomQuestion() {
+        randomQuestions.push(loadRandomQuestion());
+    }
+
+    return {
+        loadQuestions: loadQuestions,
+        loadRandomQuestion: loadRandomQuestion,
+        nextQuestion: nextQuestion,
+        loadAnswers: loadAnswers,
+        getAllQuestions: getAllQuestions,
+        getRandomQuestions: getRandomQuestions,
+        setAllQuestions:setAllQuestions,
+        getCorrectRegister: getCorrectRegister,
+        getIncorrectRegister: getIncorrectRegister,
+        pushRandomQuestion: pushRandomQuestion
+    }
+}();
+
+CurrentQuestion = function () {
+    var currentQuestionIndex = 0;
+    var currentQuestion;
+
+    function getCurrentQuestion() {
+        return currentQuestion;
+    }
+    function addIndex(index) {
+        currentQuestionIndex++;
+    }
+    function getIndex() {
+        return currentQuestionIndex;
+    }
+    function setCurrentQuestion(question) {
+        currentQuestion = question;
+    }
+    function setIndex(index) {
+        currentQuestionIndex = index;
+    }
+
+    return {
+        getCurrentQuestion: getCurrentQuestion,
+        addIndex: addIndex,
+        getIndex: getIndex,
+        setCurrentQuestion: setCurrentQuestion,
+        setIndex: setIndex
+    }
+}();
+
+Counters = function () {
+    var correct_counter = 0;
+    var incorrect_counter = 0;
+    function init() {
+        correct_counter = 0;
+        incorrect_counter = 0;
+    }
+    function addCorrect() {
+        correct_counter++;
+    }
+    function addIncorrect() {
+        incorrect_counter++;
+    }
+
+    function updateCounters() {
+        $('#counter_correct').html(correct_counter);
+        $('#counter_incorrect').html(incorrect_counter);
+    }
+    function getCorrectCounter() {
+        return correct_counter;
+    }
+    function getIncorrectCounter() {
+        return incorrect_counter;
+    }
+    function setCorrectCounter(counter) {
+        correct_counter = counter;
+    }
+    function setIncorrectCounter(counter) {
+        incorrect_counter = counter;
+    }
+
+
+    return {
+        init: init,
+        addCorrect: addCorrect,
+        addIncorrect: addIncorrect,
+        updateCounters: updateCounters,
+        getCorrectCounter: getCorrectCounter,
+        getIncorrectCounter: getIncorrectCounter,
+        setCorrectCounter: setCorrectCounter,
+        setIncorrectCounter: setIncorrectCounter
+    }
+}();
+
+Audio = function () {
+    const audio_correct = new Audio("assets/correct.mp3")
+    const audio_incorrect = new Audio("assets/incorrect.mp3")
+    const secret_audio = new Audio("assets/secret_song.mp3")
+
+    function playCorrect() {
+        audio_correct.play();
+    }
+    function playIncorrect() {
+        audio_incorrect.play();
+    }
+
+    return {
+        playCorrect: playCorrect,
+        playIncorrect: playIncorrect
+    }
+}();
 
 // Modals
 function showModal(header, content, footer) {
@@ -86,11 +233,11 @@ function showModal(header, content, footer) {
         $('#myModal').hide();
 
         // Reset counters
-        correct_counter = 0;
-        incorrect_counter = 0;
+        Counters.setCorrectCounter(0);
+        Counters.setIncorrectCounter(0);
 
         // Reset question index
-        currentQuestionIndex = 0;
+        CurrentQuestion.setIndex(0);
 
         // Show menu
         $('#container_menu').show();
@@ -98,72 +245,9 @@ function showModal(header, content, footer) {
     });
 }
 
-function beginQuiz() {
-    // Get number of questions from input
-
-    var questionAmount = $('#question_amount').val();
-    if (questionAmount < 0 || questionAmount == '') {
-        questionAmount = 1;
-    }
-    
-    else if (questionAmount > allQuestions.length) {
-        questionAmount = allQuestions.length;
-    }
-    
-    // Pick questionAmount random questions
-    loadQuestions();
-    randomQuestions = new Array();
-    for (var i = 0; i < questionAmount; i++) {
-        randomQuestions.push(loadRandomQuestion());
-    }
-
-    nextQuestion();
-
-    // Display quiz
-    $('#container_quiz').show();
-    $('#container_menu').hide();
-}
-
-
-
-function loadAnswers() {
-    // Clear the answers
-    $('#answers_container').empty();
-    // Load the answers
-    for (var i = 0; i < currentQuestion.answers.length; i++) {
-        var answer = currentQuestion.answers[i];
-        $('#answers_container').append('<button class="button" id="answer_' + i + '">' + answer.name + '</button>');
-
-        // Add click event to answer
-        $('#answer_' + i).click(function () {
-
-            // Check if the answer is correct by comparing index
-            if (currentQuestion.answerIndex == $(this).attr('id').split('_')[1]) {
-                // Correct answer
-                correct_counter++;
-                questionCorrectRegister.push(currentQuestion.name);
-                audio_correct.play();
-            } else {
-                // Incorrect answer
-                incorrect_counter++;
-                questionIncorrectRegister.push(currentQuestion.name);
-                audio_incorrect.play();
-            }
-
-            // Update counters
-            updateCounters(correct_counter, incorrect_counter);
-
-            // Load the next question
-            nextQuestion();
-        });
-    }
-}
-
 // Load questions 
 $(document).ready(function () {
-    loadQuestions();
-
-    
+    Questions.loadQuestions();
 });
 
 
