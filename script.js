@@ -76,6 +76,7 @@ Questions = function () {
         // Update name and question counters
         $('#question_name').html(CurrentQuestion.getCurrentQuestion().name);
         Counters.updateCounters();
+        console.log(Counters.getCorrectCounter() + ' ' + Counters.getIncorrectCounter());
 
         // Load the answers
         Questions.loadAnswers();
@@ -185,8 +186,8 @@ CurrentQuestion = function () {
 }();
 
 Counters = function () {
-    const correct_id = 'correct_counter';
-    const incorrect_id = 'incorrect_counter';
+    const correct_id = "#counter_correct";
+    const incorrect_id = "#counter_incorrect";
     var correct_counter = 0;
     var incorrect_counter = 0;
     function init() {
