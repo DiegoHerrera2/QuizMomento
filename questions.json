@@ -421,7 +421,7 @@
             "answerIndex": 1
         },
         {
-            "name": "¿Los ingenieros del software construyen Instrucciones, Procedimientos, Especificaciones, Estructuras de datos y Documentos?",
+            "name": "¿Los ingenieros del software construyen: Instrucciones, Procedimientos, Especificaciones, Estructuras de datos y Documentos?",
             "answers": [
                 {
                     "name": "Verdadero"
@@ -563,18 +563,6 @@
                 }
             ],
             "answerIndex": 1
-        },
-        {
-            "name": "Un sistema de gestión de calidad es el conjunto de la estructura de la organización, de responsabilidades, procedimientos, procesos y recursos que se establecen para llevar a término la gestión de calidad",
-            "answers": [
-                {
-                    "name": "Verdadero"
-                },
-                {
-                    "name": "Falso"
-                }
-            ],
-            "answerIndex": 0
         },
         {
             "name": "La reusabilidad es la posibilidad de que cualquier módulo software pueda ser utilizado en múltiples entornos",
@@ -1127,6 +1115,276 @@
                 }
             ],
             "answerIndex": 0
+        },
+        {
+            "name": "Practicas XP. Programacion por parejas <br> Todo el codigo se escribe en parejas<br>-Se produce de mayor calidad<br>-Extiende el conocimiento<br>Se realiza el trabajo de 1 persona en casi la mitad de tiempo y mejor ",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Mejores practicas de XP:<br>-Programación por parejas<br>-Propiedad colecticva<br>-Integración continua<br>-Semana de 40 horas<br>-Cliente in situ<br>-Estandares de programacion",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "En el modelo de desarrollo evolutivo la visibilidad  del proceso es pobre<br>y muy caro al producir documentacion en cada iteracion",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El desarrollo como fase del proceso de software incluye las tareas de diseno, codificacion, pruebasimplantacion y mejoras",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "La definicion de objetos e interfaces de subsistemas es una actividad de diseño",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Metodologias agiles de desarrollo, como Métrica, se basan en la creeencia de que las metodologías ingenieriles no son válidas para el desarrollo de software",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Como en el modelo de cascada los puntos de revision bien definidos y las entregas planificadas, satisfaccion del cliente es mucho mayor",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "En las metodologias Ágiles se valora la ejecución del contrato del cliente",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El análisis, la planificación y la especificación son tareas que definen el que y el como del sesarrollo del software",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Añadir recursos humanos a un proyecto de software retrasado lo retrasa aún más",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La ingeniería del software no es una disciplina de la ingeniería sino una disciplina encargada de la producción del software",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El prototipado es recomendado cuando existen especificaciones de alto riesgo",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Roles XP: Programador <br> Organiza y guía las reuniones <br> Ayuda al cliente con las pruebas <br> Se asegura de que las pruebas funcionales se superan",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "En las Metodoologias Agiles se valora poder reponder a los cambios más qué seguir estrictamente una planificación",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El proceso unificado no se repite a lo largo de una serie de ciclos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Las metodologías de desarrollo contemplan actividades Técnicas o de desarrollo, como la comercialización del proyecto",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Las metodologías de desarrollo contemplan actividades Técnicas o de desarrollo, como la comercialización del proyecto",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Para sistemas grandes el uso del desarrollo evolutivo no es el adecuado",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La equifinalidad es la caracteristica la cual los sistemas logran el objetivo de múltiples formas",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Cada participante de un proyecto tiene sus propias responsabilidades y juega un solo rol o papel en el proyecto",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "¿Cuál de las siguientes afirmaciones no es un algoritmo?",
+            "answers": [
+                {
+                    "name": "Un metodo de ordenación"
+                },
+                {
+                    "name": "Un modelo de ordenación"
+                },
+                {
+                    "name": "Uan tectica de ordenación"
+                },
+                {
+                    "name": "Un proceso de ordenación"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Un sistema informático es un sistema basado en computadoras pero no un sistema de información",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
         }
         
     ]
