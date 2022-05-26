@@ -15,6 +15,7 @@ Quiz = function () {
         // Pick questionAmount random questions
         Questions.loadQuestions();
         Questions.resetRandomQuestions();
+        Questions.resetIncorrectRegister();
         for (var i = 0; i < questionAmount; i++) {
             Questions.pushRandomQuestion();
         }
@@ -35,7 +36,6 @@ Quiz = function () {
 Questions = function () {
     var allQuestions = new Array();
     var randomQuestions = new Array();
-    var questionCorrectRegister = new Array();
     var questionIncorrectRegister = new Array();
     
     function loadQuestions() {
@@ -100,7 +100,6 @@ Questions = function () {
                     // Correct answer
                     Counters.addCorrect();
                     CurrentQuestion.getCurrentQuestion().userAnswerIndex = answerIndex;
-                    questionCorrectRegister.push(CurrentQuestion.getCurrentQuestion());
                     Audio.playCorrect();
                 } else {
                     // Incorrect answer
@@ -131,10 +130,6 @@ Questions = function () {
         allQuestions = questions;
     }
 
-    function getCorrectRegister() {
-        return questionCorrectRegister;
-    }
-
     function getIncorrectRegister() {
         return questionIncorrectRegister;
     }
@@ -145,6 +140,10 @@ Questions = function () {
     function resetRandomQuestions() {
         randomQuestions = new Array();
     }
+    function resetIncorrectRegister() {
+        questionIncorrectRegister = new Array();
+    }
+
 
     return {
         loadQuestions: loadQuestions,
@@ -154,10 +153,10 @@ Questions = function () {
         getAllQuestions: getAllQuestions,
         getRandomQuestions: getRandomQuestions,
         setAllQuestions:setAllQuestions,
-        getCorrectRegister: getCorrectRegister,
         getIncorrectRegister: getIncorrectRegister,
         pushRandomQuestion: pushRandomQuestion,
-        resetRandomQuestions: resetRandomQuestions
+        resetRandomQuestions: resetRandomQuestions,
+        resetIncorrectRegister: resetIncorrectRegister
     }
 }();
 
