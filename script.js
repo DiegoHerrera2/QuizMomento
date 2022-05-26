@@ -5,7 +5,7 @@ Quiz = function () {
         var questionAmount = $('#question_amount').val();
         var totalQuestions = Questions.getAllQuestions().length;
 
-        if (questionAmount < 0 || questionAmount == '') {
+        if (questionAmount <= 0 || questionAmount == '') {
             questionAmount = 1;
         }
         else if (questionAmount > totalQuestions) {
@@ -25,6 +25,8 @@ Quiz = function () {
         // Display quiz
         $('#container_quiz').show();
         $('#container_menu').hide();
+        Timer.resetTimer();
+        Timer.startTimer();
     }
     return {
         begin: begin
@@ -59,6 +61,7 @@ Questions = function () {
             var resultString = '<h2>Resultados</h2><br>';
             resultString += '<p>Has obtenido ' + Counters.getCorrectCounter() + ' preguntas correctas y ' + Counters.getIncorrectCounter() + ' preguntas incorrectas.</p>'; 
             resultString += '<p>Tu nota es de un ' + Math.round((Counters.getCorrectCounter() / (Counters.getCorrectCounter() + Counters.getIncorrectCounter())) * 100) + '% </p>';
+            resultString += '<p> En un tiempo de: ' + Timer.getMinutes() + ' minutos y ' + Timer.getSeconds() + ' segundos.</p>';
             resultString += '<h3>Preguntas contestadas incorrectamente</h3>';
             for(var i = 0; i < questionIncorrectRegister.length; i++) {
                 resultString += '<p>' + questionIncorrectRegister[i].name + '</p>';
@@ -66,7 +69,7 @@ Questions = function () {
                 resultString += '<p>Respuesta correcta: ' + questionIncorrectRegister[i].answers[questionIncorrectRegister[i].answerIndex].name + '</p>';
                 resultString += '<br>';
             }
-
+            Timer.stopTimer();
             showModal('Cuestionario finalizado',  resultString, 'Felicidades!');
             return;
         };
@@ -276,6 +279,56 @@ function showModal(header, content, footer) {
         $('#container_quiz').hide();
     });
 }
+Timer = function() {
+    var [milliseconds,seconds,minutes] = [0,0,0];
+    var timerRef = ".timerDisplay";
+    var int = null;
+
+    function startTimer() {
+        int = setInterval(function() {
+            milliseconds++;
+            if (milliseconds >= 100) {
+                milliseconds = 0;
+                seconds++;
+                if (seconds >= 60) {
+                    seconds = 0;
+                    minutes++;
+                }
+            }
+            $(timerRef).html(minutes + ":" + (seconds < 10 ? "0" + seconds : seconds) + ":" + (milliseconds < 10 ? "00" + milliseconds : milliseconds < 100 ? "0" + milliseconds : milliseconds));
+        }, 10);
+    }
+
+    function stopTimer() {
+        clearInterval(int);
+    }
+
+    function resetTimer() {
+        stopTimer();
+        [milliseconds,seconds,minutes] = [0,0,0];
+        $(timerRef).html(minutes + ":" + seconds + ":" + milliseconds);
+    }
+
+    function getMinutes() {
+        return minutes;
+    }
+
+    function getSeconds() {
+        return seconds;
+    }
+
+
+    return {
+        startTimer: startTimer,
+        resetTimer: resetTimer,
+        stopTimer: stopTimer,
+        getMinutes: getMinutes,
+        getSeconds: getSeconds
+    }
+
+}();
+
+
 
 // Load questions 
 $(document).ready(function () {
