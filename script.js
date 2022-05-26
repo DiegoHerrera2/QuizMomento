@@ -14,6 +14,7 @@ Quiz = function () {
 
         // Pick questionAmount random questions
         Questions.loadQuestions();
+        Questions.resetRandomQuestions();
         for (var i = 0; i < questionAmount; i++) {
             Questions.pushRandomQuestion();
         }
@@ -141,6 +142,9 @@ Questions = function () {
     function pushRandomQuestion() {
         randomQuestions.push(loadRandomQuestion());
     }
+    function resetRandomQuestions() {
+        randomQuestions = new Array();
+    }
 
     return {
         loadQuestions: loadQuestions,
@@ -152,7 +156,8 @@ Questions = function () {
         setAllQuestions:setAllQuestions,
         getCorrectRegister: getCorrectRegister,
         getIncorrectRegister: getIncorrectRegister,
-        pushRandomQuestion: pushRandomQuestion
+        pushRandomQuestion: pushRandomQuestion,
+        resetRandomQuestions: resetRandomQuestions
     }
 }();
 
