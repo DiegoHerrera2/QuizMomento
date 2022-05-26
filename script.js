@@ -1,4 +1,4 @@
-
+//test
 Quiz = function () {
     function begin() {
         // Get number of questions from input
