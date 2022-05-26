@@ -1913,18 +1913,6 @@
                 }
             ],
             "answerIndex": 0
-        },
-        {
-            "name": "La gestión de la configuración, controla los cambios que se desarrollan en la etapa de mantenimiento",
-            "answers": [
-                {
-                    "name": "Verdadero"
-                },
-                {
-                    "name": "Falso"
-                }
-            ],
-            "answerIndex": 0
-        }  
+        }
     ]
 }
