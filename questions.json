@@ -1261,18 +1261,6 @@
             "answerIndex": 0
         },
         {
-            "name": "Roles XP: Programador <br> Organiza y guía las reuniones <br> Ayuda al cliente con las pruebas <br> Se asegura de que las pruebas funcionales se superan",
-            "answers": [
-                {
-                    "name": "Verdadero"
-                },
-                {
-                    "name": "Falso"
-                }
-            ],
-            "answerIndex": 1
-        },
-        {
             "name": "En las Metodoologias Agiles se valora poder reponder a los cambios más qué seguir estrictamente una planificación",
             "answers": [
                 {
@@ -1513,18 +1501,6 @@
             "answerIndex": 0
         },
         {
-            "name": "Roles XP. Programador <br> Responsable de decisiones técnicas <br> Responsable de construir el sistema <br> Sin distinción entre analistas,diseñadores o coditicadores <br> En XP, los programadores diseñan, programan y realizan las pruebas",
-            "answers": [
-                {
-                    "name": "Verdadero"
-                },
-                {
-                    "name": "Falso"
-                }
-            ],
-            "answerIndex": 0
-        },
-        {
             "name": "El proceso Unificado de Desarrollo, utiliza UML para desarrollar los esquemas y diagramas de un sistema software",
             "answers": [
                 {
@@ -1718,18 +1694,6 @@
                 }
             ],
             "answerIndex": 0
-        },
-        {
-            "name": "Roles XP: Programador <br> Organiza y guía las reuniones <br> Ayuda al cliente con las pruebas funcionales <br> Se asegura de que las pruebas funcionales se superan",
-            "answers": [
-                {
-                    "name": "Verdadero"
-                },
-                {
-                    "name": "Falso"
-                }
-            ],
-            "answerIndex": 1
         },
         {
             "name": "Los estándares introducen formas de trabajo sistemático, disciplinados y cuantificables de calidad",
