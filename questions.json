@@ -586,7 +586,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
             "name": "Las decisiones a largo plazo se toman en la dirección con información detallada y especifica",
@@ -1876,7 +1876,7 @@
             "answerIndex": 0
         },
         {
-            "name": "Diagrama de UML. <br> Diagrama de Implementación <br> Diagrama de Componentes <br> Diagrama de Despliegue",
+            "name": "Diagrama de UML. Diagrama de Implementación <br> Diagrama de Componentes <br> Diagrama de Despliegue",
             "answers": [
                 {
                     "name": "Verdadero"
@@ -1933,7 +1933,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "Con el tiempo se han mejorado los problemas de capacidad de mantenimiento del software existente.",
@@ -2189,6 +2189,78 @@
         },
         {
             "name": "El Manifiesto de las Metodologías Ágiles: <br> Principios: <br> - La prioridad principal es entregar el software final <br> - Los cambios no están permitidos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Un sistema de información modular significa que está integrado pero todas sus partes son independientes.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Entre las mejores prácticas XP se encuentran: <br> <br> El juego de la documentación <br> Una sola entrega <br> Diseño por capas",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El análisis produce un modelo completo y consistente que se verifica en las etapas posteriores",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Para el desarrollo de la planificación de un proyecto, se utilizan estimaciones obtenidas de métricas de proyectos anteriores",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Las actividades de administración y gestión del proceso de desarrollo constan de etapas como <br> Diseño detallado <br> Implementación <br> Pruebas",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El proceso software es el marco de trabajo de las actividades y tareas que se requieren para la gestión de la calidad",
             "answers": [
                 {
                     "name": "Verdadero"
