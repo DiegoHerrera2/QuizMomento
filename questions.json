@@ -1315,7 +1315,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "¿Cuál de las siguientes afirmaciones no es un algoritmo?",
@@ -1534,7 +1534,7 @@
             "answerIndex": 1
         },
         {
-            "name": "Los ingenieros de software deben utilizar herramientas y tecnicas apropiadas al problema que resuelve, a las restricciones del desarrollo y recuros disponibles",
+            "name": "Los ingenieros de software deben utilizar herramientas y tecnicas apropiadas al problema que resuelve, a las restricciones del desarrollo y recursos disponibles",
             "answers": [
                 {
                     "name": "Verdadero"
@@ -2748,7 +2748,6 @@
             ],
             "answerIndex": 0
         },
-
         {
             "name": "Un sistema de información modular significa que está integrado peros sus partes son independientes",
             "answers": [
@@ -2761,7 +2760,6 @@
             ],
             "answerIndex": 0
         },
-
         {
             "name": "El proceso unificado se repite a lo largo de una serie de ciclos que concluye con una versión del producto.",
             "answers": [
@@ -2774,7 +2772,6 @@
             ],
             "answerIndex": 0
         },
-
         {
             "name": "En las Metodologías Ágiles se valora poder responder a los cambios más que seguir estrictamente una planificación.",
             "answers": [
@@ -2787,9 +2784,44 @@
             ],
             "answerIndex": 0
         },
-
         {
             "name": "Para el desarrollo de la planificación de un proyecto se utilizan estimaciones obtenidas de métricas de proyectos anteriores.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La gestión de la configuración, controla los cambios donde todos los entregables producidos en el <br> desarrollo y no solo en el mantenimiento",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La especificación de requisitos establece el ámbito del software",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Los objetivos de los Sistemas de Información van a depender del nivel de la organización en el que <br> se apliquen para resolver determinados problemas",
             "answers": [
                 {
                     "name": "Verdadero"
