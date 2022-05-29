@@ -2735,6 +2735,70 @@
                 }
             ],
             "answerIndex": 0
+        },
+        {
+            "name": "Los estándares extraen modelos de cómo ejecutar procesos de las mejores prácticas",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+
+        {
+            "name": "Un sistema de información modular significa que está integrado peros sus partes son independientes",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+
+        {
+            "name": "El proceso unificado se repite a lo largo de una serie de ciclos que concluye con una versión del producto.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+
+        {
+            "name": "En las Metodologías Ágiles se valora poder responder a los cambios más que seguir estrictamente una planificación.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+
+        {
+            "name": "Para el desarrollo de la planificación de un proyecto se utilizan estimaciones obtenidas de métricas de proyectos anteriores.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
         }
     ]
 }
