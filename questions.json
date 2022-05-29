@@ -154,7 +154,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
             "name": "Clasificación de las metodologías de desarrollo <br> En base a su agilidad <br> Pesadas, Burocráticas o ingenieriles <br> Ágiles <br> En base a su alcance <br> Metodología de análisis <br> Metodología de desarrollo <br> En base a la naturaleza del proyecto <br> Metodologías orientadas al flujo de información <br> Metodologías orientadas a datos <br> Metodologías orientadas a objetos <br> Metodologías basadas en roles <br> Metodologías ágiles de desarrollo <br> Metodologías de dominio específico <br> Metodologías híbridas",
@@ -2270,6 +2270,471 @@
                 }
             ],
             "answerIndex": 1
+        },
+        {
+            "name": "Un sistema es efectivo si utiliza de forma óptima los recursos disponibles",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Los modelos son útiles para manejar y visualizar sistemas grandes y medianos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El proceso software es el marco de trabajo de las actividades y tareas que se requieren para la gestión de la calidad",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Los autores de metodología RUP son Booch, Rumbaugh y Jacobson",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Cuáles de las siguientes pueden ser las dificultades de las confiabilidad del software?",
+            "answers": [
+                {
+                    "name": "Ambiente variable al que hay que adaptarse"
+                },
+                {
+                    "name": "La complejidad del software"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Si tenemos un proyecto de software y un proyecto de manufacturación podemos realizar una administración de los mismos, de igual manera",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Un requerimiento de confiabilidad del sistema que, en muchos casos, no es mencionado por el cliente se categoriza como",
+            "answers": [
+                {
+                    "name": "esperado"
+                },
+                {
+                    "name": "normal"
+                },
+                {
+                    "name": "emocionante"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Los requerimientos se realizan a fin de llegar a la construcción del sistema",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Los mitos del software que se presentan han desencadenado que administradores y trabajadores se equivoquen aun cuando el conocimiento del software avanza",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Cuando se ha resuelto un problema, los elementos que se obtuvieron pueden ser reutilizados en otros proyectos similares?",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La ingenieria de requisitos está orientada a trabajar de una forma conjunta entre las personas involucradas en el proyecto antes de empezar el desarrollo del mismo",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Cree que la siguiente afirmación es una preocupación sobre el desarrollo de software. <br> El control de avance del proyecto se ha vuelto muy complicado?",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Las primeras conversaciones con los gerentes de una organización para el desarrollo del software donde se propone una arquitectura aproximada de los que se va a desarrollar, en RUP se refiere a la fase de inicio",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "En los procesos ágiles, las personas y el equipo de trabajo deben adaptarse a las necesidades del proceso",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Existen problemas en la obtención de requerimientos debido a que estos cambian, este problema se puede superar con una buena negociación de requerimientos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El prototipo sirve como la primera versión del sistema",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "En un software bancario el proceso de realizar transacciones lo realizamos a través de dispositivos táctiles, este sería un requerimiento esperado?",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Cuando un software va cambiando, es decir, cuando va produciendo versiones más complejas del software por cada entrega, se puede decir que se está trabajando en base a un modelo incremental",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La ingeniería del software es una tecnología con varias capas",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La obtención de un documento escrito donde se haga constar los requerimientos está dentro de la tarea de:",
+            "answers": [
+                {
+                    "name": "concepción"
+                },
+                {
+                    "name": "especificación"
+                },
+                {
+                    "name": "elaboración"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Se puede decir que el software es un proceso dual, o sea que primeramente es un producto y que luego es una herramienta para entregar otro producto",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Un diagrama de estados se encuentra dentro de los modelos de requerimientos en sus elementos basados en escenarios",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Si un cliente nos pide modificar cierta funcionalidad de un software, será conveniente utilizar un modelo de cascada para esta implementación",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El número de actividades estructurales dentro del modelo general de proceso se encuentra definida y no permite realizar una variación",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "La forma de organizar las actividades estructurales dentro del modelo general del proceso de software se conoce como flujo del proceso",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El costo del cambio con procesos convencionales de acuerdo al avance de programación, es menor al costo del cambio con el uso de procesos ágiles",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Las herramientas de administración de requerimientos permiten realizar una efectiva negociación entre todos los participantes del proyecto",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "La validación de los requisitos se lo hace a la especificación de los mismos en fin de que estos contemplen ciertos atributos de calidad",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La prioridad de los requerimientos es presentada por parte del cliente",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Existen 4 etapas en la esencia de la práctica de la ingeniería del software para llegar a la solución. La aplicación de las mismas puede variar en su orden",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El producto final de la ingeniería de requisitos es obtener un modelo de especificación de requisitos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La primera entrega que se realiza en los procesos incrementales es el producto final que se va a entregar con un procentaje mínimo de actualización",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Para obtención de requerimientos podemos usar prototipos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Si los clientes y usuarios piden más de lo que se puede alcanzar se debe llegar a una tarea de:",
+            "answers": [
+                {
+                    "name": "validación"
+                },
+                {
+                    "name": "indagación"
+                },
+                {
+                    "name": "negociación"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Las actividades sombrilla son complementadas por actividades estructurales del proceso de software",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El diseño dentro del XP sigue rigurosamente el principio MS (mantenerlo sencillo)",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La robótica (los proyectos que se trabajan en esta área) pueden ser consideraciones como software de ingeniería y ciencias",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Con tareas de ingeniería de requerimientos, se puede saber cómo interactúan los usuarios finales con el software?",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
         }
     ]
 }
