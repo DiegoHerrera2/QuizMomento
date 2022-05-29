@@ -1087,7 +1087,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "Los procesos integran métodos y herramientas, y definen la secuencia<br>en que se aplican los métodos",
@@ -1114,7 +1114,7 @@
             "answerIndex": 0
         },
         {
-            "name": "Mejores practicas de XP:<br>-Programación por parejas<br>-Propiedad colecticva<br>-Integración continua<br>-Semana de 40 horas<br>-Cliente in situ<br>-Estandares de programacion",
+            "name": "Mejores practicas de XP:<br>-Programación por parejas<br>-Propiedad colectiva<br>-Integración continua<br>-Semana de 40 horas<br>-Cliente in situ<br>-Estandares de programacion",
             "answers": [
                 {
                     "name": "Verdadero"
@@ -1123,7 +1123,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
             "name": "En el modelo de desarrollo evolutivo la visibilidad del proceso es pobre<br>y muy caro al producir documentacion en cada iteracion",
