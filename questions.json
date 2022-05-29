@@ -154,7 +154,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "Clasificación de las metodologías de desarrollo <br> En base a su agilidad <br> Pesadas, Burocráticas o ingenieriles <br> Ágiles <br> En base a su alcance <br> Metodología de análisis <br> Metodología de desarrollo <br> En base a la naturaleza del proyecto <br> Metodologías orientadas al flujo de información <br> Metodologías orientadas a datos <br> Metodologías orientadas a objetos <br> Metodologías basadas en roles <br> Metodologías ágiles de desarrollo <br> Metodologías de dominio específico <br> Metodologías híbridas",
@@ -490,7 +490,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
             "name": "El tiempo planeado para entrega de resultados puede no coincidir con el tiempo necesario para completar una actividad",
@@ -577,7 +577,7 @@
             "answerIndex": 1
         },
         {
-            "name": "La dirección estratégica suele tomar decisiones que etán poco formalizadas y subjetivas",
+            "name": "La dirección estratégica suele tomar decisiones que están poco formalizadas y subjetivas",
             "answers": [
                 {
                     "name": "Verdadero"
@@ -792,9 +792,6 @@
             ],
             "answerIndex": 1
         },
-
-
-
         {
             "name": "RUP Proceso de soporte de ciclo de vida del software<br>Reuniones de revisión: Reuniones empleadas por las dos partes para<br>evaluar el estado<br>del producto y de las actividades<br>Auditorias: Actividades para determinar que el proyecto cumple con<br>lo0s requisitos,<br>planes y contratos<br>Resolución de problemas: Actividades para analizar y resolver<br>problemas relativas al proyecto, sea cual sea su fuente y naturaleza",
             "answers": [
@@ -818,18 +815,6 @@
                 }
             ],
             "answerIndex": 0
-        },
-        {
-            "name": "Analisis estructurado de Tom DeMarco 1979 & diseño estructurado de Yourdo <br> modelo de proceso: iterativo e incremental (híbrido)",
-            "answers": [
-                {
-                    "name": "Verdadero"
-                },
-                {
-                    "name": "Falso"
-                }
-            ],
-            "answerIndex": 1
         },
         {
             "name": "La complejidad computacional se puede considerar una actividad incluida en las métricas del software",
@@ -967,7 +952,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "En métrica la gestión de proyectos (GP) supone, evaluar la calidad del proceso y del producto, reducir, eliminar y prevenir las deficiencias de los productos, alcanzando una razonable confianza en que las presentaciones y servicios esperados",
@@ -1117,7 +1102,7 @@
             "answerIndex": 0
         },
         {
-            "name": "Practicas XP. Programacion por parejas <br> Todo el codigo se escribe en parejas<br>-Se produce de mayor calidad<br>-Extiende el conocimiento<br>Se realiza el trabajo de 1 persona en casi la mitad de tiempo y mejor ",
+            "name": "Practicas XP. Programacion por parejas <br> Todo el codigo se escribe en parejas<br>-Se produce de mayor calidad<br>-Extiende el conocimiento<br>Se realiza el trabajo de 1 persona en casi la mitad de tiempo y mejor",
             "answers": [
                 {
                     "name": "Verdadero"
@@ -1138,10 +1123,10 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
-            "name": "En el modelo de desarrollo evolutivo la visibilidad  del proceso es pobre<br>y muy caro al producir documentacion en cada iteracion",
+            "name": "En el modelo de desarrollo evolutivo la visibilidad del proceso es pobre<br>y muy caro al producir documentacion en cada iteracion",
             "answers": [
                 {
                     "name": "Verdadero"
@@ -1213,7 +1198,7 @@
             "answerIndex": 1
         },
         {
-            "name": "El análisis, la planificación y la especificación son tareas que definen el que y el como del sesarrollo del software",
+            "name": "El análisis, la planificación y la especificación son tareas que definen el que y el como del desarrollo del software",
             "answers": [
                 {
                     "name": "Verdadero"
@@ -1363,7 +1348,7 @@
             "answerIndex": 1
         },
         {
-            "name": "El estándar ISO/IEC 12207 identifica los procesos de soporte del ciclo de vida del software quepueden ser utilizados desde un proceso primario, o incluso desde otro proceso de soporte. Los procesos de soporte son <br> DOCUMENTACIÓN <br> Actividades empleadas para registrar información especifica empleada por otros procesos. <br> GESTION DE LA CONFIGURACIÓN <br> Actividades empleadas para mantener un registro de los productos generados en la ejecución de los procesos <br> ASEGURAMIENTO DE LA CALIDAD <br> Actividades empleadas para garantizar de forma objetiva que el producto y los procesos asociados son conformes a los requisitos documentados y a las planificaciones. <br> VERIFICACION <br> Actividades empleadas para verificar el producto <br> VALIDACIÓN <br> Actividades empleadas para validar el producto",
+            "name": "El estándar ISO/IEC 12207 identifica los procesos de soporte del ciclo de vida del software que pueden ser utilizados desde un proceso primario, o incluso desde otro proceso de soporte. Los procesos de soporte son <br> DOCUMENTACIÓN <br> Actividades empleadas para registrar información especifica empleada por otros procesos. <br> GESTION DE LA CONFIGURACIÓN <br> Actividades empleadas para mantener un registro de los productos generados en la ejecución de los procesos <br> ASEGURAMIENTO DE LA CALIDAD <br> Actividades empleadas para garantizar de forma objetiva que el producto y los procesos asociados son conformes a los requisitos documentados y a las planificaciones. <br> VERIFICACION <br> Actividades empleadas para verificar el producto <br> VALIDACIÓN <br> Actividades empleadas para validar el producto",
             "answers": [
                 {
                     "name": "Verdadero"
@@ -1474,7 +1459,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "Diagramas de UML <br> - Diagramas de Estructurales <br> - Diagrama de Casos de Uso <br> - Diagrama de Clases <br> Diagrama de Objetos",
@@ -1486,7 +1471,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 0 
+            "answerIndex": 0
         },
         {
             "name": "En Métrica, los participantes se clasifican en perfiles considerando funciones y responsabilidades afines y el conocimiento que necesitan respecto de la metodología.<br>Los perfiles establecidos son:<br>-Directivo<br>-Jefe de proyecto<br>-Consultor<br>-Analista",
@@ -1582,7 +1567,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
             "name": "El Manifiesto de las Metodologías ágiles<br>Principio:<br>- Los propietarios del negocio y los desarrolladores deben no trabajar juntos a lo largo del proyecto",
@@ -1721,7 +1706,7 @@
                 },
                 {
                     "name": "Las responsabilidades están diluidas"
-                }, 
+                },
                 {
                     "name": "La comunicación entre desarrolladores y usuarios es deficiente"
                 },
@@ -1762,7 +1747,7 @@
             "answerIndex": 1
         },
         {
-            "name": "RUP. Procesos primarios del ciclo de vida del software: (ISO/IEC 12207) <br> ADQUISICIÓN <br> Proceso global que sigue el adquiriente para obtener el producto <br> SUMINISTRO <br> Proceso global que sigue el suministrador para proporcionar el producto <br> DESARROLLO <br> Proceso empleado por el suministrador para el diseño, connstrucción y pruebas del producto <br> OPERACIÓN <br> Proceso seguido por el operador en el 'día a día' para el uso del producto <br> MANTENIMIENTO <br> Proceso empleado para mantener el producto, incluyendo tanto los cambios en el propio producto como en su entorno de operación",
+            "name": "RUP. Procesos primarios del ciclo de vida del software: (ISO/IEC 12207) <br> ADQUISICIÓN <br> Proceso global que sigue el adquiriente para obtener el producto <br> SUMINISTRO <br> Proceso global que sigue el suministrador para proporcionar el producto <br> DESARROLLO <br> Proceso empleado por el suministrador para el diseño, construcción y pruebas del producto <br> OPERACIÓN <br> Proceso seguido por el operador en el 'día a día' para el uso del producto <br> MANTENIMIENTO <br> Proceso empleado para mantener el producto, incluyendo tanto los cambios en el propio producto como en su entorno de operación",
             "answers": [
                 {
                     "name": "Verdadero"
@@ -1877,6 +1862,342 @@
                 }
             ],
             "answerIndex": 0
+        },
+        {
+            "name": "El software es el elemento de principal coste en el desarrollo de un sistema informático",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Diagrama de UML. <br> Diagrama de Implementación <br> Diagrama de Componentes <br> Diagrama de Despliegue",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Un sistema es un modelo de componentes relacionados entre sí.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "En un modelo de cascada la documentación y las pruebas se hacen al final.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La herramienta CASE (Computer Aided System Engineering) facilita la realización de prototipos y el desarrollo conjunto de aplicaciones.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Establecer un estándar es proporcionar un marco teórico para la disciplina del software.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Con el tiempo se han mejorado los problemas de capacidad de mantenimiento del software existente.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Diagrama de objetos <br> Propósito: <br> Ilustrar las estructuras de datos/objetos del sistema <br> Especificar detalles del modelo.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La decisión de reutilizar componentes se basa en una evaluación de costos, entre crear una nueva solución o adaptar una existente.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Decisiones de negocio las toma el cliente: <br> Alcance ¿Cuándo debe estar listo el producto para que sea valioso en producción? <br> Prioridad prioriza la incorporación de User.Stories <br> Composición de entregas ¿qué se necesita para que el negocio sea mejor antes de tener el SW? <br> Fechas de entrega fechas cuando el software funcionando causaría una gran diferencia",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Las actividades del proceso del software varían dependiendo de la organización y del tipo de sistema a desarrollarse.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Prácticas XP, refactoring <br> Refactorización = mejora el código <br> Intenta eliminar complejidad <br> Código duplicado a refactorización <br> Se plantea su aplicación después de implementar cada user-story",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Cuáles de las siguientes medidas de calidad del software proporcionan indicadores útiles directos (medidos directamente) [directos/indirectos]",
+            "answers": [
+                {
+                    "name": "Los errores y defectos DIRECTOS Los costes DIRECTOS Facilidades de uso INDIRECTO Facilidades de mantenimiento integral INDIRECTO."
+                },
+                {
+                    "name": "Los errores y defectos INDIRECTO, Los costes DIRECTOS, Facilidades de uso INDIRECTO, Facilidades de mantenimiento integral DIRECTOS."
+                },
+                {
+                    "name": "Los errores y defectos DIRECTOS, Los costes INDIRECTO, Facilidades de uso DIRECTOS, Facilidades de mantenimiento integral INDIRECTO."
+                },
+                {
+                    "name": "Los errores y defectos INDIRECTO, Los costes INDIRECTO, Facilidades de uso DIRECTOS, Facilidades de mantenimiento integral DIRECTOS."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "¿Cuáles de los siguientes aspectos de la calidad del software proporcionan indicadores internos, externos y en uso?",
+            "answers": [
+                {
+                    "name": "Los costes INTERNO (MEDIBLE), Los errores y defectos USO (USO USUARIO), Facilidades de uso USO (USO USUARIO), Facilidades de mantenimiento integral EXTERNO (PRUEBA)."
+                },
+                {
+                    "name": "Facilidades de mantenimiento integral USO (USO USUARIO), Los errores y defectos EXTERNO (PRUEBA), Facilidades de uso USO (USO USUARIO), Los costes INTERNO (MEDIBLE)."
+                },
+                {
+                    "name": "Facilidades de mantenimiento integral INTERNO (MEDIBLE), Los errores y defectos USO (USO USUARIO), Facilidades de uso EXTERNO (PRUEBA), Los costes USO (USO USUARIO)"
+                },
+                {
+                    "name": "Facilidades de mantenimiento integral INTERNO (MEDIBLE), Los errores y defectos EXTERNO (PRUEBA), Facilidades de uso USO (USO USUARIO), Los costes USO (USO USUARIO)"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Un producto software contiene:",
+            "answers": [
+                {
+                    "name": "Programa"
+                },
+                {
+                    "name": "Sistema software"
+                },
+                {
+                    "name": "Proyecto software"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Metodología o proceso de desarrollo. ¿Cuál de estas afirmaciones no es falsa?",
+            "answers": [
+                {
+                    "name": "Se presenta normalmente como una serie de pasos, con técnicas y notaciones asociadas a cada paso."
+                },
+                {
+                    "name": "Proceso para la producción de software libre, empleando una colección de técnicas predefinidas y convenciones en las notaciones."
+                },
+                {
+                    "name": "Los pasos de la producción del software se organizan normalmente en un ciclo de vida consistente en solo tres fases de desarrollo."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Cuál de los siguientes aspectos de calidad del software proporcionan indicadores internos, externos y de uso.",
+            "answers": [
+                {
+                    "name": "Los Costes (INTERNO), Los Errores y Defectos (USO), Facilidades de Mantenimiento integral (EXTERNO), Facilidades de uso (USO)."
+                },
+                {
+                    "name": "Facilidades de uso (USO), Los Costes (USO), Los Errores y Defectos (INTERNO), Facilidades de Mantenimiento integral (EXTERNO)."
+                },
+                {
+                    "name": "Facilidades de uso (INTERNO), Los Costes (USO), Los Errores y Defectos (USO) Facilidades de Mantenimiento integral (EXTERNO)."
+                },
+                {
+                    "name": "Facilidades de uso (EXTERNO), Los Costes (USO), Los Errores y Defectos (INTERNO), Facilidades de Mantenimiento integral (USO)."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Las metodologías de desarrollo contemplan actividades Técnicas o de desarrollo como: <br> Comunicación <br> Administración de la fundamentación <br> Administración de la configuración del software ",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Diagrama de caso de uso son desarrollados por los clientes.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El riesgo es proporcional a la cantidad de información disponible. Cuanto menos información, menor es el riesgo.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Diagrama de desarrollo o despliegue. Desarrollados por programadores junto con los clientes.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Las metodologías se desarrollan para cada una de las fases del desarrollo del producto.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "En los productos genéricos de software la organización no controla la especificación y en los productos personalizados es el cliente quien la controla.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El proceso de desarrollo es solo iterativo.",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El ciclo de vida es lo mismo que el modelo de proceso o paradigma utilizado",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El Manifiesto de las Metodologías Ágiles: <br> Principios: <br> - La prioridad principal es entregar el software final <br> - Los cambios no están permitidos",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 1
         }
     ]
 }
