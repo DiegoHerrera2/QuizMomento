@@ -718,7 +718,7 @@
                     "name": "Falso"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "En la etapa de diseño se tiene que descubrir la mayor cantidad posible de errores que se puedan reparar antes de entregar el sistema",
@@ -2249,18 +2249,6 @@
         },
         {
             "name": "Las actividades de administración y gestión del proceso de desarrollo constan de etapas como <br> Diseño detallado <br> Implementación <br> Pruebas",
-            "answers": [
-                {
-                    "name": "Verdadero"
-                },
-                {
-                    "name": "Falso"
-                }
-            ],
-            "answerIndex": 1
-        },
-        {
-            "name": "El proceso software es el marco de trabajo de las actividades y tareas que se requieren para la gestión de la calidad",
             "answers": [
                 {
                     "name": "Verdadero"
