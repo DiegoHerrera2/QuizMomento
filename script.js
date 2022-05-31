@@ -29,11 +29,9 @@ Quiz = function () {
         $('#container_quiz').show();
         if (checkbox != true) {
             $('#counter_container').hide();
-            $('#counter_total').show();
         }
         else {
             $('#counter_container').show();
-            $('#counter_total').hide();
         }
         $('#container_menu').hide();
         Timer.resetTimer();
@@ -134,7 +132,7 @@ Questions = function () {
 
                 // Update counters
                 if (Quiz.getCheck() == true) Counters.updateCounters();
-                else Counters.updateTotal();
+                Counters.updateTotal();
 
                 // Load the next question
                 Questions.nextQuestion();
