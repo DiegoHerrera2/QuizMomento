@@ -29,9 +29,11 @@ Quiz = function () {
         $('#container_quiz').show();
         if (checkbox != true) {
             $('#counter_container').hide();
+            $('#counter_total').show();
         }
         else {
             $('#counter_container').show();
+            $('#counter_total').hide();
         }
         $('#container_menu').hide();
         Timer.resetTimer();
@@ -98,7 +100,6 @@ Questions = function () {
         CurrentQuestion.addIndex();
         // Update name and question counters
         $('#question_name').html(CurrentQuestion.getCurrentQuestion().name);
-        //Counters.updateCounters();
 
         // Load the answers
         Questions.loadAnswers();
@@ -133,6 +134,7 @@ Questions = function () {
 
                 // Update counters
                 if (Quiz.getCheck() == true) Counters.updateCounters();
+                else Counters.updateTotal();
 
                 // Load the next question
                 Questions.nextQuestion();
@@ -214,6 +216,7 @@ CurrentQuestion = function () {
 Counters = function () {
     const correct_id = "#counter_correct";
     const incorrect_id = "#counter_incorrect";
+    const total_id = "#counter_total";
     var correct_counter = 0;
     var incorrect_counter = 0;
     function init() {
@@ -230,6 +233,7 @@ Counters = function () {
     function updateCounters() {
         $(correct_id).html(correct_counter);
         $(incorrect_id).html(incorrect_counter);
+        $(total_id).html(correct_counter + incorrect_counter);
     }
     function getCorrectCounter() {
         return correct_counter;
@@ -244,6 +248,10 @@ Counters = function () {
         incorrect_counter = counter;
     }
 
+    function updateTotal() {
+        $(total_id).html(correct_counter + incorrect_counter);
+    }
+
 
     return {
         init: init,
@@ -253,7 +261,8 @@ Counters = function () {
         getCorrectCounter: getCorrectCounter,
         getIncorrectCounter: getIncorrectCounter,
         setCorrectCounter: setCorrectCounter,
-        setIncorrectCounter: setIncorrectCounter
+        setIncorrectCounter: setIncorrectCounter,
+        updateTotal: updateTotal
     }
 }();
 

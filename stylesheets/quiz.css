@@ -44,6 +44,14 @@
     text-align: center;
 }
 
+#counter_total {
+    display: block;
+    position: absolute;
+    top: 0px;
+    margin : 15px;
+    text-align: center;
+}
+
 #counter_correct_container {
     display: block;
 }
