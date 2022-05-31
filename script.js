@@ -23,11 +23,15 @@ Quiz = function () {
         }
 
         Questions.nextQuestion();
+        Counters.updateCounters();
 
         // Display quiz
         $('#container_quiz').show();
         if (checkbox != true) {
             $('#counter_container').hide();
+        }
+        else {
+            $('#counter_container').show();
         }
         $('#container_menu').hide();
         Timer.resetTimer();
@@ -35,7 +39,8 @@ Quiz = function () {
     }
 
     function check() {
-        checkbox = true;
+        checkbox = !checkbox;
+        console.log(checkbox);
     }
     function getCheck() {
         return checkbox;
