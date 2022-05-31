@@ -47,10 +47,11 @@
 #counter_total {
     display: block;
     position: absolute;
-    top: 0px;
-    right : 150px;
-    margin : 15px;
+    top: 5px;
+    right : 175px;
+    margin : 0 auto;
     text-align: center;
+    font-size: 28px;
 }
 
 #counter_correct_container {
