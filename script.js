@@ -1,5 +1,7 @@
 //test
 Quiz = function () {
+    var checkbox = false;
+    
     function begin() {
         // Get number of questions from input
         var questionAmount = $('#question_amount').val();
@@ -24,12 +26,24 @@ Quiz = function () {
 
         // Display quiz
         $('#container_quiz').show();
+        if (checkbox != true) {
+            $('#counter_container').hide();
+        }
         $('#container_menu').hide();
         Timer.resetTimer();
         Timer.startTimer();
     }
+
+    function check() {
+        checkbox = true;
+    }
+    function getCheck() {
+        return checkbox;
+    }
     return {
-        begin: begin
+        begin: begin,
+        check: check,
+        getCheck: getCheck
     }
 }();
 
@@ -79,8 +93,7 @@ Questions = function () {
         CurrentQuestion.addIndex();
         // Update name and question counters
         $('#question_name').html(CurrentQuestion.getCurrentQuestion().name);
-        Counters.updateCounters();
-        console.log(Counters.getCorrectCounter() + ' ' + Counters.getIncorrectCounter());
+        //Counters.updateCounters();
 
         // Load the answers
         Questions.loadAnswers();
@@ -103,17 +116,18 @@ Questions = function () {
                     // Correct answer
                     Counters.addCorrect();
                     CurrentQuestion.getCurrentQuestion().userAnswerIndex = answerIndex;
-                    Audio.playCorrect();
+                    if (Quiz.getCheck() == true) Audio.playCorrect();
                 } else {
                     // Incorrect answer
                     Counters.addIncorrect();
                     CurrentQuestion.getCurrentQuestion().userAnswerIndex = answerIndex;
                     questionIncorrectRegister.push(CurrentQuestion.getCurrentQuestion());
-                    Audio.playIncorrect();
+                    
+                    if (Quiz.getCheck() == true) Audio.playIncorrect();
                 }
 
                 // Update counters
-                Counters.updateCounters();
+                if (Quiz.getCheck() == true) Counters.updateCounters();
 
                 // Load the next question
                 Questions.nextQuestion();
