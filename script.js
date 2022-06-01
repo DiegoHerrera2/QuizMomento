@@ -15,7 +15,6 @@ Quiz = function () {
         }
 
         // Pick questionAmount random questions
-        Questions.loadQuestions();
         Questions.resetRandomQuestions();
         Questions.resetIncorrectRegister();
         for (var i = 0; i < questionAmount; i++) {

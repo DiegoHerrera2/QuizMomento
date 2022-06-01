@@ -1,0 +1,16 @@
+{
+    "questions": [
+        {
+            "name": "¿Es usted tonto?",
+            "answers": [
+                {
+                    "name": "Verdadero"
+                },
+                {
+                    "name": "Falso"
+                }
+            ],
+            "answerIndex": 0
+        }
+    ]
+}
