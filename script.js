@@ -67,6 +67,7 @@ Questions = function () {
 
 
         $("#selected-name").html(name_2);
+        allQuestions = [];
         $.getJSON(name, function (data) {
             allQuestions = data.questions;
         });

@@ -47,24 +47,30 @@
                 <div class="question-amount-picker-controls">
                     <button class="button" id="question-amount-button" onclick="Quiz.begin()">Aceptar</button>
                 </div>
-                <div> 
-                    <p class="text">Mostrar contador</p>
-                </div>
-                <label class="switch">
-                    <input type="checkbox" onclick="Quiz.check()">
-                    <span class="slider round"></span>
-                </label>
-
-                <div class="dropdown">
-                    <p class="text" id="selected-name">Default</p>
-                    <button class="dropbtn">Asignatura</button>
-                    <div class="dropdown-content">
-                      <a class="text" id="asignatura_1" href="javascript:Questions.loadQuestions('questions/FIS.json')">FIS</a>
-                      <a class="text" id="asignatura_2" href="javascript:Questions.loadQuestions('questions/AyEDA.json')">AyEDA</a>
-                      <a class="text" id="asignatura_3" href="javascript:Questions.loadQuestions('questions/Medicina.json')">Medicina</a>
-                    </div>
-                  </div>
-                  
+                <table class="selector-table">
+                    <tr>
+                        <td>
+                            <div> 
+                                <p class="text">Mostrar contador</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox" onclick="Quiz.check()">
+                                <span class="slider round"></span>
+                            </label>
+                        </td>
+                        <td>
+                            <div class="dropdown">
+                                <p class="text" id="selected-name">Default</p>
+                                <button class="dropbtn">Asignatura</button>
+                                <div class="dropdown-content">
+                                  <a class="text" id="asignatura_1" href="javascript:Questions.loadQuestions('questions/FIS.json')">FIS</a>
+                                  <a class="text" id="asignatura_2" href="javascript:Questions.loadQuestions('questions/AyEDA.json')">AyEDA</a>
+                                  <a class="text" id="asignatura_3" href="javascript:Questions.loadQuestions('questions/Medicina.json')">Medicina</a>
+                                </div>
+                              </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
