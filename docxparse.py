@@ -61,7 +61,7 @@ def process_list_data(attrs, dx2py_elem):
 
 
 def main(*argv):
-    fname = r"./Primer_llamamiento.docx"
+    fname = r"./fiiso_pagina_intento_2.docx"
     docd = docx.Document(fname)
     docdpy = dx2py(fname)
     dr = docdpy.docx_reader
@@ -72,33 +72,45 @@ def main(*argv):
     subnode_tags = (("pPr",), ("numPr",), ("ilvl",))  # (("pPr",), ("numPr",), ("ilvl", "numId"))  # numId is for matching elements from word/numbering.xml
     highlighted_tags = (("r",), ("rPr",), ("highlight",))
     for idx, (par, l) in enumerate(zip(docd.paragraphs, docdpy_runs)):
-        print(par._element)
         numbered_attrs = descendants(par._element, subnode_tags)
         highlighted_attrs = descendants(par._element, highlighted_tags)
         if numbered_attrs:
-            print("Answer")
-            print(process_list_data(numbered_attrs, l) + par.text)
-
             question["answers"].append({"name": par.text})
 
             if highlighted_attrs:
                 question["answerIndex"] = len(question["answers"]) - 1
                 print("Correct answer")
         else:
-            print("Question name")
-            print(par.text)
+            # Check if name is not empty
+            if par.text:
+                # Check if it starts with a letter and a dot, if so it's answer
+                if par.text[0].isalpha() and par.text[1] == ".":
+                    print("Answer:", par.text)
+                    question["answers"].append({"name": par.text})
 
-            questions["questions"].append(copy.deepcopy(question))
-            question["answers"].clear()
+                    if highlighted_attrs:
+                        question["answerIndex"] = len(question["answers"]) - 1
+                        print("Correct answer")
+                else:
+                    print("Question name: " + par.text)
 
-            question["name"] = par.text
+                    if(len(question["answers"]) > 0):
+                        questions["questions"].append(copy.deepcopy(question))
+                        question["answers"].clear()
+                        question["answerIndex"] = 0
+                        question["name"] = par.text
+                    else:
+                        print("Question with no answers not included!")
+                        question["name"] += "<br>" + par.text
+
+                    
 
 
 if __name__ == "__main__":
     print("Python {:s} {:03d}bit on {:s}\n".format(" ".join(elem.strip() for elem in sys.version.split("\n")),
                                                    64 if sys.maxsize > 0x100000000 else 32, sys.platform))
     rc = main(*sys.argv[1:])
-    print("\nDone.")
+    print("\nDone. Parsed " + str(len(questions["questions"])) + " questions.")
 
     # save json file
     with open("out.json", "w", encoding="utf-8") as f:
