@@ -59,8 +59,15 @@ Questions = function () {
     var randomQuestions = new Array();
     var questionIncorrectRegister = new Array();
     
-    function loadQuestions() {
-        $.getJSON('questions.json', function (data) {
+    function loadQuestions(name = 'questions/FIS.json') {
+
+        //regex to remove questions/ from the name string
+        var regex = /questions\//;
+        var name_2 = name.replace(regex, '');
+
+
+        $("#selected-name").html(name_2);
+        $.getJSON(name, function (data) {
             allQuestions = data.questions;
         });
     };
@@ -354,13 +361,10 @@ Timer = function() {
 
 }();
 
-
-
 // Load questions 
 $(document).ready(function () {
     Questions.loadQuestions();
 });
-
 
 
 
