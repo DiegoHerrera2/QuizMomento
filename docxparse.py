@@ -3,6 +3,7 @@
 import sys
 import docx
 import json
+import copy
 from docx2python import docx2python as dx2py
 
 question = {
@@ -69,18 +70,25 @@ def main(*argv):
         print("Lengths don't match. Abort")
         return -1
     subnode_tags = (("pPr",), ("numPr",), ("ilvl",))  # (("pPr",), ("numPr",), ("ilvl", "numId"))  # numId is for matching elements from word/numbering.xml
+    highlighted_tags = (("r",), ("rPr",), ("highlight",))
     for idx, (par, l) in enumerate(zip(docd.paragraphs, docdpy_runs)):
+        print(par._element)
         numbered_attrs = descendants(par._element, subnode_tags)
+        highlighted_attrs = descendants(par._element, highlighted_tags)
         if numbered_attrs:
             print("Answer")
             print(process_list_data(numbered_attrs, l) + par.text)
 
             question["answers"].append(par.text)
+
+            if highlighted_attrs:
+                question["answerIndex"] = len(question["answers"]) - 1
+                print("Correct answer")
         else:
             print("Question name")
             print(par.text)
 
-            questions.append(question)
+            questions.append(copy.deepcopy(question))
             question["answers"].clear()
 
             question["name"] = par.text
@@ -92,5 +100,5 @@ if __name__ == "__main__":
     rc = main(*sys.argv[1:])
     print("\nDone.")
 
-    print(json.dumps(questions, indent=4))
+    print(json.dumps(questions, indent=4, ensure_ascii=False))
     sys.exit(rc)
