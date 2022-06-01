@@ -11,6 +11,24 @@
                 }
             ],
             "answerIndex": 0
+        },
+        {
+            "name": "<img src=\"questions/images/captura.png\">",
+            "answers": [
+                {
+                    "name": "10"
+                },
+                {
+                    "name": "Indefinido, Depende del compilador"
+                },
+                {
+                    "name": "1"
+                },
+                {
+                    "name": "Error de compilación"
+                }
+            ],
+            "answerIndex": 2
         }
     ]
 }
