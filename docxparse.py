@@ -12,7 +12,7 @@ question = {
     "answerIndex": 0
 }
 
-questions = []
+questions = { "questions": [] }
 
 reading_name = False
 
@@ -79,7 +79,7 @@ def main(*argv):
             print("Answer")
             print(process_list_data(numbered_attrs, l) + par.text)
 
-            question["answers"].append(par.text)
+            question["answers"].append({"name": par.text})
 
             if highlighted_attrs:
                 question["answerIndex"] = len(question["answers"]) - 1
@@ -88,7 +88,7 @@ def main(*argv):
             print("Question name")
             print(par.text)
 
-            questions.append(copy.deepcopy(question))
+            questions["questions"].append(copy.deepcopy(question))
             question["answers"].clear()
 
             question["name"] = par.text
@@ -100,5 +100,8 @@ if __name__ == "__main__":
     rc = main(*sys.argv[1:])
     print("\nDone.")
 
-    print(json.dumps(questions, indent=4, ensure_ascii=False))
+    # save json file
+    with open("out.json", "w", encoding="utf-8") as f:
+        json.dump(questions, f, indent=4, ensure_ascii=False)
+
     sys.exit(rc)
