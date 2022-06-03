@@ -61,7 +61,7 @@ def process_list_data(attrs, dx2py_elem):
 
 
 def main(*argv):
-    fname = r"./fiiso_pagina_intento_2.docx"
+    fname = r"./histo_pagina.docx"
     docd = docx.Document(fname)
     docdpy = dx2py(fname)
     dr = docdpy.docx_reader
@@ -82,7 +82,7 @@ def main(*argv):
                 print("Correct answer")
         else:
             # Check if name is not empty
-            if par.text:
+            if par.text and len(par.text) > 5:
                 # Check if it starts with a letter and a dot, if so it's answer
                 if par.text[0].isalpha() and par.text[1] == ".":
                     print("Answer:", par.text)
