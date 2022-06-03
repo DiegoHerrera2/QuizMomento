@@ -293,16 +293,16 @@
             "name": "<img src=\"questions/images/Pregunta_AyEDA_9.png\">",
             "answers": [
                 {
-                    "name": "int N = 5; <br> miVector<int,N> v(5);"
+                    "name": "int N = 5; <br> miVector&lt;int,N&gt; v(5);"
                 },
                 {
-                    "name": "int N = 5; <br> miVector<int,5> v(N);"
+                    "name": "int N = 5; <br> miVector&lt;int,5&gt; v(N);"
                 },
                 {
-                    "name": "const int N = 5; <br> miVector<int,N> v;"
+                    "name": "const int N = 5; <br> miVector&lt;int,N&gt; v;"
                 },
                 {
-                    "name": "int N = 5; <br> miVector<int,N> v(N);"
+                    "name": "int N = 5; <br> miVector&lt;int,N&gt; v(N);"
                 }
             ],
             "answerIndex": 1
