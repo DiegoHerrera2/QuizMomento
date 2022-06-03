@@ -29,6 +29,168 @@
                 }
             ],
             "answerIndex": 2
+        },
+        {
+            "name": "El lenguaje C++ sólo permite la sobrecarga de funciones cuando:",
+            "answers": [
+                {
+                    "name": "Se utiliza el mismo nombre de función y distinto número de parámetro"
+                },
+                {
+                    "name": "Se utiliza el mismo nombre de función y lista de parámetros distinta"
+                },
+                {
+                    "name": "Se utiliza el mismo nombre de función y la misma lista de parámetros pero distinto valor de retorno"
+                },
+                {
+                    "name": "Se utiliza el mismo nombre de función y el mismo número de parámetros con tipos distintos"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "<img src=\"questions/images/Pregunta_AyEDA_9.png\">",
+            "answers": [
+                {
+                    "name": "int N = 5; <br> miVector<int,N> v(5);"
+                },
+                {
+                    "name": "int N = 5; <br> miVector<int,5> v(N);"
+                },
+                {
+                    "name": "const int N = 5; <br> miVector<int,N> v;"
+                },
+                {
+                    "name": "int N = 5; <br> miVector<int,N> v(N);"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "En el lenguaje C++ la ocurrencia de una situación excepcional que requiere un tratamiento especial se invoca con la palabra clave:",
+            "answers": [
+                {
+                    "name": "throw"
+                },
+                {
+                    "name": "try"
+                },
+                {
+                    "name": "exception"
+                },
+                {
+                    "name": "catch"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Si se realiza herencia /private/, los miembros /public/ de la clase base:",
+            "answers": [
+                {
+                    "name": "Son /public/ en la clase derivada"
+                },
+                {
+                    "name": "No son accesibles en la clase derivada"
+                },
+                {
+                    "name": "Son /protected/ en la clase derivada"
+                },
+                {
+                    "name": "Son /private /en la clase derivada"
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "<img src=\"questions/images/Pregunta_AyEDA_10.png\">",
+            "answers": [
+                {
+                    "name": "Error de compilación"
+                },
+                {
+                    "name": "10"
+                },
+                {
+                    "name": "1"
+                },
+                {
+                    "name": "Error en tiempo de ejecución"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "<img src=\"questions/images/Pregunta_AyEDA_11.png\">",
+            "answers": [
+                {
+                    "name": "Todas son correctas"
+                },
+                {
+                    "name": "dummy *a = new dummy;"
+                },
+                {
+                    "name": "dummy a();"
+                },
+                {
+                    "name": "dummy a;"
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Al utilizar una plantilla (template), ¿cuándo no es necesario indicar el tipo genérico?",
+            "answers": [
+                {
+                    "name": "Únicamente en las plantillas de clases cuando el compilador pueda deducir el tipo genérico sin ambigüedad."
+                },
+                {
+                    "name": "En las plantillas de funciones cuando el tipo genérico se utilice como parámetro de la función y el compilador pueda deducir el tipo sin ambigüedad."
+                },
+                {
+                    "name": "Siempre hay que especificar el tipo de los parámetro de una plantilla."
+                },
+                {
+                    "name": "Nunca hay que especificar los tipos al utilizar una plantilla."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "¿Dónde se puede utilizar la clausula /friend /en el lenguaje C++?",
+            "answers": [
+                {
+                    "name": "Funciones y clases."
+                },
+                {
+                    "name": "Sólo funciones."
+                },
+                {
+                    "name": "Sólo clases."
+                },
+                {
+                    "name": "En C con funciones y en C++ con clases."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "El lenguaje C++ permite especificar el valor por defecto en un parámetro de una función:",
+            "answers": [
+                {
+                    "name": "Todos los parámetros anteriores en la lista también tienen valor por defecto."
+                },
+                {
+                    "name": "Cuando todos los parámetros de la función tienen valor por defecto"
+                },
+                {
+                    "name": "Todos los parámetros siguientes en la lista también tienen valor por defecto."
+                },
+                {
+                    "name": "Cuando todos los parámetros de la función son constantes"
+                }
+            ],
+            "answerIndex": 2
         }
     ]
 }
