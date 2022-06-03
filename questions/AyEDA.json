@@ -1,19 +1,260 @@
 {
     "questions": [
         {
-            "name": "¿Es usted tonto?",
+            "name": "Para identificar la ocurrencia de diferentes situaciones excepcionales en un mismo bloque de código, es necesario:",
             "answers": [
                 {
-                    "name": "Verdadero"
+                    "name": "anidar varios bloques try"
                 },
                 {
-                    "name": "Falso"
+                    "name": "Lanzar la sentencia throw con varios parámetros, uno por cada tipo de excepción."
+                },
+                {
+                    "name": "Para cada tipo de excepción, especificar un bloque catch con un parámetro del tipo de excepción a manejar."
+                },
+                {
+                    "name": "Especificar un bloque catch con varios parámetros, uno por cada tipo de excepción."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Los parámetros al utilizar una plantilla (template) en el lenguaje C++ pueden ser:",
+            "answers": [
+                {
+                    "name": "Cualquier tipo de dato que se pueda resolver en tiempo de ejecución."
+                },
+                {
+                    "name": "Sólo los tipos básicos del compilador"
+                },
+                {
+                    "name": "Cualquier tipo de dato o expresión entera constante."
+                },
+                {
+                    "name": "Cualquier clase definida por el programador"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Las excepciones identificadas en la librería estándar del lenguaje C++ derivan de la clase:",
+            "answers": [
+                {
+                    "name": "exception"
+                },
+                {
+                    "name": "runtime_error"
+                },
+                {
+                    "name": "logic_error"
+                },
+                {
+                    "name": "bad_exception"
                 }
             ],
             "answerIndex": 0
         },
         {
-            "name": "<img src=\"questions/images/captura.png\">",
+            "name": "Para definir que un miembro de la clase es compartido por todas las instancias de la clase, se utiliza la palabra reservada:",
+            "answers": [
+                {
+                    "name": "inline"
+                },
+                {
+                    "name": "friend"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "virtual"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "El código a ejecutar para manejar la ocurrencia de una excepción se encierra en un bloque:",
+            "answers": [
+                {
+                    "name": "try"
+                },
+                {
+                    "name": "catch"
+                },
+                {
+                    "name": "exception"
+                },
+                {
+                    "name": "throw"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "<img src=\"questions/images/Pregunta_AyEDA_2.png\">",
+            "answers": [
+                {
+                    "name": "XBC"
+                },
+                {
+                    "name": "ABC"
+                },
+                {
+                    "name": "No se ejecuta. Hay error de compilación"
+                },
+                {
+                    "name": "X"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Para definir que un método de la clase puede expandirse como una macro, se utiliza la palabra reservada:",
+            "answers": [
+                {
+                    "name": "inline"
+                },
+                {
+                    "name": "virtual"
+                },
+                {
+                    "name": "static"
+                },
+                {
+                    "name": "friend"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La utilización de plantillas (template) de clases en el lenguaje C++ permite:",
+            "answers": [
+                {
+                    "name": "Especificar al compilador la forma de crear una familia parametrizada de clases."
+                },
+                {
+                    "name": "La definición de una familia parametrizada de funciones."
+                },
+                {
+                    "name": "La utilización en el código de la STL (Standard Template Library)"
+                },
+                {
+                    "name": "La declaración de una jerarquía de clases."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "<img src=\"questions/images/Pregunta_AyEDA_3.png\">",
+            "answers": [
+                {
+                    "name": "i=3, j=2"
+                },
+                {
+                    "name": "i=3, j=3"
+                },
+                {
+                    "name": "Error de compilación. No se puede asignar valor a una función."
+                },
+                {
+                    "name": "i=1, j=2"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "<img src=\"questions/images/Pregunta_AyEDA_4.png\">",
+            "answers": [
+                {
+                    "name": "5"
+                },
+                {
+                    "name": "0"
+                },
+                {
+                    "name": "10"
+                },
+                {
+                    "name": "Ninguno. Error de compilación"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "<img src=\"questions/images/Pregunta_AyEDA_5.png\">",
+            "answers": [
+                {
+                    "name": "10"
+                },
+                {
+                    "name": "5"
+                },
+                {
+                    "name": "0"
+                },
+                {
+                    "name": "Ninguno. Error de compilación"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "<img src=\"questions/images/Pregunta_AyEDA_6.png\">",
+            "answers": [
+                {
+                    "name": "0"
+                },
+                {
+                    "name": "Ninguno. Error de compilación"
+                },
+                {
+                    "name": "5"
+                },
+                {
+                    "name": "10"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "<img src=\"questions/images/Pregunta_AyEDA_7.png\">",
+            "answers": [
+                {
+                    "name": "dummy::dummy(int i, int j): x(i) {y=j;}"
+                },
+                {
+                    "name": "dummy::dummy(int i, int j) {x=i; y=j;}"
+                },
+                {
+                    "name": "Todas son correctas"
+                },
+                {
+                    "name": "dummy::dummy(int i, int j): x(i), y(j) {}"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "<img src=\"questions/images/Pregunta_AyEDA_8.png\">",
+            "answers": [
+                {
+                    "name": "template&lt;class T, int N&gt; miVector&lt;T,N&gt;::miVector(int n=N) { v = new T[n];}"
+                },
+                {
+                    "name": "template&lt;class T, int N&gt; mivector::miVector(int n=N) {}"
+                },
+                {
+                    "name": "template&lt;class T, int N&gt; miVector&lt;T,N&gt;::miVector(int n) {}"
+                },
+                {
+                    "name": "template&lt;class T, int N&gt; miVector(int n=N) { v = new T[N];}"
+                }
+            ],
+            "answerIndex": 2
+        },
+
+        {
+            "name": "<img src=\"questions/images/Pregunta_AyEDA_1.png\">",
             "answers": [
                 {
                     "name": "10"
