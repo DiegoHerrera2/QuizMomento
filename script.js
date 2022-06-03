@@ -96,6 +96,7 @@ Questions = function () {
                 resultString += '<br>';
             }
             Timer.stopTimer();
+            Questions.loadQuestions('questions/' + document.getElementById("selected-name").innerHTML);
             showModal('Cuestionario finalizado',  resultString, 'Felicidades!');
             return;
         };
