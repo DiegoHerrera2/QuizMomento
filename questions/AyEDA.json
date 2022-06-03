@@ -432,6 +432,276 @@
                 }
             ],
             "answerIndex": 2
+        },
+        {
+            "name": "¿Cuándo se usan los métodos de exploración en una tabla de dispersión?",
+            "answers": [
+                {
+                    "name": "Cuando hay colisión pero no desbordamiento"
+                },
+                {
+                    "name": "Cuando hay colisión y desbordamiento"
+                },
+                {
+                    "name": "Cuando hay desbordamiento pero no colisión"
+                },
+                {
+                    "name": "Cuando no hay colisión ni desbordamiento"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Las operaciones más habituales en ls tablas de dispersión son:",
+            "answers": [
+                {
+                    "name": "La búsqueda y la inserción"
+                },
+                {
+                    "name": "La búsqueda y la eliminación"
+                },
+                {
+                    "name": "La inserción y la eliminación"
+                },
+                {
+                    "name": "La inserción y la ordenación"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La búsqueda traspuesta pretende que:",
+            "answers": [
+                {
+                    "name": "Los elementos de la secuencia se vayan ordenando de menos buscado a más buscado."
+                },
+                {
+                    "name": "Los elementos de la secuencia se vayan ordenando de más buscado a menos buscado."
+                },
+                {
+                    "name": "El último elemento buscado quede en la primera posición."
+                },
+                {
+                    "name": "Los elementos de la secuencia se vayan ordenando de mayor a menor."
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "En la estrategia de búsqueda con moviendo al frent se pretende que:",
+            "answers": [
+                {
+                    "name": "Los elementos de la secuencia se vayan ordenando de mayor a menor."
+                },
+                {
+                    "name": "Los elementos de la secuencia se vayan ordenando de menos buscado a más buscado."
+                },
+                {
+                    "name": "El último elemento buscado quede en la primera posición de la secuencia."
+                },
+                {
+                    "name": "El elemento menos buscado quede en la primera posición de la secuencia."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Cual de las siguientes afirmaciones sobre las búsqueda binaria es cierta.",
+            "answers": [
+                {
+                    "name": "Es menos eficiente que la búsqueda secuencial."
+                },
+                {
+                    "name": "Sólo se puede aplicar si la secuencia está ordenada."
+                },
+                {
+                    "name": "Sólo se puede aplicar si el tamaño de la secuencia es par."
+                },
+                {
+                    "name": "Es casi tan eficiente como la búsqueda secuencial."
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Cuál de las siguientes afirmaciones es correcta en una tabla Hash o tabla de dispersión.",
+            "answers": [
+                {
+                    "name": "Pueden aparecer sinónimos sin producir colisión."
+                },
+                {
+                    "name": "No hay tablas donde nunca se puede producir un desbordamiento."
+                },
+                {
+                    "name": "Se puede dar una colisión sin desbordamiento."
+                },
+                {
+                    "name": "Al insertar un valor sólo se puede producir un desbordamiento."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Cual de las siguientes afirmaciones sobre la búsqueda binaria es cierta.",
+            "answers": [
+                {
+                    "name": "No se puede aplicar si la secuencia está ordenada."
+                },
+                {
+                    "name": "Sólo se puede aplicar si el tamaño de la secuencia es impar."
+                },
+                {
+                    "name": "Es menos eficiente que la búsqueda secuencial."
+                },
+                {
+                    "name": "Es mucho más eficiente que la búsqueda secuencial."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Cual de las siguientes afirmaciones sobre la búsqueda secuencial es cierta.",
+            "answers": [
+                {
+                    "name": "Sólo se puede aplicar si la secuencia está ordenada"
+                },
+                {
+                    "name": "Sólo se puede aplicar si se conoce el tamaño de la secuencia."
+                },
+                {
+                    "name": "Es menos eficiente que la búsqueda binaria."
+                },
+                {
+                    "name": "Sólo se puede aplicar si el tamaño de la secuencia es par."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "En una tabla de dispersión:",
+            "answers": [
+                {
+                    "name": "Se puede producir un desbordamiento sin colisión"
+                },
+                {
+                    "name": "No puede producirse una colisión sin sinónimos"
+                },
+                {
+                    "name": "Siempre que se produce una colisión se produce un desbordamiento"
+                },
+                {
+                    "name": "Si se produce un desbordamiento no se produce una colisión."
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "En una tabla de dispersión:",
+            "answers": [
+                {
+                    "name": "Puede producirse una colisión sin sinónimos"
+                },
+                {
+                    "name": "Si se produce un desbordamiento no se produce una colisión."
+                },
+                {
+                    "name": "Siempre que se produce una colisión se produce un desbordamiento"
+                },
+                {
+                    "name": "No se puede producir un desbordamiento sin colisión"
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Cual de las siguientes afirmaciones es correcta en una tabla Hash o tabla de dispersión.",
+            "answers": [
+                {
+                    "name": "Pueden aparecer sinónimos sin producir colisión."
+                },
+                {
+                    "name": "No se produce dar una colisión sin desbordamiento."
+                },
+                {
+                    "name": "Al insertar un valor se pueden producir más de un desbordamiento."
+                },
+                {
+                    "name": "No hay tablas donde nunca se puede producir un desbordamiento."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "En la búsqueda traspuesta se pretende que:",
+            "answers": [
+                {
+                    "name": "Los elementos de la secuencia se vayan ordenando de mayor a menor."
+                },
+                {
+                    "name": "El último elemento buscado quede en la primera posición."
+                },
+                {
+                    "name": "Los elementos de la secuencia se vayan ordenando de más buscado a menos buscado."
+                },
+                {
+                    "name": "Los elementos de la secuencia se vayan ordenado de menos buscado a más buscado."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Una búsqueda secuencial primaria sobre una secuencia de números,",
+            "answers": [
+                {
+                    "name": "Es más rápida si los elementos más buscados están al principio de la secuencia."
+                },
+                {
+                    "name": "Es más rápida si los elementos están ordenados."
+                },
+                {
+                    "name": "Es más rápida si los elementos son enteros."
+                },
+                {
+                    "name": "Es más rápida si los elementos son positivos."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Los métodos de exploración en tablas de dispersión:",
+            "answers": [
+                {
+                    "name": "No pueden repetir ninguna celda."
+                },
+                {
+                    "name": "Empiezan por la misma celda, al buscar un elemento que al insertarlo."
+                },
+                {
+                    "name": "No pueden empezar nunca por la última celda."
+                },
+                {
+                    "name": "Tienen que pararse cuando lleguen al final de la tabla."
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Las tablas de dispersión se pueden implementar:",
+            "answers": [
+                {
+                    "name": "Con un array de listas pero no con un array de arrays."
+                },
+                {
+                    "name": "Con una lista de arrays o lista de listas."
+                },
+                {
+                    "name": "Con un array de arrays pero no con un array de listas."
+                },
+                {
+                    "name": "Con un array de listas o array de arrays."
+                }
+            ],
+            "answerIndex": 3
         }
     ]
 }
