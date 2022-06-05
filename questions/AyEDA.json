@@ -1225,7 +1225,7 @@
             "answerIndex": 2
         },
         {
-            "name": "Dado el siguiente vector. <br> [6, 22, 11, 16, 27, 3, 5] <br> Despues de tres iteraciones de un metodo de ordenación el array se encuentra asi <br> [13, 5, 6, 1, 22, 16, 27] <br> Qué algoritmo se está utlizando?",
+            "name": "Dado el siguiente vector. <br> [6, 22, 11, 16, 27, 3, 5] <br> Despues de tres iteraciones de un metodo de ordenación el array se encuentra asi <br> [3, 5, 6, 11, 22, 16, 27] <br> Qué algoritmo se está utlizando?",
             "answers": [
                 {
                     "name": "Puede ser cualquiera de los tres"
