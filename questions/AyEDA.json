@@ -142,7 +142,7 @@
                     "name": "La declaración de una jerarquía de clases."
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "<img src=\"questions/images/Pregunta_AyEDA_3.png\">",
@@ -323,7 +323,7 @@
                     "name": "catch"
                 }
             ],
-            "answerIndex": 2
+            "answerIndex": 0
         },
         {
             "name": "Si se realiza herencia /private/, los miembros /public/ de la clase base:",
