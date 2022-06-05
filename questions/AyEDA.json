@@ -1151,6 +1151,258 @@
                 }
             ],
             "answerIndex": 2
+        },
+        {
+            "name": "El proceso consiste en dividir un vector en dos mitades y cada una de las mitades en otras mitades hasta llegar a un solo elemento. Después comenza a unir las mitades en sentido inverso hasta llegar a un vector completamente ordenado. ¿Cuál es el método de ordenación?",
+            "answers": [
+                {
+                    "name": "Burbuja"
+                },
+                {
+                    "name": "ShellSort"
+                },
+                {
+                    "name": "QuickSort"
+                },
+                {
+                    "name": "MergeSort"
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Los niveles de recursividad maximo que alcanzan los metodos de ordenacion por descomposición QuickSort y MergeSort con distintas secuencias de tamaño 1000",
+            "answers": [
+                {
+                    "name": "Es menor con el QuickSort que con el MergeSort."
+                },
+                {
+                    "name": "Dependiendo de la secuencia es unas veces mayor con uno y otras con el otro."
+                },
+                {
+                    "name": "Es siempre el mismo con ambos métodos."
+                },
+                {
+                    "name": "Es mayor con el QuickSort que con el MergeSort."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Es un método de ordenación por descomposición:",
+            "answers": [
+                {
+                    "name": "el método de Quick Sort."
+                },
+                {
+                    "name": "el método de Shake Sort."
+                },
+                {
+                    "name": "el método de Shell Sort."
+                },
+                {
+                    "name": "el método de BinSort."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Los métodos de ordenación",
+            "answers": [
+                {
+                    "name": "Sólo sirven para ordenan de menor a mayor"
+                },
+                {
+                    "name": "Son mejores para ordenar de menor a mayor que de mayor a menor"
+                },
+                {
+                    "name": "Son equivalentes para ordenar de menor a mayor que de mayor a menor"
+                },
+                {
+                    "name": "Son mejores para ordenar de mayor a mayor que de menor a mayor"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Dado el siguiente vector. <br> [6, 22, 11, 16, 27, 3, 5] <br> Despues de tres iteraciones de un metodo de ordenación el array se encuentra asi <br> [13, 5, 6, 1, 22, 16, 27] <br> Qué algoritmo se está utlizando?",
+            "answers": [
+                {
+                    "name": "Puede ser cualquiera de los tres"
+                },
+                {
+                    "name": "Burbuja"
+                },
+                {
+                    "name": "Inserción"
+                },
+                {
+                    "name": "Selección"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Dado el siguiente vector. <br> [21, 1, 26, 45, 29, 28, 2, 9, 16, 49, 39, 27, 43, 34, 46, 40] <br> Si se utiliza el algortimo MergeSort para ordenarlo, cuáles son los dos primeros subvectores que se mezclarán?",
+            "answers": [
+                {
+                    "name": "[21] y [1]"
+                },
+                {
+                    "name": "[21, 1] y [26, 45]"
+                },
+                {
+                    "name": "[21, 1, 26, 45, 29, 28, 2, 9] y [16, 49, 39, 27, 43, 34, 46, 40]"
+                },
+                {
+                    "name": "[21, 1, 26, 45] y [20, 28, 2, 9]"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Los métodos de ordenación más eficientes tienen complejidad:",
+            "answers": [
+                {
+                    "name": "O(n)"
+                },
+                {
+                    "name": "O(n log n)"
+                },
+                {
+                    "name": "O(n^{1,3})"	
+                },
+                {
+                    "name": "O(n^2)"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "En la implementación propuesta por Floyd del método de ordenación HeapSort.",
+            "answers": [
+                {
+                    "name": "Los elementos que se mueven dentro del Heap sólo se suben."
+                },
+                {
+                    "name": "Los elementos que se mueven dentro del Heap se suben unas veces se bajan otras."
+                },
+                {
+                    "name": "Los elementos que se mueven dentro del Heap sólo se bajan."	
+                },
+                {
+                    "name": "Los elementos que se mueven dentro del Heap se mueven en el mismo nivel."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Son los metodos de ordenaclon en los que los valores a ordenar estan en memoria principal, por lo que se asume que el tiempo que se requiere para acceder cualquier elemento es el mismo.",
+            "answers": [
+                {
+                    "name": "Externos"
+                },
+                {
+                    "name": "Directos"
+                },
+                {
+                    "name": "Estables"
+                },
+                {
+                    "name": "Internos"
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "El mejor método de ordenación cuando sólo un elemento está mal colocado es",
+            "answers": [
+                {
+                    "name": "El de inserción con búsqueda binaria"
+                },
+                {
+                    "name": "El de la sacudida"
+                },
+                {
+                    "name": "El QuickSort con el pivote igual al elemento mal colocado."	
+                },
+                {
+                    "name": "El de selección con Heap o HeapSort"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Su algoritmo se basa en elegir un elemento pivote y dividir el vector original en dos subvectores de modo que en uno de ellos esten todos los elementos menores o iguales que el pivote y en el otro subvector todos los elementos mayores o iguales. Y aplicarlo sucesivamente hasta tener todo el vector ordenado. ¿Cuál es el método de ordenación?",
+            "answers": [
+                {
+                    "name": "MergeSort"
+                },
+                {
+                    "name": "ShellSort"
+                },
+                {
+                    "name": "QuickSort"	
+                },
+                {
+                    "name": "RadixSort"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Dado el Siguiente array <br> [5, 2, 4, 1, 3] <br> Despues de dos teraciones de un metodo de ordenacion el array se encuentra asi <br> [2, 4, 5, 1, 3] <br> ¿Qué algoritmo de ordenación se está utilizando?",
+            "answers": [
+                {
+                    "name": "HeapSort"
+                },
+                {
+                    "name": "Inserción"
+                },
+                {
+                    "name": "Selección"	
+                },
+                {
+                    "name": "Burbuja"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Dado el siguiente vector desordenado <br> [19, 1, 9, 7, 3, 10, 13, 15, 8, 12] <br> Después de tres iteraciones del método de ordenación burbuja, ¿cuál es el orden en el vector?",
+            "answers": [
+                {
+                    "name": "[1, 9, 19, 7, 3, 10, 13, 15, 8, 12]"
+                },
+                {
+                    "name": "[1, 3, 7, 19, 8, 9, 10, 12, 13, 15]"
+                },
+                {
+                    "name": "[1, 7, 3, 9, 10, 13, 8, 12, 15, 19]"	
+                },
+                {
+                    "name": "[1, 3, 7, 9, 10, 8, 12, 13, 15, 19]"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Dado el siguiente array <br> [47, 3, 21, 32, 56, 92] <br> Despues de dos iteraciones de un metodo de ordenacion el array se encuentra asi <br> [3, 21, 47, 32, 56, 92] <br> ¿Qué algoritmo de ordenación se está utilizando?",
+            "answers": [
+                {
+                    "name": "Burbuja"
+                },
+                {
+                    "name": "Puede ser cualquiera de los tres"
+                },
+                {
+                    "name": "Selección"	
+                },
+                {
+                    "name": "Inserción"
+                }
+            ],
+            "answerIndex": 1
         }
     ]
 }
