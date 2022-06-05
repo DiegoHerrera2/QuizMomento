@@ -972,6 +972,186 @@
                 }
             ],
             "answerIndex": 2
+        },
+        {
+            "name": "¿Qué metodos deben especificarse en toda plantilla (template)?",
+            "answers": [
+                {
+                 "name": "Un constructor de copia y el operador de asignacion"
+                },
+                {
+                 "name": "Todos los constructores, el destructor y el operador de asignacion"
+        },
+        {
+            "name": "No hay que especificar ningun metodo de forma obligatoria"
+        },
+        {
+            "name": "Un constructor por defecto"
         }
+    ],
+    "answerIndex": 2
+}
+{
+    "name": "¿A dónde apunta el puntero s1 tras la ejecucion de la siguiente instruccion",
+    "answers": [
+        {
+            "name": "C"
+        },
+        {
+            "name": "No se ejecuta. Hay error de compilacion"
+        },
+        {
+            "name": "B"
+        },
+        {
+            "name": "A"
+        }
+    ],
+    "answerIndex": 2
+}
+{
+    "name": "En el lenguaje C++ las plantillas (template) permiten:",
+    "answers": [
+        {
+            "name": "Definir funciones y clases con tipos genericos que se instancian en tiempo de compilacion"
+        },
+        {
+            "name": "Definir funciones y clases con tipos genericos que se instancian en tiempo de ejecucion"
+        },
+        {
+            "name": "Definir clases abstractas de las que no se pueden crear instancias"
+        },
+        {
+            "name": "Reutilizar la definición de una funcion para alterar su comportamiento"
+        }
+    ],
+    "answerIndex": 0
+}
+{
+    "name": "Cual de los siguientes elementos del lenguaje C++ no permite especidicar métodos?",
+    "answers": [
+        {
+            "name": "/Union/"
+        },
+        {
+            "name": "Todos permiten especificar metodos"
+        },
+        {
+            "name": "/struct/"
+        },
+        {
+            "name": "/class/"
+        }
+    ],
+    "answerIndex": 0
+}
+{
+    "name": "Cuál de los siguientes elementos influye más en el tiempo medio empleado en una búsqueda en una tabla Hash o tabla de dispersión",
+    "answers": [
+        {
+            "name": "el factor de carga"
+        },
+        {
+            "name": "la densidad de carga"
+        },
+        {
+            "name": "el tamaño de los bloques"
+        },
+        {
+            "name": "el tamaño de la tabla"
+        }
+    ],
+    "answerIndex": 0
+}
+{
+    "name": "Las tablas de dispersión se pueden implementar:",
+    "answers": [
+        {
+            "name": "Con un array de listas pero no con un array de arrays."
+        },
+        {
+            "name": "Con una lista de arrays pero no con un array de listas."
+        },
+        {
+            "name": "Con un array de listas pero no con un lista de arrays."
+        },
+        {
+            "name": "Con una lista de arrays pero no con una lista de listas."
+        }
+    ],
+    "answerIndex": 2
+},
+{
+    "name": "En las tablas de dispersión o tabla Hash",
+    "answers": [
+        {
+            "name": "La colision y el desbordamiento no se dan nunca a la vez."
+        },
+        {
+            "name": "Puede haber desbordamiento sin colision."
+        },
+        {
+            "name": "La colision y el desbordamiento se dan siempre a la vez."
+        },
+        {
+            "name": "Puede haber colision sin debordamiento."
+        }
+    ],
+    "answerIndex": 3
+},
+{
+    "name": "El algoritmo de ordenación que consiste en recorrer repetidamente el vector, comparando elementos adyacentes de dos en dos e intercambiándolos de posición si están en el orden incorrecto, se denomina:",
+    "answers": [
+        {
+            "name": "HeapSort"
+        },
+        {
+            "name": "QuickSort"
+        },
+        {
+            "name": "Insercion"
+        },
+        {
+            "name": "Burbuja"
+        }
+    ],
+    "answerIndex": 3
+    },
+    {
+        "name": "En la implementación propuesta por Floyd del método de ordenación HeapSort",
+        "answers": [
+            {
+                "name": "Los elementos que se mueven dentro del Heap sólo se suben."
+            },
+            {
+                "name": "Los elementos que se mueven dentro del Heap sólo se bajan."
+            },
+            {
+                "name": "Los elementos que se mueven dentro del heap se mueven en el mismo nivel"
+            },
+            {
+                "name": "Los elementos que se mueven dentro del heap se suben unas veces se bajan otras"
+            }
+        ],
+        "answerIndex": 1
+    },
+    {
+        "name": "Los métodos usuales de ordenación ordenan de menor a mayor pero:",
+        "answers": [
+            {
+                "name": "Se pueden modficar para que ordenen de mayor a menor pero son mucho mas lentos"
+            },
+            {
+                "name": "Algunos no se pueden adaptar para ordenar de mayor a menor"
+            },
+            {
+                "name": "Se pueden modificar facilmente para que ordenen de mayor a menor y son igual de rapido"
+            },
+            {
+                "name": "Solo sirven para ordenar de menor a mayor"
+            }
+        ],
+        "answerIndex": 2
+    }
     ]
 }
