@@ -61,7 +61,7 @@ def process_list_data(attrs, dx2py_elem):
 
 
 def main(*argv):
-    fname = r"./histo_pagina.docx"
+    fname = r"./histo pagina.docx"
     docd = docx.Document(fname)
     docdpy = dx2py(fname)
     dr = docdpy.docx_reader
@@ -71,13 +71,16 @@ def main(*argv):
         return -1
     subnode_tags = (("pPr",), ("numPr",), ("ilvl",))  # (("pPr",), ("numPr",), ("ilvl", "numId"))  # numId is for matching elements from word/numbering.xml
     highlighted_tags = (("r",), ("rPr",), ("highlight",))
+    bold_tags = (("r",), ("rPr",), ("b",))
     for idx, (par, l) in enumerate(zip(docd.paragraphs, docdpy_runs)):
         numbered_attrs = descendants(par._element, subnode_tags)
         highlighted_attrs = descendants(par._element, highlighted_tags)
+        bold_attrs = descendants(par._element, bold_tags)
         if numbered_attrs:
+            print("Answer:", par.text)
             question["answers"].append({"name": par.text})
 
-            if highlighted_attrs:
+            if highlighted_attrs or bold_attrs:
                 question["answerIndex"] = len(question["answers"]) - 1
                 print("Correct answer")
         else:
@@ -88,7 +91,7 @@ def main(*argv):
                     print("Answer:", par.text)
                     question["answers"].append({"name": par.text})
 
-                    if highlighted_attrs:
+                    if highlighted_attrs or bold_attrs:
                         question["answerIndex"] = len(question["answers"]) - 1
                         print("Correct answer")
                 else:

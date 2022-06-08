@@ -1,7 +1,7 @@
 {
     "questions": [
         {
-            "name": "<br>JUNIO 20-21<br>1 LLAMAMIENTO<br>1. ¿Cuáles de los siguientes órganos tiene capilares continuos? ",
+            "name": "<br>1. ¿Cuáles de los siguientes órganos tiene capilares continuos? ",
             "answers": [
                 {
                     "name": "riñón (Fenestrados)"
@@ -148,7 +148,7 @@
             "answerIndex": 2
         },
         {
-            "name": "2 LLAMAMIENTO<br>2. Indica el vaso marcado con el número (no me acuerdo del número) de la imagen 1:",
+            "name": "2. Indica el vaso marcado con el número (no me acuerdo del número) de la imagen 1:",
             "answers": [
                 {
                     "name": "Vaso linfático aferente."
@@ -5938,7 +5938,7 @@
                     "name": "Hígado  "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "3. Omar Domínguez Fuentes <br>4. Con respecto al vaso vasorum:",
@@ -5956,7 +5956,7 @@
                     "name": "Son de naturaleza sanguínea"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 3
         },
         {
             "name": "5. Isabel Hernández Fernández<br>6. Las células de Anitsckow ",
@@ -5974,7 +5974,7 @@
                     "name": "Niguna es correcta "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "7. Andrea Sámano Piñero<br>8. Que constituye la lámina media de las arterias? ",
@@ -5992,7 +5992,7 @@
                     "name": "Fibras elásticas "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "9. Los componentes de la matriz celular de la capa media de las arterias conductoras son secretados por:",
@@ -6049,7 +6049,7 @@
                     "name": "E. En ninguna parte."
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "16. Cristina de Bustos Béliz<br>17. Señale lo incorrecto con respecto al timo:",
@@ -6070,7 +6070,7 @@
                     "name": "Se encarga de la educación de los linfocitos T"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "19. Luis Naharro Cabral<br>22.Son glándulas sudoríparas apocrinas excepto: las de Tyson<br>23.  ¿Cuál es el estrato de la epidermis que muestra que es piel gruesa?\na. Estrato basal\nb. Estrato espinoso\nc. Estrato granuloso\nd. Estrato lúcido\ne. Estrato córneo<br>25. Además de en adipocitos, ¿en cuáles de estas zonas la hipodermis tiene fibras musculares lisas?<br>a) Areola<br>b) Periné<br>c) Escroto<br>d) Todas las anteriores<br>e) Ninguna<br>27,Sofía González Llanos<br>28. Las neuronas de los ganglios vegetativos son: ",
@@ -6085,7 +6085,7 @@
                     "name": "Multipolares"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "30. El epitelio del endocérvix es de tipo:",
@@ -6103,7 +6103,7 @@
                     "name": "Plano estratificado no queratinizado"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "32. El estímulo olfatorio lo recogen",
@@ -6118,7 +6118,7 @@
                     "name": "Células bipolares"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "67. Alba Soler Lozano<br>69.¿Qué células fabrican la membrana tectoria? ",
@@ -6199,7 +6199,7 @@
                     "name": "Longitudinales "
                 }
             ],
-            "answerIndex": 5
+            "answerIndex": 18
         },
         {
             "name": "2 LLAMAMIENTO<br>1. Respecto a los capilares, lo correcto:",
@@ -6214,7 +6214,7 @@
                     "name": "Tienen endotelio, pericitos y lámina basal"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "2.  Silvia Méndez Pérez<br>4.  ¿Cuáles son los elementos valvulares del sistema sanguíneo?",
@@ -6235,7 +6235,7 @@
                     "name": "e. venas de mediano calibre y en vasos linfáticos mayores"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "5. Cuál de las siguientes no presenta lámina elástica interna:",
@@ -6256,7 +6256,7 @@
                     "name": "Metaarteriolas."
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "6. Borja León Vargas<br>7. María Sicilia Le Pommellec<br>8. (No recuerdo exactamente la pregunta pero era algo así) contiene algo que permite la diapedesis de macrofagos…",
@@ -6274,7 +6274,7 @@
                     "name": ""
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "9.Los pericitos:<br>a) prolongaciones primarias perpendiculares a las células endoteliales.<br>b) prolongaciones secundarias paralelas a las células endoteliales.<br>c) tienen membrana basal.<br>d) todas verdaderas.<br>e) todas falsas.<br>10.Donde se encuentran las células de Anitschkow?",
@@ -6325,7 +6325,7 @@
                     "name": "Participa en la inmunidad especifica"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "14. En qué órgano se produce la hemocateresis",
@@ -6343,7 +6343,7 @@
                     "name": "Amígdalas palatinas"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "15. Sara Herrera Hernández <br>16. Joan Arnal Sánchez<br>17.Daniela Tarsitano Nunes <br>19. Daniel Peraita Cárdenes<br>El seno marginal se localiza en:",
@@ -6403,7 +6403,7 @@
                     "name": "Todas son correctas"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "27, Marta Alonso<br>28. Qué fabrica la lámina tectoria",
@@ -6421,7 +6421,7 @@
                     "name": "d. células sensoriales tipo I"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "29. Epitelio de la orofaringe",
@@ -6442,7 +6442,7 @@
                     "name": "Cúbico simple "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 3
         },
         {
             "name": "30. ¿Cual es el epitelio de las cuerdas vocales verdaderas?<br>a) epitelio estratificado queratinizado<br>B) epitelio estratificado no queratinizado<br>c) urotelio<br>D) respiratorio<br>31. María Palenzuela Lorenzo <br>32. Sobre los bronquiolos y las células de Clara <br>32. La línea de Auber:",
@@ -6517,7 +6517,7 @@
                     "name": "D. Todas correctas"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 3
         },
         {
             "name": "41. Células que no forman las fositas gástricas:",
@@ -6538,7 +6538,7 @@
                     "name": "Céls productoras de cimógeno  "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "42. Respecto a los lóbulos clásicos hepáticos:",
@@ -6607,7 +6607,7 @@
                     "name": "…"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "Qué células tienen origen neuroendocrino:",
@@ -6694,7 +6694,7 @@
                     "name": "Endocérvix"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "55.  El PSA se encuentra en:",
@@ -6790,7 +6790,7 @@
                     "name": "Piamadre"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "93. Eferencias de la corteza cerebelosa: ",
@@ -6895,7 +6895,7 @@
                     "name": "Henle, Huxley, cutícula"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "2. Cuál es incorrecta de los pericitos? Están presentes en arteriolas, capilares y venúlas <br>8 Talía Pineda Cao<br>10. ¿Qué epitelio se encuentra en el vestíbulo nasal?",
@@ -6931,7 +6931,7 @@
                     "name": "Epitelio plano pseudoestratificado"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "Ĺ12. ¿Dónde encontramos los otolitos? (No era así exactamente el enunciado)",
@@ -6952,7 +6952,7 @@
                     "name": "A y b son ciertas"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "13. La vaina periarterial de linfocitos T se localiza en:",
@@ -6985,7 +6985,7 @@
                     "name": "…?"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "15. Orden de las capas del pelo de dentro hacia afuera:",
@@ -7267,7 +7267,7 @@
                     "name": "Órganos linfoides dispersos"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "14 Células productoras de insulina<br>15 Arterias en médula, bazo e hígado<br>16 Calcitoninas <br>17. Son glándulas apocrinas sudoríparas, excepto: <br>a)glándulas de Moll<br> b)glándulas de Montgomery <br>c)glándulas ceruminosas <br>d)glándulas de Tyson <br>e)glándulas mamarias<br>19  Señale la falsa. Durante la vida intrauterina:",
@@ -7402,7 +7402,7 @@
                     "name": "ganglio vegetativo "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "48 Neuronas de Renshaw: axon ramificado <br>49 las celulas que sintetizan y secretan inmunoglobulinas son",
@@ -7486,7 +7486,7 @@
                     "name": "hipotalamo"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "62 los pitucitos son:",
@@ -7507,7 +7507,7 @@
                     "name": "Neuronas de la pars tuberalis "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 3
         },
         {
             "name": "63 Las celulas de ruyter secretan: renina<br>64 Que secreta el liquido seminal: ",
@@ -7540,7 +7540,7 @@
                     "name": "progesterona"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "66  Donde estan las células de sertoli: ",
@@ -7555,7 +7555,7 @@
                     "name": "epitelio germinativo "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "67 Que glándulas no son sudoriparas apocrinas ",
@@ -7573,7 +7573,7 @@
                     "name": "Moll "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "68 Sobre la pulpa blanca en el timo.<br>69 qué hormona predomina en la fase proliferativa:",
@@ -7837,7 +7837,7 @@
                     "name": "todas son falsas"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "4. Donde encontramos la arenilla cerebral: glándula pineal (epífisis)<br>5. Los corpúsculos de Hassall son:",
@@ -7861,7 +7861,7 @@
                     "name": "ninguna de las anteriores "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 5
         },
         {
             "name": "6. El moco endocervical en cristalización en “helecho” es típico de:<br>a) Fase proliferativa<br>b)Fase secretora temprana<br>c)Fase secretora media.<br>d) fase menstrual<br>7. Quien lleva a cabo la diapédesis hacia los ganglios linfáticos: células de las vénulas de endotelio alto<br>8. Donde no se encuentran capilares sinusoides: corteza cerebral<br>9. Línea B o de Adamson: estrechamiento de la vaina radicular externa<br>10. Marcador inmunohistoquímico para células endoteliales: CD-31<br>11. Epitelio endocérvix: epitelio cilíndrico <br>12. Quien produce y segrega las inmunoglobulinas: linfocitos B<br>13. Hemocateresis: en el bazo <br>14. Son glándulas apocrinas sudoríparas excepto: glándulas Tyson<br>15. Señale la falsa",
@@ -7882,7 +7882,7 @@
                     "name": "Todas son correctas "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "16. Marcador células plasmáticas: CD38<br>17. Además de en adipocitos, en cuáles de estas zonas la hipodermis tiene fibras musculares lisas",
@@ -7903,7 +7903,7 @@
                     "name": "Ninguna"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "18. La papila caliciforme: presenta un surco profundo en su parte inferior <br>19. Es cierto de los ameloblastos\na) 20% materia orgánica <br>b) permanecen siempre<br>c) líneas de crecimiento son Hunter-Schreger <br>d) segregan sustancia antes que los odontoblastos <br>e) Ninguna es correcta<br>20. La superficie sinusoidal de hepatocitos: posee microvellosidades <br>21. Sobre los bronquios: tienen cartílago discontinuo<br>22. La vesícula biliar: tiene microvellosidades <br>23. Que hay en el espacio de Disse: células ITO, células de la fosilla, fibras colágeno III… Todas son correctas<br>24. Verdadero sobre bronquios terminales: epitelio cúbico simple con células de clara<br>25. Neuronas de Renshaw: axón muy ramificado <br>26. Nidos de Cajal en: corteza cerebral <br>27. Señalar la afirmación falsa: ",
@@ -7924,7 +7924,7 @@
                     "name": "Todas son correctas (marcar esta supone decir que es falso que todas sean correctas)"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "28. Respecto a la fase secretora del ciclo menstrual\na) Depende de la expulsión del cuerpo lúteo (falso, la ovulación es quien depende de éste)\nb) Precede a la ovulación (falso)\nc) endometrio funcional sufre isquemia y necrosis (falso, esto ocurre en la menstruación)<br>d) coincide con descenso brusco de los estrógenos\ne)<br>29. Célula secretoras de insulina: beta<br>30. Columnas de Ferrein en: corteza<br>31. Columnas de Bertin en: corteza<br>32. Tubérculos de morgagni en: mama<br>33. Núcleos supraóptico y paraventricular del hipotálamo liberan: vasopresina y oxitocina. <br>34. Hormona de crecimiento somatotropa donde se sintetiza: pars distalis <br>35. Pituicitos son: neuroglia de la neurohipófisis <br>36. Células de Ruyter secretan: renina<br>37. Líquido preseminal secretado por: glándulas Cowper<br>38. FALSA de Leydig: secreta progesterona<br>39. Células de Sertoli están en: túbulos seminíferos<br>40. De dentro a afuera en el pelo: médula - corteza - cutícula<br>41. Primera capa en queratinizarse: Henle <br>42. Ciclo de reposo del pelo: Telogen <br>43. Epitelio de la córnea: plano estratificado no queratinizado <br>44. Epitelio conducto deferente: cilíndrico pseudoestratificado con estereocilios <br>45. Quien secreta calcitonina: tiroides <br>46. Que NO pertenece a la mama\na) Colágeno\nb) Mastocitos\nc) Fibras nerviosas \nd) Infiltrado linfoide \ne) Vasos sanguíneos <br>47. Sinapsis fibras trepadoras: axón GRUESO de Purkinje <br>48. Células principales o zimógenas: pepsinógeno  <br>49. Seno marginal subcapsular propio de: ganglio linfático <br>50. canal Schlemm: opción que decía que 2 opciones son correctas, siendo correcto: humor acuoso + relacionado con glaucoma<br>51. En el ovario gránulos de: glucógeno<br>52. Células de la cúpula de la papila dan lugar a: médula del tallo piloso<br>53. Células de Anichtoff en: TC del miocardio<br>54. Quimiorreceptores vasculares: cuerpos carotídeos y aórticos <br>55. Mácula densa en: túbulo contorneado distal <br>56. Donde se encuentran gránulos de lipofucsina <br>57. Podocitos: capa visceral de cápsula de Bowman <br>58. Cuerpos de Russell y otra característica más… propios de: células plasmáticas <br>60: Sobre el páncreas:",
@@ -7945,7 +7945,7 @@
                     "name": "…."
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "JUNIO 16-17",
@@ -8092,7 +8092,7 @@
                     "name": "El páncreas endocrino tiene más células beta que gamma"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 9
         },
         {
             "name": "6. El lobulillo hepático clásico:",
@@ -8140,7 +8140,7 @@
                     "name": "Glándulas de la mama"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "11. Las células matriciales están:",
@@ -8161,7 +8161,7 @@
                     "name": "ninguna es correcta"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 3
         },
         {
             "name": "24. Las células que se localizan en los bordes de los islotes de Langerhans son aquellas que liberan:",
@@ -8182,7 +8182,7 @@
                     "name": "Amilasa"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "25. ¿Qué células no pertenecen al epitelio adluminal seminífero?",
@@ -8203,7 +8203,7 @@
                     "name": "espermátide      "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 3
         },
         {
             "name": "Que papilas forman la V lingual?",
@@ -8278,7 +8278,7 @@
                     "name": "El epitelio es más bajo en la cola y en ella se acumulan los espermatozoides. "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "42. El seno marginal subcapsular se encuentra en:",
@@ -8299,7 +8299,7 @@
                     "name": "Placa de Peyer"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "56. cel. Hofbauer son cel. Fagociticas localizadas en:<br>a) decidua parietal<br>b) sinsitotrofoblasto<br>c) citotrofoblasto<br>d) tejido mesenquimal de las vellosidades maduras<br>e) decidua capsular<br>67. Señala la incorrecta con respecto al esmalte:",
@@ -8338,7 +8338,7 @@
                     "name": "Todas son correctas."
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "¿Qué es la fibra paralela? Es el axón ascendente que se bifurca en T en las neuronas granulares de la corteza cerebelosa.<br>¿Qué se entiende como asa de Henle? Porción recta de TD+Segmento delgado+Porción recta TP<br>49. El factor intrínseco necesario para la absorción de la vitamina B12 es sintetizado y liberado por: Las células parietales del estómago<br>¿Dónde se encuentran las células satélites/anfineurogliocitos? En los ganglios craneoespinales.<br>16. Los gránulos de Birbeck son ultraestructuras característicos de las células:",
@@ -8359,7 +8359,7 @@
                     "name": "langerhans"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "¿Quién sintetiza el surfactante alveolar?: <br>a) neumocitos tipo II<br>En cuanto a la barrera alveolo-capilar: <br>a) se produce el intercambio de CO2 y O2…<br>Lengua:<br> a) Epitelio queratinizado<br> b) Papilas foliadas<br> c) Gran cantidad de esqueleto fibroso<br> d) No tiene corpúsculos gustativos<br>e) Ninguna es correcta<br>Las columnas de Bertín son:",
@@ -8374,7 +8374,7 @@
                     "name": "Médula y corteza"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "Fibras paralelas son: ",
@@ -8440,7 +8440,7 @@
                     "name": "Hormona antidiurética"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "Señala la hormona que depende de los ciclos de noche y día:",
@@ -8485,7 +8485,7 @@
                     "name": "Vena cava inferior"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "¿Por qué está formado el cuerpo carotídeo? Cel principales+fibras colágeno+ células de sostén (creo)<br>Epitelio del epidídimo: cilíndrico pseudoestratificado<br>Epitelio del túbulo contorneado proximal: simple cilíndrico",
@@ -8515,7 +8515,7 @@
                     "name": "Intercambio gaseoso (esto es en la porción respiratoria)"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 3
         },
         {
             "name": "Los nidos de Cajal, ¿a qué neuronas envuelven? A neuronas piramidales<br>¿Cuál tiene prolongación con resorte? ",
@@ -8545,7 +8545,7 @@
                     "name": "Gránulos"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 3
         },
         {
             "name": "El tímpano está recubierto por: cara A epitelio cutáneo / cara P epitelio plano<br>La lengua tiene: (las respuestas eran algo así)",
@@ -8566,7 +8566,7 @@
                     "name": "Todas son falsas"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 3
         },
         {
             "name": "¿Dónde están los corpúsculos de Hassall?: Médula tímica <br>¿Cuál es cierta?",
@@ -8587,7 +8587,7 @@
                     "name": "La vesícula seminal tiene capa muscular prominente"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 3
         },
         {
             "name": "¿Dónde hay glucocalix rico en ácido siálico?: Podocitos<br>El segmento externo de los fotorreceptores:",
@@ -8611,7 +8611,7 @@
                     "name": "En el coloide hay tiroglobulina yodada y se absorbe continuamente por pinocitosis y fagocitosis (era algo así, no nos acordamos bien, si alguien la sabe que la complete)"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "El lobulillo de Mall:",
@@ -8629,7 +8629,7 @@
                     "name": "Ninguna es correcta. "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 3
         },
         {
             "name": "En el hígado:",
@@ -8641,7 +8641,7 @@
                     "name": "La sangre venosa y arterial se mezclan en las láminas hepatocitarias"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "Las células matriciales de la cúpula del bulbo folicular dan:",
@@ -8701,7 +8701,7 @@
                     "name": "Conducto galactóforo (sería en el poro ¿no?:  conducto → seno → poro)"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "La capa glomerular de la glándula adrenal:",
@@ -8980,7 +8980,7 @@
                     "name": "Hemato retiniana"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "\n-Características conducto wolff (todas correctas)<br>\n¿Cuál es la principal secreción de la fase secretora?",
@@ -9022,7 +9022,7 @@
                     "name": "NK"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "¿Qué epitelio recubre a la pleura?",
@@ -9055,7 +9055,7 @@
                     "name": "Glándulas de Tyson (son sebáceas)"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "13. ¿Qué nos encontramos en las palmas de las manos y las plantas de los pies?",
@@ -9076,7 +9076,7 @@
                     "name": "Glándulas sudoríparas ecrinas."
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 4
         },
         {
             "name": "14. ¿Qué estrato del folículo piloso es el primero en queratinizarse?",
@@ -9094,7 +9094,7 @@
                     "name": "Corteza "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 2
         },
         {
             "name": "Marca el orden correcto acerca de las fases del pelo:",
@@ -9187,7 +9187,7 @@
                     "name": "ninguna es correcta"
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 9
         },
         {
             "name": "Ciclos de la vida del pelo: Anagén, Cartagén y Telogén. <br>Señala la hormona que depende de los ciclos de noche y día:",
@@ -9715,7 +9715,7 @@
                     "name": "Zona intermedia"
                 }
             ],
-            "answerIndex": 3
+            "answerIndex": 4
         },
         {
             "name": "Los colangiolos conectan:",
@@ -9736,7 +9736,7 @@
                     "name": "Todas son falsas"
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 4
         },
         {
             "name": "38. ¿Cuál es el estrato de la epidermis que tiene hemidesmosomas?",
@@ -9928,7 +9928,7 @@
                     "name": "Médula "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "44. ¿ Cuales son los elementos valvulares del sistema sanguineo? (creo que era asi)",
