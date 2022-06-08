@@ -1,0 +1,1549 @@
+{
+    "questions": [
+        {
+            "name": "<br>La tomografía computarizada:",
+            "answers": [
+                {
+                    "name": "Consiste en la medición indirecta del debilitamiento de los rayos"
+                },
+                {
+                    "name": "La medición se realiza en numerosos puntos alrededor del paciente explorado"
+                },
+                {
+                    "name": "Se obtienen imágenes en rodajas del cuerpo "
+                },
+                {
+                    "name": "d. Todas son correctas"
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "En la radiografía convencional:",
+            "answers": [
+                {
+                    "name": "El aumento de calcio disminuye la radiopacidad"
+                },
+                {
+                    "name": "Los gases se ven blancos"
+                },
+                {
+                    "name": "Ninguna es correcta"
+                },
+                {
+                    "name": "El aumento del calcio aumenta la radiopacidad"
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "En la ecografía:",
+            "answers": [
+                {
+                    "name": "a. Se usan los espectros electromagnéticos"
+                },
+                {
+                    "name": "b. Se usan ondas mecánicas"
+                },
+                {
+                    "name": "c. Ninguna es correcta"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "La apófisis espinosa D7 se sitúa:",
+            "answers": [
+                {
+                    "name": "Línea que une los ángulos inferiores de la escápula."
+                },
+                {
+                    "name": "Línea que une las espinas de la escápula. (es apóf. D3)"
+                },
+                {
+                    "name": "Línea que une los ángulos superointernos de la escápula. (es apóf. D1)"
+                },
+                {
+                    "name": "Línea que pasas por el borde inferior de los esplenios"
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Palpación de la columna: Apófisis espinosas en relación con escápula.",
+            "answers": [
+                {
+                    "name": "T1: a nivel del ángulo supero interno de la escápula."
+                },
+                {
+                    "name": "T3: se sitúa en la línea que une las espinas de la escápula."
+                },
+                {
+                    "name": "El cuerpo de T4 está en la zona ventral de la apófisis espinosa de T3 debido a la inclinación."
+                },
+                {
+                    "name": "Todas son correctas."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Palpación de la columna: Apófisis espinosas en relación con escápula.",
+            "answers": [
+                {
+                    "name": "T7: línea que une los ángulos inferiores de la escápula, teniendo los brazos adosados al cuerpo."
+                },
+                {
+                    "name": "T12: en el origen de la 12ª costilla."
+                },
+                {
+                    "name": "T1-T2: a nivel del ángulo supero interno de la escápula. "
+                },
+                {
+                    "name": "d. Todas son correctas."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Palpación de la columna: Apófisis espinosas en relación con escápula.",
+            "answers": [
+                {
+                    "name": "T4-T6: se delimitan con dificultad porque presentan gran oblicuidad y sus extremos están bastantes separados debido a la cifosis dorsal."
+                },
+                {
+                    "name": "T8-T12: regresan paulatinamente hacia la horizontal."
+                },
+                {
+                    "name": "C2-C3: coincide con el ángulo de la mandíbula. "
+                },
+                {
+                    "name": "d. Todas son correctas."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "\nPalpación de la columna: Apófisis espinosas en relación con escápula.<br>T3-T4: ángulo esternal y bifurcación traqueal. ",
+            "answers": [
+                {
+                    "name": "C3-C4: coincide con el borde superior del cartílago tiroides."
+                },
+                {
+                    "name": "c. Todas son correctas."
+                },
+                {
+                    "name": "d. Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Los puntos de referencia para la punción lumbar son:",
+            "answers": [
+                {
+                    "name": "4ª apófisis espinosa."
+                },
+                {
+                    "name": "Línea que pasa por el borde superior de las crestas ilíacas."
+                },
+                {
+                    "name": "Siempre se realizará por debajo de L3. "
+                },
+                {
+                    "name": "d. Todas las anteriores son ciertas."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "En la regla de Michell el proceso espinoso de D1, D2 y D3:",
+            "answers": [
+                {
+                    "name": "Está al mismo nivel que los transversos de la misma vértebra."
+                },
+                {
+                    "name": "Está al mismo nivel que los transversos de la vértebra inferior."
+                },
+                {
+                    "name": "Está al mismo nivel que el cuerpo de la vértebra superior."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Vértebra T3 se corresponde con:<br>El triángulo de auscultación está limitado por:",
+            "answers": [
+                {
+                    "name": "a. Espinas de las escápulas."
+                },
+                {
+                    "name": "Gran Dorsal."
+                },
+                {
+                    "name": "Trapecio. (concretamente el borde externo)"
+                },
+                {
+                    "name": "Romboides."
+                },
+                {
+                    "name": "Todas correctas."
+                }
+            ],
+            "answerIndex": 4
+        },
+        {
+            "name": "Es cierto de las espinas ilíacas posterosuperiores:",
+            "answers": [
+                {
+                    "name": "La línea trazada entre ellas coincide con la articulación sacroilíaca."
+                },
+                {
+                    "name": "La línea trazada entre ellas cruza al nivel de S2."
+                },
+                {
+                    "name": "Coincide con las fosas cutáneas a nivel glúteo. "
+                },
+                {
+                    "name": "d. Todas son ciertas."
+                },
+                {
+                    "name": "e. Ninguna es cierta."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "La médula en el recién nacido:",
+            "answers": [
+                {
+                    "name": "Está a la altura de L3."
+                },
+                {
+                    "name": "Llega al coxis."
+                },
+                {
+                    "name": "Llega a la altura de L1."
+                },
+                {
+                    "name": "Llega a S5."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Los límites del triángulo de Grynfelt son:",
+            "answers": [
+                {
+                    "name": "Gran dorsal. (es del triángulo de auscultación y de Petit)"
+                },
+                {
+                    "name": "Oblicuo mayor. (es del triángulo de Petit)"
+                },
+                {
+                    "name": "Cresta ilíaca. (es del triángulo de Petit)"
+                },
+                {
+                    "name": "Masa común sacrolumbar (MCSL)."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "La región epigástrica se relaciona con:",
+            "answers": [
+                {
+                    "name": "Recto."
+                },
+                {
+                    "name": "Parte inicial del duodeno."
+                },
+                {
+                    "name": "Colon descendente."
+                },
+                {
+                    "name": "Vejiga."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Con la región epigástrica se relaciona:",
+            "answers": [
+                {
+                    "name": "El colon ascendente"
+                },
+                {
+                    "name": "Patología del divertículo de Meckel"
+                },
+                {
+                    "name": "Patología de la parte inicial del duodeno"
+                },
+                {
+                    "name": "Patología del recto"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Es FALSO de la región umbilical:",
+            "answers": [
+                {
+                    "name": "El mal cierre de la cicatriz umbilical determina hernias umbilicales."
+                },
+                {
+                    "name": "Tiene dos venas umbilicales hacia arriba y cicatrización más"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "(son 2 arterias y 1 vena)",
+            "answers": [
+                {
+                    "name": "En las mujeres las hernias son más frecuentes a través de la línea alba."
+                },
+                {
+                    "name": "Se encuentra dos centímetros por encima y por debajo del ombligo."
+                },
+                {
+                    "name": "El conducto herniario puede quedar entre las fibras transversales a nivel del ombligo."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El plano intertubercular (transtubercular):",
+            "answers": [
+                {
+                    "name": "Pasa por los pezones"
+                },
+                {
+                    "name": "Ninguna de las respuestas planteadas en esta pregunta es cierta"
+                },
+                {
+                    "name": "Pasa por las espinas ilíacas posteroinferiores"
+                },
+                {
+                    "name": "Pasa por el ombligo"
+                },
+                {
+                    "name": "Pasa por las espinas ilíacas anterosuperiores"
+                }
+            ],
+            "answerIndex": 4
+        },
+        {
+            "name": "¿Cuál de estas afirmaciones respecto al plano valvular es FALSA?",
+            "answers": [
+                {
+                    "name": "La válvula mitral se encuentra hacia atrás y hacia la izquierda"
+                },
+                {
+                    "name": "La válvula pulmonar se encuentra hacia delante y hacia la izquierda"
+                },
+                {
+                    "name": "Está inclinado (sí, 45º)"
+                },
+                {
+                    "name": "La válvula tricúspide se encuentra hacia atrás y hacia la"
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "(es hacia atrás y a la derecha)<br>Punto de auscultación de la válvula aórtica:",
+            "answers": [
+                {
+                    "name": "2° EII paraesternal (es de la pulmonar)"
+                },
+                {
+                    "name": "2°EID paraesternal"
+                },
+                {
+                    "name": "5° EII (es de la mitral)"
+                },
+                {
+                    "name": "6° EID junto al esternón (es de la tricúspide)"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "La tráquea se relaciona por delante con:",
+            "answers": [
+                {
+                    "name": "Tronco arterial braquiocefálico."
+                },
+                {
+                    "name": "Carótida común izquierda y recurrente izquierda.(a la izquierda)"
+                },
+                {
+                    "name": "Cayado de la aorta. (a la izquierda)"
+                },
+                {
+                    "name": "Esófago. (posterior)"
+                },
+                {
+                    "name": "Ninguna es correcta"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "El punto de auscultación de la válvula aórtica se sitúa:",
+            "answers": [
+                {
+                    "name": "Delante de la 4ª costilla izquierda."
+                },
+                {
+                    "name": "2º espacio intercostal derecho paraesternal."
+                },
+                {
+                    "name": "5º espacio intercostal izquierdo."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Plano valvular es cierto:",
+            "answers": [
+                {
+                    "name": "Posición de las cámaras."
+                },
+                {
+                    "name": "Plano valvular inclinado."
+                },
+                {
+                    "name": "Eje de inclinado 45 grados. "
+                },
+                {
+                    "name": "d. Todas son correctas."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "La válvula mitral se sitúa:<br>Situación del corazón y eje cardiaco. Plano valvular:",
+            "answers": [
+                {
+                    "name": "a. 5º espacio paraesternal izquierdo (EII)."
+                },
+                {
+                    "name": "Válvula pulmonar: delante e izquierda."
+                },
+                {
+                    "name": "Válvula aórtica: situación central."
+                },
+                {
+                    "name": "Válvula tricúspide: derecha y detrás."
+                },
+                {
+                    "name": "Válvula mitral: izquierda y detrás. "
+                },
+                {
+                    "name": "e. Todas son correctas."
+                }
+            ],
+            "answerIndex": 5
+        },
+        {
+            "name": "Zona de auscultación:",
+            "answers": [
+                {
+                    "name": "Válvula mitral: 5º espacio intercostal izquierdo."
+                },
+                {
+                    "name": "Válvula pulmonar: 2º espacio intercostal izquierdo paraesternal."
+                },
+                {
+                    "name": "Válvula aórtica: 2º espacio intercostal derecho paraesternal."
+                },
+                {
+                    "name": "Válvula tricúspide: articulación entre 6º costilla derecha y el esternón."
+                },
+                {
+                    "name": "Todas son correctas."
+                }
+            ],
+            "answerIndex": 4
+        },
+        {
+            "name": "El sistema ortosimpático cardíaco produce:",
+            "answers": [
+                {
+                    "name": "Cronotropismo negativo. (es positivo)"
+                },
+                {
+                    "name": "Dromotropismo positivo."
+                },
+                {
+                    "name": "Inotropismo positivo. "
+                },
+                {
+                    "name": "d. B y C son correctas."
+                },
+                {
+                    "name": "e. Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Estenosamientos del esófago:",
+            "answers": [
+                {
+                    "name": "Nivel superior: borde inferior del cartílago cricoides, en la boca esofágica."
+                },
+                {
+                    "name": "Nivel medio: contacto con cayado de la aorta."
+                },
+                {
+                    "name": "Nivel inferior: hiato esofágico. "
+                },
+                {
+                    "name": "d. Todas son correctas."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Nivel medio de estenosamientos del esófago:",
+            "answers": [
+                {
+                    "name": "Contacto con el cayado de la aorta."
+                },
+                {
+                    "name": "En la boca esofágica."
+                },
+                {
+                    "name": "En el hiato esofágico."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Los bordes anteriores de los dos pulmones donde están más próximos es a nivel de:",
+            "answers": [
+                {
+                    "name": "Nunca están bastante próximos."
+                },
+                {
+                    "name": "A la altura de la 3ª costilla."
+                },
+                {
+                    "name": "A nivel de la 10ª costilla."
+                },
+                {
+                    "name": "Cerca del diafragma."
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "\nProyección cisura horizontal y oblicua:",
+            "answers": [
+                {
+                    "name": "Cisura horizontal: 4ª articulación costoesternal."
+                },
+                {
+                    "name": "Cisura oblicua: 4ª costilla y espina de la escápula, unión de las dos espinas (dorsalmente) o 6ª costilla (ventralmente)."
+                },
+                {
+                    "name": "Todas son correctas. (lo más correcto sería la 5ª costilla)"
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "La cisura horizontal en el pulmón derecho:<br>La imagen era la de los pulmones en una mujer vista desde atrás y te señalaba un segmento localizado en el lóbulo inferior próximo al borde inferior:",
+            "answers": [
+                {
+                    "name": "a. Llega hasta la 4ª articulación costoesternal."
+                },
+                {
+                    "name": "Segmento 3."
+                },
+                {
+                    "name": "Segmento 2."
+                },
+                {
+                    "name": "Segmento 6."
+                },
+                {
+                    "name": "Segmento 7."
+                },
+                {
+                    "name": "Ninguna es correcta. (podría ser el segmento 10, habría que ver la imagen para saber)"
+                }
+            ],
+            "answerIndex": 5
+        },
+        {
+            "name": "Proyección segmentos del pulmón. Segmento 6. (seguro es un error)",
+            "answers": [
+                {
+                    "name": "Proyección cisura horizontal"
+                },
+                {
+                    "name": "4ª articulación costoesternal."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La proyección de la aorta abdominal es:",
+            "answers": [
+                {
+                    "name": "Banda de 2,5 cm de ancho."
+                },
+                {
+                    "name": "Desde el plano transpilórico."
+                },
+                {
+                    "name": "Punto a la izquierda y algo inferior al ombligo."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": " d. Todas las anteriores son ciertas.<br>El hábito pícnico se caracteriza por presentar:",
+            "answers": [
+                {
+                    "name": "Colon transverso en disposición alta"
+                },
+                {
+                    "name": "Colon transverso situado inferiormente (es del asténico)"
+                },
+                {
+                    "name": "Estómago vertical y disposición baja (es del asténico)"
+                },
+                {
+                    "name": "Tórax largo (es del asténico)"
+                },
+                {
+                    "name": "Ninguna de las respuestas propuestas en la pregunta son correctas"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Las referencias de los riñones en proyección:",
+            "answers": [
+                {
+                    "name": "Están entre los niveles D8 y L1 (no, entre D12-L3)"
+                },
+                {
+                    "name": "Sus ejes longitudinales están algo angulados"
+                },
+                {
+                    "name": "Todas las respuestas a la pregunta son correctas"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El tejido pancreático ectópico suele colocarse en:",
+            "answers": [
+                {
+                    "name": "Suprarrenales"
+                },
+                {
+                    "name": "Hígado"
+                },
+                {
+                    "name": "Divertículo de Meckel (y en estómago)"
+                },
+                {
+                    "name": "Intestino grueso"
+                },
+                {
+                    "name": "En todos"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "La referencia en superficie de los riñones son:",
+            "answers": [
+                {
+                    "name": "Se localiza a nivel de D12-L3."
+                },
+                {
+                    "name": "El derecho desciende más."
+                },
+                {
+                    "name": "Sus ejes longitudinales están discretamente angulados. "
+                },
+                {
+                    "name": "d. Todas son correctas."
+                },
+                {
+                    "name": "e. Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "\nEl duodeno:",
+            "answers": [
+                {
+                    "name": "Tiene el hueco de la C a su izquierda."
+                },
+                {
+                    "name": "La porción inferior se limita en L3-L4."
+                },
+                {
+                    "name": "Por encima del ombligo. "
+                },
+                {
+                    "name": "d. Todas correctas."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Planos vasculares de Aorta Abdominal:<br>Planos vasculares ramas de la aorta. El tronco celíaco:",
+            "answers": [
+                {
+                    "name": "a. Tronco celíaco: T12."
+                },
+                {
+                    "name": "Está a nivel D12."
+                },
+                {
+                    "name": "Está en el plano vascular medio."
+                },
+                {
+                    "name": "Está en el plano vascular lateral. "
+                },
+                {
+                    "name": "d. A y B son correcto."
+                }
+            ],
+            "answerIndex": 4
+        },
+        {
+            "name": "La referencia en superficie de los riñones es:",
+            "answers": [
+                {
+                    "name": "Se localiza a nivel de D12-L3."
+                },
+                {
+                    "name": "El derecho desciende más."
+                },
+                {
+                    "name": "Sus ejes longitudinales están discretamente angulados. "
+                },
+                {
+                    "name": "d. Todas son correctas."
+                },
+                {
+                    "name": "e. Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Es cierto del síndrome de la arteria mesentérica superior:",
+            "answers": [
+                {
+                    "name": "La luz de la parte inferior puede comprimirse entre la aorta abdominal y la MS."
+                },
+                {
+                    "name": "Está en relación con el ligamento suspensorio del duodeno."
+                },
+                {
+                    "name": "Síntomas suelen desaparecer en decúbito prono o decúbito lateral derecho."
+                },
+                {
+                    "name": "Todas son correctas."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Punto de McBurney:",
+            "answers": [
+                {
+                    "name": "Se localiza en la pared abdominal anterior, a la altura media de la línea que va desde la espina iliaca anterosuperior (EIAS) hasta el ombligo."
+                },
+                {
+                    "name": "Está relacionado con la apendicitis. "
+                },
+                {
+                    "name": "c. Todas son correctas."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Situación del ángulo hepático o cólico derecho:<br>Ángulo esplénico o cólico izquierdo:",
+            "answers": [
+                {
+                    "name": "a. 10ª cartílago costal derecho."
+                },
+                {
+                    "name": "a. 8-9 cartílago costal izquierdo."
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "La vesícula biliar se sitúa:",
+            "answers": [
+                {
+                    "name": "En el punto donde la línea medioclavicular cruza el 9º cartílago."
+                },
+                {
+                    "name": "A nivel del 4º espacio intercostal."
+                },
+                {
+                    "name": "Detrás del apéndice xifoides a nivel del epigastrio."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Es cierto con respecto al estómago:",
+            "answers": [
+                {
+                    "name": "En la celda subfrénica izquierda."
+                },
+                {
+                    "name": "Porción craneal se sitúa por detrás de la 5ª costilla."
+                },
+                {
+                    "name": "La relación de la curvatura mayor con el colon puede dar fístulas gastrocólicas."
+                },
+                {
+                    "name": "Todas son correctas."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Proyección en superficie del estómago:",
+            "answers": [
+                {
+                    "name": "Cardias: a la izquierda a nivel de D11-D12."
+                },
+                {
+                    "name": "Píloro: plano transpilórico y pasa por el borde inferior de L1. "
+                },
+                {
+                    "name": "c. Todas son correctas"
+                },
+                {
+                    "name": "d. Ninguna es correcta"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Relaciones en superficie del estómago:",
+            "answers": [
+                {
+                    "name": "Porción craneal: detrás de la 5ª costilla."
+                },
+                {
+                    "name": "Curvatura mayor se relaciona con el colon transverso."
+                },
+                {
+                    "name": "Tuberosidad mayor o fundus con el diafragma, y por lo tanto con la cavidad gástrica izquierda."
+                },
+                {
+                    "name": "Todas son correctas"
+                },
+                {
+                    "name": "Ninguna es correcta"
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Proyección del hígado:<br>hipocondrio izquierdo.",
+            "answers": [
+                {
+                    "name": "Cruza la línea media desde el hipocondrio derecho al epigastrio y se extiende por el"
+                },
+                {
+                    "name": "Su borde superior se adapta al diafragma y llega a nivel del cuarto espacio intercostal."
+                },
+                {
+                    "name": "Su lóbulo izquierdo pasa por detrás del apéndice xifoides cruzando el epigastrio."
+                },
+                {
+                    "name": "Todas son correctas."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "El epiplón menor separa la cavidad supramesocólica en",
+            "answers": [
+                {
+                    "name": "Fosa hepática"
+                },
+                {
+                    "name": "Fosa gástrica"
+                },
+                {
+                    "name": "Transcavidad de los epiplones "
+                },
+                {
+                    "name": "d. Todas son correctas"
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "\nSubdivisiones de la cavidad peritoneal: dividida por el colon transverso y el mesocolon: cavidad superior o supramesocólica:",
+            "answers": [
+                {
+                    "name": "Esófago abdominal, estómago e hígado."
+                },
+                {
+                    "name": "Se divide en 3 cavidades separadas por el epiplón menor: fosa hepática (hígado), fosa gástrica (estómago) y transcavidad de los epiplones (tronco celíaco)."
+                },
+                {
+                    "name": "Todas son correctas."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Subdivisiones de la cavidad peritoneal: dividida por el colon transverso y el mesocolon: cavidad inferior o inframesocólica:",
+            "answers": [
+                {
+                    "name": "Epiplón mayor, yeyuno, íleon, ciego, colon y apéndice vermiforme."
+                },
+                {
+                    "name": "Se divide en 2 cavidades: fosa mesentérico mesocólica derecha (arteria mesentérica superior y ramas, entre colon ascendente y mesenterio) y fosa mesentérico mesocólica izquierda (arteria mesentérica inferior y ramas, entre colon descendente y mesenterio)."
+                },
+                {
+                    "name": "Cuenta con dos ranuras o fosas: ranura/fosa parietocólica derecha (entre colon ascendente y pared) y ranura/fosa parietocólica izquierda (entre colon descendente y pared). "
+                },
+                {
+                    "name": "d.\t\t Todas son correctas."
+                },
+                {
+                    "name": "e. Ninguna es correcta"
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "La escápula alada está en relación con el músculo:",
+            "answers": [
+                {
+                    "name": "Romboides."
+                },
+                {
+                    "name": "Serrato lateral. (y trapecio)"
+                },
+                {
+                    "name": "Pectorales."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Nervio dañado en la escápula alada:<br>Para palpar el músculo redondo mayor es necesario:",
+            "answers": [
+                {
+                    "name": "a. Nervio torácico largo, provoca parálisis del músculo serrato mayor y trapecio."
+                },
+                {
+                    "name": "Todas las respuestas planteadas en esta pregunta son ciertas"
+                },
+                {
+                    "name": "Mano del paciente con el dorso apoyada sobre el sacro"
+                },
+                {
+                    "name": "La resistencia se aplica sobre la cara medial del brazo"
+                },
+                {
+                    "name": "Se solicita extensión del brazo"
+                },
+                {
+                    "name": "El músculo se demarca en la zona inferior de la región escapular"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "La parte anterior de la región axilar lo forma:",
+            "answers": [
+                {
+                    "name": "Los pectorales."
+                },
+                {
+                    "name": "El redondo mayor."
+                },
+                {
+                    "name": "Serrato lateral."
+                },
+                {
+                    "name": "A y C correctas."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Limites región axilar:",
+            "answers": [
+                {
+                    "name": "Pared anterior: pectorales."
+                },
+                {
+                    "name": "Pared posterior: escápula (huesos y músculos)."
+                },
+                {
+                    "name": "Pared interna: serrato mayor y caja torácica."
+                },
+                {
+                    "name": "Pared externa: húmero (huesos y músculos)."
+                },
+                {
+                    "name": " e. Todas son correctas."
+                }
+            ],
+            "answerIndex": 4
+        },
+        {
+            "name": "\nLímite anterior de la región axilar:",
+            "answers": [
+                {
+                    "name": "Trapecio"
+                },
+                {
+                    "name": "Pectoral mayor y menor"
+                },
+                {
+                    "name": "Gran dorsal"
+                },
+                {
+                    "name": "Redondo menor"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "El contenido de la región axilar es:",
+            "answers": [
+                {
+                    "name": "a. Arteria lingual. b. Plexo braquial."
+                },
+                {
+                    "name": "c. Vena basílica."
+                },
+                {
+                    "name": "d. Todas son correctas."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Inserciones músculo braquial:",
+            "answers": [
+                {
+                    "name": "Porción inferior del húmero."
+                },
+                {
+                    "name": "Apófisis coronoides. "
+                },
+                {
+                    "name": "c. Todos son correctos."
+                },
+                {
+                    "name": "d. Ninguno es correcto."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Es cierto en la patología del codo:",
+            "answers": [
+                {
+                    "name": "Ninguna de las respuestas planteadas en la pregunta es cierta"
+                },
+                {
+                    "name": "En el codo de golfista hay dolor a nivel epicondíleo o epicóndilo lateral"
+                },
+                {
+                    "name": "En el codo de golfista hay dolor a nivel epitróclea o epicóndilo medial"
+                },
+                {
+                    "name": "Hay dolor dolor en epicóndilo medial en el codo de tenista (es en el epicóndilo lateral)"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Los elementos óseos del codo:",
+            "answers": [
+                {
+                    "name": "En flexión de codo los cóndilos están alineados en horizontal en el mismo plano que el olecranon – en la extensión sería verdadero"
+                },
+                {
+                    "name": "Se alinean cuando hay rotación de codo"
+                },
+                {
+                    "name": "En flexión de codo los cóndilos forman un triángulo y se alinean verticalmente con el olécranon"
+                },
+                {
+                    "name": "En ninguna posición hay relación entre olécranon y cóndilos"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "La arcada de Fröhse se relaciona con el atrapamiento de:",
+            "answers": [
+                {
+                    "name": "Arteria braquial"
+                },
+                {
+                    "name": "Nervio cubital "
+                },
+                {
+                    "name": "c. Nervio radial"
+                },
+                {
+                    "name": "d. Nervio músculo cutáneo"
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "¿Qué patología provoca el codo de tenista?<br>Elementos del canal bicipital interno:",
+            "answers": [
+                {
+                    "name": "a. Epicondilitis Lateral"
+                },
+                {
+                    "name": "Arteria humeral y nervio mediano."
+                },
+                {
+                    "name": "Arteria humeral profunda y arteria radial."
+                },
+                {
+                    "name": "Nervio musculocutáneo."
+                },
+                {
+                    "name": "Todas son falsas."
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "En el canal bicipital interno se sitúa:",
+            "answers": [
+                {
+                    "name": "Nervio radial y arteria humeral profunda. (canal externo)"
+                },
+                {
+                    "name": "Nervio musculocutáneo. (canal externo)"
+                },
+                {
+                    "name": "Nervio mediano y arteria humeral."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 2
+        },
+        {
+            "name": "Citar el nombre del músculo que está señalado con el nº 5 (dedo meñique del explorador):",
+            "answers": [
+                {
+                    "name": "a. Extensor común. b. Cubital anterior."
+                },
+                {
+                    "name": "c. Pronador redondo."
+                },
+                {
+                    "name": "d. Palmar menor."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "En el plano profundo de la región posterior del antebrazo se sitúan:",
+            "answers": [
+                {
+                    "name": "Músculo separador largo del pulgar."
+                },
+                {
+                    "name": "Músculo extensor del meñique."
+                },
+                {
+                    "name": "Músculo extensor común de los dedos."
+                },
+                {
+                    "name": "Todas son correctas."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "En el plano profundo de la región posterior del brazo se sitúan:",
+            "answers": [
+                {
+                    "name": "Músculo separador largo del pulgar"
+                },
+                {
+                    "name": "Músculo extensor del meñique"
+                },
+                {
+                    "name": "Todas las respuestas planteadas en esta pregunta son ciertas"
+                },
+                {
+                    "name": "Músculo extensor común de los dedos"
+                },
+                {
+                    "name": "Músculo radial II"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Es cierto de la tabaquera anatómica:",
+            "answers": [
+                {
+                    "name": "Está cruzado por la arteria radial en diagonal para ir a la cara dorsal de la mano"
+                },
+                {
+                    "name": "Es un hueco cuadrangular (es triangular)"
+                },
+                {
+                    "name": "En la parte inferior se palpa el semilunar (es el escafoides)"
+                },
+                {
+                    "name": "En la parte superior de la tabaquera se palpa el trapecio (es el suelo)"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Músculos epicondíleos:",
+            "answers": [
+                {
+                    "name": "Supinador corto"
+                },
+                {
+                    "name": "Extensor radial largo (1º radial)"
+                },
+                {
+                    "name": "Extensor radial corto (2º radial)"
+                },
+                {
+                    "name": "Extensor común de los dedos"
+                },
+                {
+                    "name": "Extensor propio del meñique"
+                },
+                {
+                    "name": "Cubital posterior y Ancóneo "
+                },
+                {
+                    "name": "Todas son correctas"
+                }
+            ],
+            "answerIndex": 6
+        },
+        {
+            "name": "\nEl test de valoración de la muñeca reside en:",
+            "answers": [
+                {
+                    "name": "El dorso de las manos juntas."
+                },
+                {
+                    "name": "Las palmas de las manos juntas."
+                },
+                {
+                    "name": "Los brazos en horizontal. "
+                },
+                {
+                    "name": "d. Todas correctas."
+                },
+                {
+                    "name": "e. Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "El brazo de Krukenberg consiste en:",
+            "answers": [
+                {
+                    "name": "Lesión del nervio axilar"
+                },
+                {
+                    "name": "Prensa con los huesos del antebrazo"
+                },
+                {
+                    "name": "Ninguna es correcta"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Brazo de Krukenberg<br>dos muñones que pueden moverse el uno contra el otro).<br>Límite interno de la región inguinal interna:",
+            "answers": [
+                {
+                    "name": "a. Se usa el brazo como una herramienta prensil (cuando se amputaba la mano formaban una herramienta prensil con los huesos del antebrazo, queda seccionada la membrana"
+                },
+                {
+                    "name": "El tensor de la fascia lata por fuera."
+                },
+                {
+                    "name": "Recto interno por dentro."
+                },
+                {
+                    "name": "El sartorio por dentro."
+                },
+                {
+                    "name": "El aproximador mediano por dentro."
+                }
+            ],
+            "answerIndex": 4
+        },
+        {
+            "name": "Límites de la región interna inguinocrural:",
+            "answers": [
+                {
+                    "name": "Arriba: Pliegue inguinal."
+                },
+                {
+                    "name": "Fuera: Músculo sartorio."
+                },
+                {
+                    "name": "Dentro: Borde interno del aproximador mediano. "
+                },
+                {
+                    "name": "d. Todas son correctas."
+                },
+                {
+                    "name": "e. Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "La arteria femoral se palpa:",
+            "answers": [
+                {
+                    "name": "Pulgar en la espina del pubis."
+                },
+                {
+                    "name": "Meñique en la EIAS."
+                },
+                {
+                    "name": "Palma de la mano debajo del conducto inguinal. "
+                },
+                {
+                    "name": "Todas correctas."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "Palpación de la arteria femoral:<br>El compartimento posterior del muslo:",
+            "answers": [
+                {
+                    "name": "a. Conducto femoral."
+                },
+                {
+                    "name": "Está formado por músculos situados entre tabiques intermusculares desde la fascia lata a línea áspera."
+                },
+                {
+                    "name": "Los músculos de este compartimento aproximan el muslo."
+                },
+                {
+                    "name": "Los músculos de este compartimento extienden la cadera y flexionan la rodilla."
+                },
+                {
+                    "name": "A y B son correctas. "
+                },
+                {
+                    "name": "A y C son correctas."
+                }
+            ],
+            "answerIndex": 5
+        },
+        {
+            "name": "Por el espacio infrapiramidal pasa:",
+            "answers": [
+                {
+                    "name": "Nervio ciático mayor."
+                },
+                {
+                    "name": "Nervio ciático menor."
+                },
+                {
+                    "name": "Nervio pudendo."
+                },
+                {
+                    "name": "Nervio glúteo inferior. "
+                },
+                {
+                    "name": "Todas son correctas."
+                }
+            ],
+            "answerIndex": 4
+        },
+        {
+            "name": "\nPor el espacio suprapiramidal pasa:",
+            "answers": [
+                {
+                    "name": "Nervio glúteo superior."
+                },
+                {
+                    "name": "Nervio ciático mayor."
+                },
+                {
+                    "name": "Nervio ciático menor."
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "En la localización del nervio ciático mayor es necesario:",
+            "answers": [
+                {
+                    "name": "Abordar la tuberosidad ilíaca."
+                },
+                {
+                    "name": "Abordar el trocánter mayor."
+                },
+                {
+                    "name": "El ciático se sitúa en el punto medio de la tuberosidad ilíaca y trocánter mayor."
+                },
+                {
+                    "name": "Todas son correctas."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 3
+        },
+        {
+            "name": "En la posición anatómica es cierto en el coxal:",
+            "answers": [
+                {
+                    "name": "El agujero obturador es inferolateral al acetábulo (es inferomedial)"
+                },
+                {
+                    "name": "La espina iliaca anterosuperior y la cara anterosuperior del pubis están en el mismo plano vertical"
+                },
+                {
+                    "name": "El acetábulo mira en dirección superomedial (es inferolateral)"
+                },
+                {
+                    "name": "Ninguna de las respuestas planteadas en esta pregunta es cierta"
+                }
+            ],
+            "answerIndex": 1
+        },
+        {
+            "name": "Para ver la situación de la espina del pubis se utiliza la maniobra:",
+            "answers": [
+                {
+                    "name": "Dedos en trocánter menor"
+                },
+                {
+                    "name": "Pulgares verticales hacia abajo tocamos la espina (dedos horizontales)"
+                },
+                {
+                    "name": "Dedos en trocánter mayor"
+                },
+                {
+                    "name": "Pulgares verticales hacia arriba tocamos la espina"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "Cuando hay debilidad del músculo glúteo menor y tensor de la fascia lata:",
+            "answers": [
+                {
+                    "name": "Existe alteración en la separación y la rotación interna"
+                },
+                {
+                    "name": "La pelvis se mantiene horizontal aunque se haga el apoyo en un solo pie"
+                },
+                {
+                    "name": "Cuando se realiza el apoyo en un solo pie la pelvis se inclina hacia el lado que está apoyado"
+                },
+                {
+                    "name": "Ninguna de las respuestas planteadas en esta pregunta son ciertas"
+                }
+            ],
+            "answerIndex": 0
+        },
+        {
+            "name": "La posición en valgo de la rodilla es:",
+            "answers": [
+                {
+                    "name": "Piernas arqueadas."
+                },
+                {
+                    "name": "Piernas hacia dentro con las rodillas chocándose."
+                },
+                {
+                    "name": "Piernas en hiperextensión."
+                },
+                {
+                    "name": "Ninguna es correcta."
+                }
+            ],
+            "answerIndex": 1
+        }
+    ]
+}

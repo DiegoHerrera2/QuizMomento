@@ -61,14 +61,11 @@ def process_list_data(attrs, dx2py_elem):
 
 
 def main(*argv):
-    fname = r"./histo pagina.docx"
+    fname = r"./topografica.docx"
     docd = docx.Document(fname)
     docdpy = dx2py(fname)
     dr = docdpy.docx_reader
     docdpy_runs = docdpy.document_runs[0][0][0]
-    if len(docd.paragraphs) != len(docdpy_runs):
-        print("Lengths don't match. Abort")
-        return -1
     subnode_tags = (("pPr",), ("numPr",), ("ilvl",))  # (("pPr",), ("numPr",), ("ilvl", "numId"))  # numId is for matching elements from word/numbering.xml
     highlighted_tags = (("r",), ("rPr",), ("highlight",))
     bold_tags = (("r",), ("rPr",), ("b",))
@@ -97,7 +94,7 @@ def main(*argv):
                 else:
                     print("Question name: " + par.text)
 
-                    if(len(question["answers"]) > 0):
+                    if(len(question["answers"]) > 1):
                         questions["questions"].append(copy.deepcopy(question))
                         question["answers"].clear()
                         question["answerIndex"] = 0
