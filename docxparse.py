@@ -61,7 +61,7 @@ def process_list_data(attrs, dx2py_elem):
 
 
 def main(*argv):
-    fname = r"./topografica.docx"
+    fname = r"./sin_repetir_histo.docx"
     docd = docx.Document(fname)
     docdpy = dx2py(fname)
     dr = docdpy.docx_reader
