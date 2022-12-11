@@ -1,2002 +1,1987 @@
 {
     "questions": [
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Si se adelanta una tarea del camino crítico se adelanta el final del proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
-                },
-                {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
-                },
-                {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Verdadero."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Falso. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿En cuál de las siguientes técnicas de estimación es más importante disponer de buenos datos históricos? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Estimación paramétrica."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Análisis de la reserva. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Estimación por tres valores. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Estimación ascendente. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Si el valor ganado (EV)=350, el coste real (AC)=400, el valor planificado (PV)=325, cuál es la variación del",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "-50."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "-75. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "350. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "400. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Qué proceso produce el Plan de gestión del alcance del proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Control del alcance. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Definición del alcance. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Verificación del alcance. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Ninguno es cierto."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿En qué proceso se realiza la descomposición de los entregables?",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Ninguna es cierta."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Verificación del alcance. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Control del alcance. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Planificación del alcance. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "La lista de hitos del cronograma es una salida del proceso: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Definir las actividades."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Estimar la duración de las actividades. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Secuenciar las actividades. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Estimar los recursos de las actividades. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de los siguientes no es un elemento de la declaración del alcance del proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "EDT."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Criterios de aceptación del producto. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Entregables del proyecto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Restricciones del proyecto. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuántos procesos tiene el área de conocimiento Gestión del tiempo del proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "6. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "7."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "4. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "5. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El proceso Verificar el alcance pertenece al grupo de procesos: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Seguimiento y control."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Dirección. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Planificación. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Ejecución. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El EDT representa: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Todas las actividades del proyecto. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "El trabajo que debe realizar el equipo del proyecto para desarrollar el software. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Todos los ítems"
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Todo el trabajo que debe ser completado para finalizar el proyecto."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El director de un proyecto es informado que hay que hacer un cambio del alcance después de haber sido  añadido en la línea base. ¿Dónde debería buscar el procedimiento para la gestión de cambios? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Plan de Gestión del Alcance. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Casos de negocio de los cambios. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Plantilla de solicitud de cambios. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "EDT."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Eres el director de un proyecto de ingeniería agrícola. Tu patrocinador quiere saber a quién esta asignando  un paquete de trabajo y qué trabajo conlleva ese paquete de trabajo. ¿Qué documento podemos decirle que  analice? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Diccionario de la EDT. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Plan de Gestión del Alcance. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "EDT."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Enunciado del alcance. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Eres el director de un proyecto software y un miembro de tu equipo te presenta una propuesta para ir más  rápido y ahorrar un 25% del proyecto. ¿Cuál es la mejor forma que tienes de proceder? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Realizar un análisis coste-beneficio y entonces tomar la decisión con criterio controlado."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Rechazar la propuesta hasta que dicho cambio sea documentado y se haya efectuado el control de  cambio correspondiente. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Indicar al equipo que desarrolle la propuesta ya que acorta los plazos y disminuye el coste total del  proyecto de forma considerable. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Rechazar la propuesta ya que afecta a la línea base. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de las siguientes no es una salida del área de conocimiento de la Gestión del Alcance? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Casos de negocio."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Cambios solicitados. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Diccionario EDT. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Entregables aceptados. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El proceso controlar el alcance pertenece al grupo de procesos: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Ninguno de ellos."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "De planificación. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "De iniciación. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "De ejecución. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "La estructura del EDT se debe crear como: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Todas son correctas."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Usando subproyectos que pueden ser ejecutados por organizaciones externas. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Fases del ciclo de vida del proyecto como primer nivel de descomposición, y con los entregables del  producto y del proyecto, en segundo nivel. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Usando entregables principales como primer nivel de descomposición. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál es el orden correcto de los procesos de la gestión del alcance? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Recopilar requisitos, definir el alcance, crear el EDT, verificar el alcance, controlar el alcance."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Recopilar requisitos, línea base del alcance, definir el alcance, controlar el alcance. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Recopilar requisitos, controlar el alcance, crear el EDT, verificar el alcance. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Definir el alcance, crear el EDT, recopilar requisitos, verificar el alcance. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de las siguientes afirmaciones es verdadera respecto al EDT? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "El EDT representa todo el trabajo que debe desarrollarse en el proyecto."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Contiene paquetes de trabajo que son representados de manera lineal con una lista no estructurada. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Cada elemento del EDT representa una característica del alcance del producto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "El EDT es creado por los patrocinadores y los interesados. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "La información histórica y lecciones aprendidas forman parte de: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Activos de la organización."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Factores del entorno empresarial. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Información del rendimiento del trabajo. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Sistemas de información de gestión de proyectos (PMIS)."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Qué son los paquetes de trabajo? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Son las actividades situadas en el nivel más bajo del EDT."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Son las tareas que es necesario realizar para obtener un entregable. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Representan subproyectos en el EDT. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Son las actividades situadas en el primer nivel de descomposición. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿En qué proceso se obtiene la aceptación formal del alcance por los interesados? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Verificación del alcance."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Control del alcance. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Crear EDT. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Definición del alcance. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cómo se puede indicar que la tarea sucesora debe comenzar en el 25% de la tarea predecesora?",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Con una dependencia “fin a comienzo”y un tiempo de adelanto del 75%."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Con una dependencia “fin a comienzo”y un tiempo de posposición del 25%. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Con una dependencia “fin a comienzo”y una de posposición del 75%. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Con una dependencia “fin a comienzo”y un tipo de adelanto del 25%. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Tu compañía ha ejecutado varios proyectos similares al que te han encomendado en este momento. ¿Cuál es  la mejor forma de usar la información de los proyectos anteriores? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Aprovechar las lecciones aprendidas y cualquier otra información que exista en la empresa de otros"
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Desestimar toda la información y empezar desde cero el proyecto, puesto que por mucho que se  parezca cada proyecto es diferente. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Usar la estimación paralitica basada en proyectos anteriores. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Rechazar el PMP de proyectos anteriores. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cómo se puede indicar que la tarea sucesora comience tres días después de que comience la predecesora? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Con una dependencia “comienzo a comienzo” y un retraso de tres días."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Con una dependencia “fin a comienzo” y un retraso de tres días. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Ninguna de las otras es cierta. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Con una dependencia “fin a fin” y un adelanto de tres días. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "En caso de incumplimiento de la planificación nos deberíamos centrar en: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Acelerar la realización de las tareas del camino crítico."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Acelerar los hitos. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Acelerar la realización de las tareas no críticas. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Acelerar tantas tareas como sea posible. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Has desarrollado toda la lista de actividades, has creado la EDT, has asignado los recursos a cada actividad y  has estimado los tiempos de cada actividad. ¿Cuál es la siguiente actividad que debes hacer? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Crear el cronograma."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Realizar el proceso de gestión de los costes. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Secuenciar las actividades. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Crear la línea base del tiempo del proyecto. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Una vez comenzado el proyecto: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Se pueden ejecutar cambios sobre el cronograma."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté  aprobado por el control de cambios. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál es el orden correcto en los procesos de planificación de gestión de tiempo? ",
             "answers": [
-                {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
-                },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Definir las actividades, Secuenciar las actividades, Estimar los recursos de las actividades, Estimar la  duración de las actividades, Desarrollar el cronograma."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Definir las actividades, Secuenciar las actividades, Desarrollar el cronograma, Estimar los recursos de  las actividades, Estimar la duración de las actividades. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Definir las actividades, Secuenciar las actividades, Estimar los recursos de las actividades, Estimar la  duración de las actividades, Desarrollar el presupuesto."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿De qué proceso es salida la línea base de desempeño de costos? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Controlar los costos. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Planificar los costos de las actividades. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Determinar el presupuesto."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Verificar los costos. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cómo se estiman los costos? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Todas son correctas."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Utilizando entre otros los costes salariales. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "El jefe de proyectos estima el coste del proyecto basándose en el coste de productos similares. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "El jefe de proyectos estima el coste del proyecto basándose en la experiencia. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El control de costos implica: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Realizar seguimiento de la situación del proyecto para actualizar el presupuesto del mismo y  gestionar cambios a la línea base de costo."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Ahorrar dinero para ampliar nuestro beneficio empresarial. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Realizar seguimiento de la situación del proyecto para conseguir economías de escala y ahorrar  dinero para posibles contingencias. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Ninguna es correcta. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Gran parte del esfuerzo del control de costos consiste en: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Analizar la relación entre el uso de los fondos del proyecto y el trabajo real efectuado."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Lidiar con las presiones del cliente para añadir nuevas funcionalidades. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "No dejar que los interesados añadan cosas y por tanto modifiquen el presupuesto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Hacer presupuestos en tiempo real. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Qué es el EVM? (Gestión del valor ganado) ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Todas son correctas."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Requiere la constitución de una línea base integrada con respecto a la cual se puede medir el  desempeño durante la ejecución del proyecto. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Integra mediciones del alcance, cronograma y costo para ayudar a la dirección a evaluar y medir el  desempeño y el avance del proyecto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Método para la medición del desempeño. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El proceso de determinar el presupuesto pertenece al grupo de procesos: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Ninguno de los otros es cierto."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "De ejecución. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "De iniciación. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "De seguimiento y control. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de los siguientes procesos se encarga de sumar los costes estimados de las actividades individuales? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Determinar el presupuesto."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Controlar los costos. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Estimar los costos. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Planificar los costos. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Qué pasos se tienen en cuenta en la gestión del costo del proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Estimar los costos, Determinar el presupuesto y Controlar los costes."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Estimar los costos, Determinar el presupuesto, Controlar los costos y mantenimiento posterior. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Estimar los costos y Determinar el presupuesto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Estimar los costes. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Los cambios en el presupuesto: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Cualquier incremento con respecto al presupuesto autorizado solo puede aprobarse mediante el  proceso Realizar el control integrado de cambios."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Ninguna de las afirmaciones anteriores es real ni se efectúan con respecto al presupuesto. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Debe aprobarlos el director del proyecto directamente (como máximo responsable). "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "No se admiten cambios en el presupuesto. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El proceso Definición de las actividades pertenecen al grupo de procesos: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "De planificación."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "De iniciación."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "De ejecución. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "De seguimiento y control. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "La diferencia entre el presupuesto y la línea base de desempeño de costos puede ser descrita por: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Reserva de gestión."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Estimación de cuentas de control. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Reserva de contingencia. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Estimación de las actividades. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Si se retrasa una tarea perteneciente al camino crítico, se retrasa el final del proyecto?",
             "answers": [
-                {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
-                },
-                {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
-                },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Verdadero."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Falso. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El proceso Estimar los costos pertenece al Grupo de Procesos: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "De planificación."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "De seguimiento y control. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "De ejecución. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "De cierre. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de los siguientes no es un proceso del área de conocimiento de Gestión del tiempo del proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Todos lo son."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Estimar los recursos de las actividades. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Estimar la duración de las actividades. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Desarrollar el cronograma. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Si el valor ganado (EV)=350, el coste real (AC)=400, el valor planificado (PV)=325, cuál es la variación del  cronograma (SV)? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "25."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "350. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "-25. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "-75. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de los siguientes es un ejemplo de estimación paramétrica? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Euros por módulo."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Estimación de abajo a arriba. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Costo del camino crítico. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Curva de aprendizaje. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Si el valor ganado (EV)=200, el coste real (AC)=400, el valor planificado (PV)=325, cuál es el índice de  Desempeño del Costo (CPI)? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "0.5."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "50. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "25. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "0.8. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de las siguientes no es una recomendación de PMBOK como criterio para estructurar el primer nivel de  descomposición de la EDT? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Por grupos de procesos."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Por fases del ciclo de vida. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Por entregables. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Por subproyectos. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El objetivo del proceso Determinar el presupuesto es: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Estimar los costes de las actividades."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Estimar los costes del proyecto completo. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Ninguno de los anteriores es cierto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Agregar los costos en un presupuesto total. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "En una EDT los elementos del nivel inferior se llaman: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Paquete de trabajo."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Cuenta de costes. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Tareas. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Actividades."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Al coste presupuestado para el trabajo realmente completado durante un período de tiempo se llama: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Valor ganado (EV)."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Valor planificado (PV). "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Coste real (AC). "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Variación del coste (CV). "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿En cuál de los siguientes procesos se crea un cronograma del proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Ninguno es cierto."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Estimación de la duración de las actividades. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Estimación de los recursos de las actividades. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Establecimiento de las secuencias de actividades. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál es la utilidad de las reservas para contingencias? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Son costes que se usan para resolver problemas identificados y valorados."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Son costes que se usan para reducir el coste total del proyecto. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Son costes destinados a los riesgos que puedan aparecer en la ejecución del proyecto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Son costes que se usan para reducir imprevistos de línea de base. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál es el objetivo del proceso ‘Secuenciar las actividades’? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Definir el orden de realización de las actividades."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Definir las dependencias entre actividades. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Definir los tiempos de comienzo y finalización de cada actividad. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Ninguna de las otras es cierta. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Cuando se guarda una cantidad de dinero para imprevistos en el proyecto se está defendiendo: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Una reserva de gestión."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Ninguna de las otras es cierta. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Una cuenta de control. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Una estimación de un paquete de trabajo. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Si el valor ganado (EV)=150, el coste real (AC)=400, el valor planificado (PV)=300, cuál es el índice de  Desempeño del Cronograma (SPI)? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "0.5."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "200. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "1.5. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "-0.5. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de los siguientes procesos genera una lista de actividades a partir de la EDT?",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Secuenciar las actividades. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Estimar los recursos de las actividades. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Ninguna de las otras es cierta."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Estimar la duración de las actividades. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "La estimación de costes por analogía: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Usa conocimiento de proyectos anteriores."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "No se apoya en juicio experto. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Ninguna de las otras es cierta. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Se usa cuando se dispone de información detallada. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de las siguientes definiciones describe mejor el proceso Definir el alcance? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Crear un documento que describe el trabajo que debe realizar el equipo para crear los entregables."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Crear un plan para la gestión de los cambios en la línea base del alcance. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Crear un documento que lista todas las características del producto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Crear una representación gráfica de la descomposición de las fases o entregables en paquetes de"
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "La línea de desempeño de costos se compone de: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Un presupuesto."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Ninguna de las otras es cierta. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Un presupuesto y un diagrama de Gantt. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Un presupuesto y una hoja de recursos."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El proceso Controlar los costos pertenece al Grupo de Procesos: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "De Seguimiento y control."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "De planificación. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "De ejecución. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "De cierre. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de las siguientes no es una entrada del proceso ‘Desarrollar el cronograma’? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Línea base del cronograma."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Calendarios de recursos. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Diagramas de red del cronograma del proyecto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Lista de actividades. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "La línea base del alcance del proyecto se compone de: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "La declaración del alcance del proyecto, al EDT y el diccionario EDT."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "El plan de gestión del proyecto y la EDT. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "El plan de gestión del proyecto, la EDT y el diccionario EDT. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "La EDT. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de las siguientes afirmaciones sobre la EDT es cierta? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "La EDT contiene paquetes de trabajo organizados en una lista priorizada."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "La EDT es creada por el esponsor del proyecto. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Cada ítem en la EDT representa una funcionalidad del producto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "La EDT representa todo el coste que se debe realizar en el proyecto. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Te asignan como director de un proyecto que está ya en la fase de ejecución. Compruebas que no han  realizado el EDT que según el Plan de Gestión del Alcance, debe existir. ¿Qué es lo mejor que puedes hacer? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "La dejas registrado en la documentación relacionada con las lecciones aprendidas, pero continuas con"
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Avisar inmediatamente al patrocinador y asegurarte de que el proyecto no se detiene."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Distribuyes los trabajos como indican los paquetes de trabajo y continúas con la documentación"
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Parar el proyecto, crear la EDT, y no dejar que continúe el proyecto hasta que esté la EDT creada."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Tienes que planificar test y puedes comenzar su actividad tan tarde como sea necesario para el proyecto.",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Final a Final "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Comienzo a Comienzo "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Final a Comienzo  "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Comienzo a Final "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Qué es un portafolio? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Conjunto de proyectos, programas y otros trabajos que se agrupan para facilitar su dirección y cumplir"
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Conjunto de proyectos, programas y otros trabajos directamente relacionados con posibilidad de  desarrollar sinergias entre ellos. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Conjunto de proyectos, recursos y costes para la reducción de los mismos.  "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Es la cartera de negocio de una organización. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de los siguientes no es un proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Reparar un coche. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Construir un puente colgante. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Filmar una película. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Trabajar en el departamento de gestión de proyectos."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Una compañía eléctrica tiene en marcha una serie de iniciativas con el objetivo de ser el referente competitivo de energías alternativas durante los próximos 10 años. esta serie de iniciativas se están gestionando de forma global puesto que son vitales para la compañía. Este hecho es un ejemplo de… ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Programa."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Proyecto. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Factor medioambiental de la empresa.  "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Portafolio."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "La gestión de proyectos está destinada a: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "No efectuar el proyecto, si no es viable. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Conseguir el máximo número de objetivos con el presupuesto dado."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Ninguna es correcta. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Satisfacer a todos los interesados. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "La oficina de Gestión de Proyectos  ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Planifica el proyecto. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Supervisa al Director de Proyectos. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Nombra al director de Proyectos. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Coordina la comunicación entre Proyectos."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de los siguientes NO es un grupo de Procesos? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Monitorizar y Controlar. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Recoger los Requisitos."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Inicializar. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Cerrar. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de los siguientes NO es un factor ambiental de la empresa? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Recursos Humanos existentes. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Sistemas de información para la dirección de proyectos.  "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Infraestructura. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Todos son factores ambientales de la empresa."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Estudiar Ingeniería Informática es un proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Si."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Es un trabajo operativo. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "No, porque no es temporal. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "No porque no produce un producto único. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Un proyecto está teniendo problemas con la fecha límite de entrega por problemas con un miembro del equipo. El equipo conoce el problema, pero no han hecho nada por remediarlo debido al mal carácter del miembro del equipo conflictivo. Cómo director del proyecto, ¿cuál es la habilidad que debes mejorar, para evitar este tipo de problemas? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Medir mejor el rendimiento personal "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Estudiar con mayor determinación PMBOK. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Manejar mejor las expectativas de los clientes (y los interesados). "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Mejorar sus habilidades interpersonales."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de estas responsabilidades NO le compete a un director de proyectos? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Gestionar las restricciones del proyecto.  "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Recoger los requisitos del proyecto. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Gestionar las expectativas de los interesados. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Patrocinar el proyecto."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Suponiendo que la asignatura GPI es un proyecto, el documento \"Plantilla general para los documentos de GPI\" es… ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Un enunciado del trabajo del proyecto. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Un activo de los proyectos de la organización."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Un factor ambiental de la empresa. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Ninguna. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "En el desarrollo de una aplicación de software, has planificado que tendrías un equipo de desarrollo, pero, éste ya ha sido asignado a otro proyecto ¿Qué debes hacer? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Averiguar cuál es el impacto que tendrá en tu proyecto."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Dirigirse por escrito al patrocinador y demandar al equipo que les quitó al empleado.  "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Averiguar la forma de comprimir el cronograma para poder trabajar con el equipo de "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": ""
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de las siguientes NO es una salida del área de conocimientos de la Gestión del alcance? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Entregables Aceptados. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Diccionario EDT. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Casos de negocio."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "cambios solicitados."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El director de un proyecto software está usando el proceso Definir el Alcance ¿Cuál de los siguientes  elementos describe mejor esto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "La creación de un documento que describa todo el trabajo que tiene que realizar el equipo para  poder hacer los entregables."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "La creación de un documento que liste todas las características del producto.  "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "La creación de un plan para la gestión de los posibles cambios del alcance. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Crear una representación gráfica para mostrar como las fases o entregables se descomponen en paquetes de trabajo. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "La incertidumbre en un proyecto.  ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Es mayor en las fases intermedias. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Disminuye con el tiempo."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Aumenta con el tiempo. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Se mantiene a lo largo del proyecto. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de las siguientes es una organización basada en proyectos? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Ninguna. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Universidad. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Empresa de software."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Administración. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Eres director de proyectos en un grupo industrial de empresas. Los miembros del equipo te informan directamente a ti y eres el responsable de la creación de los presupuestos, elaborar los calendarios y asignar  las tareas. Cuando el proyecto se cierra, el equipo del proyecto se libera y sus miembros pasan a formar  parte de otro proyecto. ¿En qué tipo de organización trabajas? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Matricial fuerte. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Funcional. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Orientada a proyectos."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Matricial débil. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El grupo de procesos de ejecución se realiza… ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Después del grupo de procesos de seguimiento y control. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Después del grupo de procesos de planificación."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "De forma paralela al grupo de procesos de planificación.  "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Ninguna de las otras es cierta. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Los grupos de procesos de dirección de proyectos… ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Iniciación, planificación, seguimiento, control y cierre. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Iniciación, planificación, ejecución, seguimiento y control y cierre."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Planificación, ejecución y seguimiento y control. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Ninguna de las anteriores es cierta. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de las siguientes afirmaciones es VERDADERA respecto al EDT? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Cada elemento de la EDT representa una característica del alcance del producto. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "El EDT representa todo el trabajo que debe desarrollarse en el proyecto."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Contiene paquetes de trabajo que son presentados de manera lineal con una lista no  estructurada. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "El EDT es creado por el patrocinador y los interesados. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Gran parte del esfuerzo del control de costos consiste en… ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Hacer presupuestos en tiempo real."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "No dejar que los interesados añadan cosas y por tanto modifiquen el presupuesto. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Analizar la relación entre el uso de los fondos del proyecto y el trabajo real efectuado."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Lidiar con las presiones el cliente para añadir funcionalidades. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cómo se puede indicar que la tarea sucesora debe comenzar en el 25% de la tarea predecesora?",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Con dependencia fin a comienzo y un tiempo de adelanto de 75%."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Con dependencia fin a comienzo y un tiempo de posposición de 25%.  "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Con dependencia fin a comienzo y una posposición de 75%. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Con dependencia fin a comienzo y un tipo de adelanto del 25%. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cómo se puede indicar que la tarea sucesora comience tres días después que l",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Ninguna. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Con una dependencia fin a fin y un adelanto de tres días. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Con una dependencia fin a comienzo y un retraso de tres días."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Con una dependencia comienzo a comienzo y un retraso de tres días."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de las siguientes afirmaciones NO es una salida del Control Integrado de Cambios? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Validación de la reparación de los defectos.  "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Las peticiones de los cambios aprobadas. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Las propia peticiones de cambio recomendadas por los interesados. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Las peticiones de cambio denegadas."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Un sistema de autorización de los trabajos: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Autoriza a los interesados a testear los entregables. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Se asegura de que cada paquete de trabajo se ejecuta en el momento adecuado, siguiendo una"
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Autoriza al director de proyecto a gastar más dinero en su trabajo. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Autoriza a los interesados a implementar cambios en los entregables sin aviso previo. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Eres el director de proyecto al desarrollo de un software y de repente el patrocinador quiebra y cancela el",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Llevar a cabo los procesos de cierre."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Recolocar a los miembros del equipo en otros proyectos. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Darle un día libre al equipo de proyecto, para que encaje la mala noticia.  "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Crear un informe para averiguar que queda del presupuesto sin gastar. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Qué proceso es el que mantiene actualizado el “Plan de Dirección del Proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Control integrado de cambios."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Dirigir y gestionar la ejecución del proyecto.  "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Desarrollar del plan de gestión del proyecto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Supervisar y controlar el trabajo del proyecto. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "En caso de incumplimiento de la planificación nos deberíamos centrar en… ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Acelerar tantas tareas como sea posible.  "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Acelerar los hitos. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Acelerar la realización de las tareas no críticas. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Acelerar la realización de las tarea del camino crítico."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Los interesados de un proyecto. ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Son los patrocinadores. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Son los destinatarios del producto. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Ninguna. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Pueden tener influencia negativa o positiva en el proyecto."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El proceso de \"Controlar Alcance\" pertenece al grupo de procesos… ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Ejecución. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Planificación."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Iniciación. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Ninguno. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de las siguientes afirmaciones NO es una salida del grupo de procesos de la Dirección y Gestión del Proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Información sobre la realización del trabajo. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Previsiones."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Entregables. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Implementar las peticiones de cambio. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de estas afirmaciones NO es cierta sobre el ACP? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "El ACP ofrece un resumen del calendario de hitos. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "El ACP es expedido por uno de los patrocinadores del proyecto. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "El director de proyectos tiene que ser consultado antes de que el ACP sea terminado.  "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "El ACP da autoridad al Director de Proyecto a comenzar el proyecto. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El control de costos, implica: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Ahorrar dinero para ampliar nuestro beneficio empresarial.  "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Ninguna es correcta. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Realizar seguimiento de la situación del proyecto para conseguir economías de escala y ahorrar dinero para posibles contingencias. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Realizar seguimiento de la situación del proyecto para actualizar el presupuesto del mismo y gestionar cambios a la línea base de costo."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Qué significa una dependencia “fin a comienzo” entre una tarea resumen predecesora yuna tarea normal  sucesora? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "No se puede hacer. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "La tarea sucesora comienza cuando finaliza la última tarea de la tarea resumen."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "La tarea sucesora comienza cuando finaliza la primera subtarea. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "La tarea sucesora termina cuando comienza la tarea resumen. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de los siguientes procesos genera una lista de actividades a parir de la",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Estimar los recursos de las actividades.  "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Estimar la duración de las actividades. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Ninguna de ellas."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Secuenciar las actividades. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Tu compañía ha ejecutado varios proyectos similares al que te han encomendado en este momento. ¿Cuál es la mejor forma de usar la información de los proyectos anteriores? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Rechazar el PMP de proyectos anteriores. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Aprovechar las lecciones aprendidas y cualquier otra información que existe en la empresa de otros proyectos anteriores."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Usar la estimación paramétrica basada en proyectos anteriores. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Desestimar toda la información anterior y empezar desde cero el proyecto, puesto que por mucho que se parezca cada proyecto es diferente. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Está gestionando un proyecto de construcción de un tren, cuando tu cliente informa que debe haber un cambio en el cronograma, se debe entregar antes de lo previsto. ¿Qué es lo mejor que se puede hacer?",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Rechazar el cambio y continuar con el plan previsto. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Aceptar el cambio y solicitar un aumento del presupuesto previsto inicialmente. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Ponerte manos a la obra lo antes posible, avisando a tu equipo del cambio del cronograma. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Estudiar el Cronograma y todos sus planes subsidiarios, antes de tomar una decisión sobre si"
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cómo se estiman los costos? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "El jefe de proyectos estima el coste del proyecto basándose en el coste de productos similares."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Todas son correctas. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Utilizando entre otros los costes salariales. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "El jefe de proyectos estima el coste del proyecto basándose en la experiencia. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Los cambios en el presupuesto… ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "No se admiten cambios en el presupuesto. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": ""
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Ninguna de las afirmaciones anteriores es real ni se efectúan con respecto al presupuesto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Debe aprobarlos el director del proyecto directamente (como máximo responsable). "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "El ACP se formaliza en: ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "El grupo de Procesos de Planificación. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "El grupo de Procesos de Instrumentación. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "El grupo de Procesos de Iniciación."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Antes de comenzar el proyecto. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Estas construyendo una casa y acabas de terminar de crear la lista de personas que se verán  directamente afectadas por el proyecto. ¿En qué grupo de procesos te encuentras? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Planificación. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Monitorización y control. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "inicialización."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Ejecución. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Tienes que planificar tests y puedes comenzar su actividad tan tarde como sea necesario para el proyecto.  ¿Qué tipo de relación hay entre planificar los tests y la actividad de hacer los tests? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Final a Final. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Comienzo a final. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Final a comienzo."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Comienzo a Comienzo."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de los grupos de procesos contiene el desarrollo del ACP y la identificación de los interesados? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Ejecución. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Monitorizacion y control. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Inicialización."
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Cierre. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Estas desarrollando una aplicación. Los programadores ya han comenzado a desarrollar código y los  betatesters tienen parte del marco de pruebas terminado. ¿En qué fase estas? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Cierre. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Inicialización. "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Planificación. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Ejecución."
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 3
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Cuál de los siguientes NO es un elemento del “Plan de Dirección del Proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Todos lo son."
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Plan de gestión de riesgos.  "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Plan de gestión del alcance. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Línea base del cronograma. "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 0
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "¿Qué proceso tiene como salida el producto, servicio o resultado del proyecto? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "Realizar el control integrado de cambios. "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "Cerrar proyecto o fase."
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "Dirigir y gestionar la ejecución del proyecto. "
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Desarrollar el plan para la dirección del proyecto. "
                 }
             ],
             "answerIndex": 1
         },
         {
-            "name": "Una vez comenzado el proyecto… ",
+            "name": "Estás manejando un documento aprobado y formalizado donde se describe como se ejecuta, monitoriza y controla el proyecto. ¿Cómo se llama el documento? ",
             "answers": [
                 {
-                    "name": "Se inspecciona el trabajo real y se compara con el cronograma, pero no se modifica. "
+                    "name": "ACP "
                 },
                 {
-                    "name": "Se pueden efectuar cambios sobre el cronograma."
+                    "name": "EDT "
                 },
                 {
-                    "name": "El cronograma no forma parte de la ejecución del proyecto, solo de la planificación. "
+                    "name": "PDP"
                 },
                 {
-                    "name": "El cronograma cambia para adaptarse a cualquier cambio que se produzca, incluso aunque no esté aprobado por el Control de Cambios."
+                    "name": "Linea Base del Alcance "
                 }
             ],
-            "answerIndex": 1
+            "answerIndex": 2
         },
         {
             "name": "Una vez comenzado el proyecto… ",
