@@ -1,8 +1,7 @@
 {
     "questions": [
         {
-            "name": "¿Si se adelanta una tarea del camino crítico se adelanta el final del proyecto? ",
-            "answers": [
+            "name": "¿Si se adelanta una tarea del camino crítico se adelanta el final del            "answers": [
                 {
                     "name": "Verdadero."
                 },
@@ -512,24 +511,6 @@
                 }
             ],
             "answerIndex": 2
-        },
-        {
-            "name": "¿Cómo se estiman los costos? ",
-            "answers": [
-                {
-                    "name": "Todas son correctas."
-                },
-                {
-                    "name": "Utilizando entre otros los costes salariales. "
-                },
-                {
-                    "name": "El jefe de proyectos estima el coste del proyecto basándose en el coste de productos similares. "
-                },
-                {
-                    "name": "El jefe de proyectos estima el coste del proyecto basándose en la experiencia. "
-                }
-            ],
-            "answerIndex": 0
         },
         {
             "name": "El control de costos implica: ",
@@ -1819,7 +1800,7 @@
                     "name": "El jefe de proyectos estima el coste del proyecto basándose en la experiencia. "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "Los cambios en el presupuesto… ",
