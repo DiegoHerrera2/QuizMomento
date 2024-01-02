@@ -1810,7 +1810,7 @@
                     "name": "No se admiten cambios en el presupuesto. "
                 },
                 {
-                    "name": ""
+                    "name": "Cualquier incremento con respecto al presupuesto autorizado solo puede aprobarse mediante el  proceso Realizar el control integrado de cambios."
                 },
                 {
                     "name": "Ninguna de las afirmaciones anteriores es real ni se efectúan con respecto al presupuesto. "
@@ -1819,7 +1819,7 @@
                     "name": "Debe aprobarlos el director del proyecto directamente (como máximo responsable). "
                 }
             ],
-            "answerIndex": 0
+            "answerIndex": 1
         },
         {
             "name": "El ACP se formaliza en: ",
