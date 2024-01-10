@@ -31,7 +31,7 @@
             "answerIndex": 0
         },
         {
-            "name": "¿Si el valor ganado (EV)=350, el coste real (AC)=400, el valor planificado (PV)=325, cuál es la variación del",
+            "name": "¿Si el valor ganado (EV)=350, el coste real (AC)=400, el valor planificado (PV)=325, cuál es la variación del costo?",
             "answers": [
                 {
                     "name": "-50."
@@ -391,13 +391,13 @@
             "answerIndex": 0
         },
         {
-            "name": "Tu compañía ha ejecutado varios proyectos similares al que te han encomendado en este momento. ¿Cuál es  la mejor forma de usar la información de los proyectos anteriores? ",
+            "name": "Tu compañía ha ejecutado varios proyectos similares al que te han encomendado en este momento. ¿Cuál es la mejor forma de usar la información de los proyectos anteriores? ",
             "answers": [
                 {
-                    "name": "Aprovechar las lecciones aprendidas y cualquier otra información que exista en la empresa de otros"
+                    "name": "Aprovechar las lecciones aprendidas y cualquier otra información que exista en la empresa de otros proyectos."
                 },
                 {
-                    "name": "Desestimar toda la información y empezar desde cero el proyecto, puesto que por mucho que se  parezca cada proyecto es diferente. "
+                    "name": "Desestimar toda la información y empezar desde cero el proyecto, puesto que por mucho que se parezca cada proyecto es diferente. "
                 },
                 {
                     "name": "Usar la estimación paralitica basada en proyectos anteriores. "
@@ -724,7 +724,7 @@
             "answerIndex": 0
         },
         {
-            "name": "¿Si el valor ganado (EV)=350, el coste real (AC)=400, el valor planificado (PV)=325, cuál es la variación del  cronograma (SV)? ",
+            "name": "¿Si el valor ganado (EV)=350, el coste real (AC)=400, el valor planificado (PV)=325, cuál es la variación del cronograma (SV)? ",
             "answers": [
                 {
                     "name": "25."
@@ -778,7 +778,7 @@
             "answerIndex": 0
         },
         {
-            "name": "¿Cuál de las siguientes no es una recomendación de PMBOK como criterio para estructurar el primer nivel de  descomposición de la EDT? ",
+            "name": "¿Cuál de las siguientes no es una recomendación de PMBOK como criterio para estructurar el primer nivel de descomposición de la EDT? ",
             "answers": [
                 {
                     "name": "Por grupos de procesos."
@@ -988,7 +988,7 @@
                     "name": "Crear un documento que lista todas las características del producto. "
                 },
                 {
-                    "name": "Crear una representación gráfica de la descomposición de las fases o entregables en paquetes de"
+                    "name": "Crear una representación gráfica de la descomposición de las fases o entregables en paquetes de trabajo."
                 }
             ],
             "answerIndex": 0
@@ -1087,13 +1087,13 @@
             "name": "Te asignan como director de un proyecto que está ya en la fase de ejecución. Compruebas que no han  realizado el EDT que según el Plan de Gestión del Alcance, debe existir. ¿Qué es lo mejor que puedes hacer? ",
             "answers": [
                 {
-                    "name": "La dejas registrado en la documentación relacionada con las lecciones aprendidas, pero continuas con"
+                    "name": "La dejas registrado en la documentación relacionada con las lecciones aprendidas, pero continuas con el desarrollo del proyecto."
                 },
                 {
                     "name": "Avisar inmediatamente al patrocinador y asegurarte de que el proyecto no se detiene."
                 },
                 {
-                    "name": "Distribuyes los trabajos como indican los paquetes de trabajo y continúas con la documentación"
+                    "name": "Distribuyes los trabajos como indican los paquetes de trabajo y continúas con la documentación pertinente."
                 },
                 {
                     "name": "Parar el proyecto, crear la EDT, y no dejar que continúe el proyecto hasta que esté la EDT creada."
@@ -1123,7 +1123,7 @@
             "name": "¿Qué es un portafolio? ",
             "answers": [
                 {
-                    "name": "Conjunto de proyectos, programas y otros trabajos que se agrupan para facilitar su dirección y cumplir"
+                    "name": "Conjunto de proyectos, programas y otros trabajos que se agrupan para facilitar su dirección y cumplir objetivos estratégicos del negocio."
                 },
                 {
                     "name": "Conjunto de proyectos, programas y otros trabajos directamente relacionados con posibilidad de  desarrollar sinergias entre ellos. "
@@ -1327,10 +1327,10 @@
                     "name": "Dirigirse por escrito al patrocinador y demandar al equipo que les quitó al empleado.  "
                 },
                 {
-                    "name": "Averiguar la forma de comprimir el cronograma para poder trabajar con el equipo de "
+                    "name": "Averiguar la forma de comprimir el cronograma para poder trabajar con el equipo de planificación. "
                 },
                 {
-                    "name": ""
+                    "name": "Abandonar el proyecto. "
                 }
             ],
             "answerIndex": 0
@@ -1558,7 +1558,7 @@
                     "name": "Autoriza a los interesados a testear los entregables. "
                 },
                 {
-                    "name": "Se asegura de que cada paquete de trabajo se ejecuta en el momento adecuado, siguiendo una"
+                    "name": "Se asegura de que cada paquete de trabajo se ejecuta en el momento adecuado, siguiendo una planificación determinada. "
                 },
                 {
                     "name": "Autoriza al director de proyecto a gastar más dinero en su trabajo. "
@@ -1570,7 +1570,7 @@
             "answerIndex": 1
         },
         {
-            "name": "Eres el director de proyecto al desarrollo de un software y de repente el patrocinador quiebra y cancela el",
+            "name": "Eres el director de proyecto al desarrollo de un software y de repente el patrocinador quiebra y cancela el proyecto. ¿Cómo debes proceder? ",
             "answers": [
                 {
                     "name": "Llevar a cabo los procesos de cierre."
@@ -1648,7 +1648,7 @@
                     "name": "Ejecución. "
                 },
                 {
-                    "name": "Planificación."
+                    "name": "Seguimiento y Control."
                 },
                 {
                     "name": "Iniciación. "
@@ -1732,7 +1732,7 @@
             "answerIndex": 1
         },
         {
-            "name": "¿Cuál de los siguientes procesos genera una lista de actividades a parir de la",
+            "name": "¿Cuál de los siguientes procesos genera una lista de actividades como salida? ",
             "answers": [
                 {
                     "name": "Estimar los recursos de las actividades.  "
@@ -1741,7 +1741,7 @@
                     "name": "Estimar la duración de las actividades. "
                 },
                 {
-                    "name": "Ninguna de ellas."
+                    "name": "Definir las actividades. "
                 },
                 {
                     "name": "Secuenciar las actividades. "
@@ -1780,7 +1780,7 @@
                     "name": "Ponerte manos a la obra lo antes posible, avisando a tu equipo del cambio del cronograma. "
                 },
                 {
-                    "name": "Estudiar el Cronograma y todos sus planes subsidiarios, antes de tomar una decisión sobre si"
+                    "name": "Estudiar el Cronograma y todos sus planes subsidiarios, antes de tomar una decisión sobre si es viable el cambio. "
                 }
             ],
             "answerIndex": 3
